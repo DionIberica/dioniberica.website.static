@@ -1,0 +1,175 @@
+# Do not edit this generated file
+---
+ca:
+  home:
+    favicon:
+      title: DION | Anticípa't a la ressaca
+    main-title: Anticipa't a la ressaca amb Dion
+    main-subtitle: 'DION: El nou complement alimentós compost a base de vitamines
+      i extractes de plantes naturals que t''ajuda a prevenir la ressaca.'
+    main:
+      url: imagenes/Concierto.jpg
+      how-it-works:
+        link: COM FUNCIONA?
+      buy:
+        link: COMPRAR PER 5,5 €
+    why:
+      title: Ja pots gaudir els teus events sense preocuparte pels símptomes de la
+        ressaca
+      text: Prenent una cápsula de Dion durant el consum d'alcohol donarás al teu
+        cos l'energía necessária per a processar l'alcohol a una major velocitat i
+        aixecar-te sense patir els maleïts símptomes de la ressaca.
+    steps:
+      title: Instruccions d'ús
+      subtitle: Segueix aquests 3 simples pasos per a oblidar-te de la resaca.
+    suggestions:
+      title: RECOMANACIONS
+      more: Més informació
+    opinion:
+      title: Opinions sobre Dion
+    composition:
+      title: Composició
+      text: Complement alimentos natural compost a base de vitamines i extractes de
+        planta.
+      product:
+        photo: "/producto/ES/blister-design.jpg"
+      price:
+        value: 5€
+        VAT: "(IVA no inclós)"
+      more:
+        info: Més informació
+    add-to-cart:
+      text: AFEGIR AL CISTELL
+  meta:
+    description: Prenent un Dion abans de sortir de festa podras gaudir dels teus
+      events sense patir els efectes de la ressaca del dia següent.
+    keywords: ressaca, antiressaca, evitar, previndre, curar, mal de cap, anticipar,
+      alcohol, remeis per a la ressaca, remei, festa, party, copa, discoteca, cervesa,
+      vi, finde, cap de setmana, amics, amigues, bodes, comiats de solter, comiats
+      de soltera, viatge, viatges, bachellor, erasmus, residència d'estudiants, farmàcia,
+      salut, sanitat, natural, cardo mariano, vitamina, vitamina B12, B12, B 12, complex
+      multivitaminic, comprimits, pastilles, capsules, Celine Dion, música, dj, kit
+      antiressaca, economic, sexe, porno, prono, droga, drogues, timo, fake, ibuprofeno,
+      aspirina, ibu, ibuporfeno, hang over, hangover, star wars, agua, suc de taronja,
+      B1, B2, B6, acetilcisteina
+  menu:
+    home:
+      title: Inici
+    faqs:
+      title: FAQ
+    contact:
+      title: Contacte
+    product:
+      title: Producte
+    about:
+      title: Sobre nosaltres
+  generic:
+    language: Idioma
+  locales:
+    en: English
+    es: Español
+    ca: Català
+    pt: Portuguese
+  banner:
+    text: 'Promoció de llançament: Despeses d''enviament incloses'
+    button:
+      buy: Comprar
+  contact:
+    title: Contacte
+    subtitle: Si tens alguna pregunta, sugeriment o simplement vols enviar-nos salutacions
+      pots fer-ho mitjançant aquest formulari de contacte.
+    field:
+      name: Nom i Cognoms
+      email: E-mail
+      title: Assumpte
+      msg: Missatge
+    button:
+      send: Enviar
+    footer:
+      address: Adreça
+      mail: Dades de contacte
+      social: Xarxes socials
+    socialmedia:
+      facebook: https://www.facebook.com/dionIberica/
+      instagram: demo
+    map:
+      url: <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2988.9505296730413!2d2.268290714747905!3d41.48367219798485!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a4ba36d5f459ff%3A0xc74a69672c830f7e!2sCarrer+Riera+d&#39;en+Font%2C+60%2C+08391+Tiana%2C+Barcelona!5e0!3m2!1ses!2ses!4v1488965152986"
+        width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+    message_placeholder: Missatge
+    subject_placeholder: Assumpte
+    telephone_placeholder: Introdueixi el seu telèfon
+    email_placeholder: Introdueixi el seu correu electrònic
+    name_placeholder: Introdueixi el seu nom
+    text: Digue'ns on t'agradaria trobar Dion i nosaltres n'hi durem.
+  contact-sent:
+    title: Contacte
+    message: Si no ho fa ara, quan?
+    sent_title: El seu missatge s'ha enviat correctament
+    sent_description: Gràcies per posar-se en contacte amb nosaltres!
+  footer:
+    contact:
+      title: Contacte
+    follow:
+      title: Segueixnos
+    company:
+      name: Dion Resakapsulus Spain S.L.
+    email: info@dioniberica.com
+    address: C/ Riera de'n Font, 60A, 2-5, Tiana (Barcelona)
+    telephone: "(+34) 627.179.740"
+  faqs:
+    title: Faqs
+    section1:
+      title: Preguntes freqüents
+      text: Hem creat una llista amb les preguntes més freqüents per a que tingueu
+        tota la informació necessaria en cualsevol moment. Si teniu preguntes adicionals
+        no dubteu a contactar-nos.
+    section2:
+      title: Preguntes freqüents
+      text: Hem creat una altre llista amb preguntes menys freqüents peró que creiem
+        que també mereixen una resposta.
+  product:
+    title: Blister de 10 comprimits Dion
+    price:
+      title: Preu
+      data: 5 € (+0.50 € IVA)
+    cad:
+      title: 'Caducitat:'
+      data: 3 anys
+    shipping:
+      title: 'Métode d''enviament:'
+      data: Sobre amb reforç intern de seguretat per a evitar desperfectes mitjançant
+        correu ordinari.
+    beneficios:
+      title: 'Beneficis:'
+    contraindicaciones:
+      title: 'Contraindicacions:'
+    cm:
+      title: Cardo Mariano (Silybum Marianum)
+      data: |-
+        Es una planta que creix lliurement a la natura i que l'esser humá utilitza des dels temps bíblics degut a les seves múltiples propietats medicinals.
+        Els primers vestigis escrits sobre les propietats curatives del Cardo Mariano es remonten a la época dels Grecs, cuan el metge Dioscóridces l'empreva com a remei contra les mossegades de les serps i per Plinio qui l'administrava com a remei per a la bilis. Posteriorment, a l'edat mitjana es descriu el seu ús com a potent antídot per a desintoxicar el fetge.
+        Entre les seves propietats destaca el fet de que sigui un potent protector hepátic, ja que protegeix de les toxines estimulant el creixement i la regeneració de nous teixits del fetge.
+      contraindicaciones: |-
+        No té efectes nocíus per a l'organisme humá.
+        Malgrat que tradicionalment s'ha emprat pera augmentar la llet de les lactants, no existeixen proves suficients per a confirmar la seva eficácia, pel que no es recomana el seu ús durant l'embarás i la lactancia.
+    b12:
+      title: Vitamína B12
+      data: La vitamina B12, o cobalamina, es una vitamina hidrosoluble que el cos
+        humá absorveix diariament per a mantindre's saludable. L'ús d'alcohol consumeix
+        una gran cuantitat d'aqeusta vitamina i impacta sobre la mucosa gástrica i
+        sobre el fetge, el que es veu reflexat en un empitjorament en el seu procés
+        d'absorció.
+      contraindicaciones: No s'ha demostrat que la vitamina B12 causi cap mena de
+        mal.
+  about:
+    partners:
+      title: Socis comercials
+      text: Si vols colaborar amb nosaltres no dubtis en contactar amb nosaltres.
+  not_found:
+    title: No trobat
+    message: Recurs no trobat
+  cookies:
+    title: Política de Cookies
+    message: Aquesta web utilitza cookies per oferir-te una millor experiència i servei
+    got_it: Accepto
+    learn_more: Més informació

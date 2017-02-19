@@ -1,0 +1,26 @@
+---
+layout: compress
+---
+
+<!DOCTYPE html>
+<html lang="{% if page.locale %}{{ site.locales[page.locale] }}{% else %}{{ site.locales[site.locale] }}{% endif %}" prefix="og: http://ogp.me/ns#">
+
+    {% include head.html %}
+
+    <body class="page-{{ page.section }}">
+
+      {% include header.html %}
+
+      {{ content }}
+
+      {% include footer.html %}
+
+      {% include analytics.html %}
+
+      {% include json-ld.html %}
+
+      {% include scripts.html %}
+
+    </body>
+
+</html>

@@ -1,0 +1,72 @@
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+
+<script src="/assets/js/bootstrap-hover-dropdown.min.js"></script>
+<script src="/assets/js/headroom.min.js"></script>
+<script src="/assets/js/jQuery.headroom.min.js"></script>
+<script src="/assets/js/template.js"></script>
+<script src="/assets/js/contact.js"></script>
+
+<!-- Google Maps -->
+<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js"></script>
+<script type="text/javascript">
+    var myLatlng;
+    var map;
+    var marker;
+
+    function initialize() {
+        myLatlng = new google.maps.LatLng(41.3861161,2.170571);
+
+        var mapOptions = {
+            zoom: 17,
+            center: myLatlng,
+            mapTypeId: google.maps.MapTypeId.ROADMAP,
+            scrollwheel: false,
+            draggable: false
+        };
+        map = new google.maps.Map(document.getElementById('map'), mapOptions);
+
+        var contentString = '<p style="line-height: 20px;">{{ 'map.description' | translate }}</p>';
+
+        var infowindow = new google.maps.InfoWindow({
+            content: contentString
+        });
+
+        marker = new google.maps.Marker({
+            position: myLatlng,
+            map: map,
+            title: 'Marker'
+        });
+
+        google.maps.event.addListener(marker, 'click', function() {
+            infowindow.open(map, marker);
+        });
+    }
+
+    google.maps.event.addDomListener(window, 'load', initialize);
+</script>
+
+<!-- Begin Cookie Consent plugin by Silktide - https://cookieconsent.insites.com -->
+{% assign cookies = 'cookies' | section %}
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.4/cookieconsent.min.js" integrity="sha384-PDjg2ZdS3khPzd53i18+7tzB32JVQfFMrTXYo21RqPgUmEVAPwIhxOUF/8sP79CS" crossorigin="anonymous" async></script>
+
+<script>
+window.addEventListener("load", function(){
+  window.cookieconsent.initialise({
+    "palette": {
+        "popup": {
+              "background": "#000"
+            },
+        "button": {
+              "background": "#105349"
+            }
+      },
+    "content": {
+        "message": "{{ 'cookies.message' | translate }}",
+        "dismiss": "{{ 'cookies.got_it' | translate }}",
+        "link": "{{ 'cookies.learn_more' | translate }}",
+        "href": "{{cookies.permalink}}"
+      }
+  })});
+</script>
+<!-- End Cookie Consent plugin -->

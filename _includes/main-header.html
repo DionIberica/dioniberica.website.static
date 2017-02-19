@@ -1,0 +1,19 @@
+<!-- header -->
+<header class="head head-default" style="background-image: url(/assets/images/6ee0d36e494b470d948fa81cecbc26a3.webp); background-size: cover">
+  <div class="container">
+    <h1 class="lead text-center">{{ 'home.main-title' | translate }}</h1>
+    <p class="tagline text-center">
+      {{ 'home.main-subtitle' | translate }}
+    </p>
+    <p class="text-center">
+    <a class="btn btn-default btn-lg" href="#how_it_works">
+      {{ 'home.main.how-it-works.link' | translate }}
+    </a>
+    {% assign cart = 'cart' | section %}
+    <a class="btn btn-action btn-lg" href="{{ cart.permalink }}" style="text-transform: uppercase;">
+      {{ 'home.main.buy.link' | translate }}
+    </a>
+    </p>
+  </div>
+</header>
+<!-- end of header -->

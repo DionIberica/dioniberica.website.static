@@ -1,0 +1,26 @@
+<section id="composition" class="section section-cta">
+  <div class="container">
+    <h2>
+      <span>{{ 'home.composition.title' | translate }}</span>
+    </h2>
+    <div class="row topspace">
+      <div class="col-sm-9">
+        <p>{{ 'home.composition.text' | translate }}</p>
+        <img src="/assets/images/producto/ES/blister-design.png">
+      </div>
+      <div class="col-sm-3">
+        {% assign cart = 'cart' | section %}
+        <a href="{{ cart.permalink }}" class="btn btn-block btn-action">
+          <i class="fa fa-cart-arrow-down"></i>
+          {{ 'home.add-to-cart.text' | translate }}
+        </a>
+        <p>{{ 'home.composition.price.value' | translate }} {{ 'home.composition.price.VAT' | translate }}</p>
+
+        {% assign product = 'product' | section %}
+        <a href="{{ product.permalink }}">
+        {{ 'home.composition.more.info' | translate }}
+        </a>
+      </div>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,60 @@
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    {% if page.title %}
+      {% assign pagetitle = page.title %}
+    {% else%}
+      {% assign pagetitle = page.section | append:'.title' | translate %}
+    {% endif %}
+
+    {% if page.excerpt %}
+      {% assign pagedescripion = page.excerpt | strip_html | strip_newlines | truncate: 160 %}
+    {% else %}
+      {% assign pagedescripion = 'meta.description' | translate %}
+    {% endif %}
+
+    <title>{{ site.title }} - {{ pagetitle }}</title>
+
+    <meta name="description" content="{{ pagedescripion }}">
+    <meta name="keyword" content="{{ 'meta.keywords' | translate }}"/>
+    <meta name="author" content="{{ site.title }}">
+    <meta name="robots" content="index, follow">
+
+    {% if page.section == 'home' %}
+      {% assign pagetitle = site.title %}
+    {% endif %}
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="{{ pagetitle }}"/>
+    <meta property="og:url" content="{{site.url}}{{page.permalink}}"/>
+    <meta property="og:description" content="{{ pagedescripion }}"/>
+    <meta property="og:locale" content="{{ site.locales[page.locale] }}"/>
+    <meta property="og:site_name" content="{{ site.title }}"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:image" content="{{site.url}}/assets/images/producto/ES/blister-design.png" />
+    <meta property="og:logo" content="{{site.url}}/assets/images/logo.png" />
+    <meta property="fb:page_id" content="181547006873699" />
+
+    {% for locale in site.locales %}
+    {% assign item = site.pages | where: 'section', page.section | where: 'locale', locale[0] | first %}
+    <link rel="alternate" hreflang="{{ locale[1] }}" href="{{site.url}}{{item.permalink}}">
+    {% endfor %}
+
+    <link rel="shortcut icon" href="/assets/images/favicon.png">
+
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Raleway:200,400,600|Open+Sans:300,400,700">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="/assets/css/styles.css">
+
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.4/cookieconsent.min.css" integrity="sha384-6iYDyQZuuNT7DcPJGXx241czdv2+GDGUcXRiqw1iXrjgYMTorSetxFP3JCMQMwnR" crossorigin="anonymous" />
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>

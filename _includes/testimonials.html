@@ -1,0 +1,36 @@
+<section class="section section-testimonials jumbotron">
+  <div class="container">
+    <h2 class="title text-center topspace">{{ 'home.opinion.title' | translate }}</h2>
+    <div id="testimonials-carousel" class="carousel slide" data-ride="carousel">
+      {% assign testimonials = site.data.testimonials | where: 'idioma', 'es' %}
+      <ol class="carousel-indicators">
+
+        {% for testimonial in testimonials %}
+        <li data-target="#testimonials-carousel" data-slide-to="{{ forloop.index0 }}"></li>
+        {% endfor %}
+      </ol>
+      <!--//carousel-indicators-->
+      <div class="carousel-inner">
+        {% for testimonial in testimonials %}
+        <div class="row item{% if forloop.index == 1 %} active{% endif %}">
+          <div class="col-sm-3 profile">
+            <img src="/assets/images/testimonials/{{ testimonial.photo }}" width="150" height="150" alt="{{ testimonial.name }}" />
+          </div>
+          <div class="col-sm-9 content">
+            <blockquote>
+              <i class="fa fa-quote-left"></i>
+              <p>{{ testimonial | translate: 'description' }}</p>
+            </blockquote>
+            <p class="source">{{ testimonial.name }}
+            <br/><span class="title">{{ testimonial | translate: 'role' }}</span>
+            </p>
+          </div>
+          <!--//content-->
+        </div>
+        {% endfor %}
+      </div>
+      <!--//carousel-inner-->
+    </div>
+    <!--//carousel-->
+  </div>
+</section>

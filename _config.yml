@@ -1,0 +1,20 @@
+# Site settings
+title: Dion Iberica
+email: info@dioniberica.com
+locale: en
+url: "http://www.dioniberica.com"
+domain: dioniberica.com
+exclude: [Gemfile, Gemfile.lock, vendor]
+analytics: UA-91269644-1
+
+locales:
+  en: en_GB
+  es: es_ES
+  ca: ca_ES
+  pt: pt_PT
+
+# Build settings
+markdown: kramdown
+
+gems:
+  - jekyll-sitemap

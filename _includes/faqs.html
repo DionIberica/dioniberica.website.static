@@ -1,0 +1,50 @@
+<header>
+  <div class="container">
+    <h2 class="text-center title">{{ 'faqs.section1.title' | translate }}</h2>
+    <p class="text-center text-muted">{{ 'faqs.section1.text' | translate }}</p>
+  </div>
+</header>
+
+<!-- FAQ -->
+<section class="section section-faq">
+  <div class="container">
+    <br>
+    {% assign faq_groups = site.data.faq | where: 'frequent', 'yes' | in_groups_of: 2 %}
+    {% for faq_group in faq_groups %}
+    <div class="row topspace">
+      {% for faq in faq_group %}
+      <div class="col-sm-6">
+        <h4><b>{{ faq | translate: 'title' }}</b></h4>
+        <p>{{ faq | translate: 'description' }}</p>
+      </div>
+      {% endfor %}
+    </div> <!-- /row -->
+    {% endfor %}
+  </div>
+</section>
+<!-- end of FAQ -->
+
+<header>
+  <div class="container">
+    <h2 class="text-center title">{{ 'faqs.section2.title' | translate }}</h2>
+    <p class="text-center text-muted">{{ 'faqs.section2.text' | translate }}</p>
+  </div>
+</header>
+
+<!-- FAQ -->
+<section class="section section-faq">
+  <div class="container">
+    {% assign faq_groups = site.data.faq | where: 'frequent', 'no' | in_groups_of: 2 %}
+    {% for faq_group in faq_groups %}
+    <div class="row topspace">
+      {% for faq in faq_group %}
+      <div class="col-sm-6">
+        <h4><b>{{ faq | translate: 'title' }}</b></h4>
+        <p>{{ faq | translate: 'description' }}</p>
+      </div>
+      {% endfor %}
+    </div> <!-- /row -->
+    {% endfor %}
+  </div>
+</section>
+<!-- end of FAQ -->

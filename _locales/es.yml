@@ -1,0 +1,173 @@
+# Do not edit this generated file
+---
+es:
+  home:
+    favicon:
+      title: DION | Anticípate a la resaca
+    main-title: Anticípate a la resaca con Dion
+    main-subtitle: 'DION: El nuevo complemento alimenticio compuesto a base de plantas
+      y vitaminas que ayuda a prevenir la resaca.'
+    main:
+      url: imagenes/Concierto.jpg
+      how-it-works:
+        link: "¿CÓMO FUNCIONA?"
+      buy:
+        link: COMPRAR POR 5,5€
+    why:
+      title: Ya puedes disfrutar de tus eventos sin preocuparte por los síntomas de
+        la resaca
+      text: Tomando una capsula Dion durante el consumo de alcohol darás a tu cuerpo
+        la energía necesaria para procesar el alcohol a mayor velocidad y despertar
+        sin sufrir los malditos síntomas de la resaca.
+    steps:
+      title: Instrucciones de uso
+      subtitle: Sigue estos 3 sencillos pasos y podrás olvidarte de la resaca
+    suggestions:
+      title: RECOMENDACIONES
+      more: Más información
+    opinion:
+      title: Opiniones sobre Dion
+    composition:
+      title: Composición
+      text: Complemento alimenticio natural compuesto a base de vitaminas y extractos
+        de planta.
+      product:
+        photo: "/producto/ES/blister-design.jpg"
+      price:
+        value: 5€
+        VAT: "(IVA no incluido)"
+      more:
+        info: Más información
+    add-to-cart:
+      text: AÑADIR A LA CESTA
+  meta:
+    description: Tomando Dion antes de salir de fiesta podrás disfrutar de tus eventos
+      y evitarás tener resaca al dia siguiente.
+    keywords: resaca, antiresaca, evitar, prevenir, curar, dolor cabeza, anticipar,
+      alcohol, remedios resaca, remedio, fiesta, party, cubata, discoteca, cerveza,
+      vino, finde, fin de semana, amigos, amigas, bodas, despedidas de soltero, despedidas
+      de soltera, viaje, viajes, bachellor, erasmus, residencia estudiantes, farmacia,
+      salud, sanidad, natural, cardo mariano, vitamina, vitamina B12, B12, B 12, complejo
+      multivitaminico, comprimidos, pastillas, capsulas, Celine Dion, musica, dj,
+      kit antiresaca, economico, barato, sexo, porno, prono, droga, drogas, timo,
+      fake, ibuprofeno, aspirina, ibu, ibuporfeno, hang over, hangover, star wars,
+      agua, zumo naranja, B1, B2, B6, acetilcisteina
+  menu:
+    home:
+      title: Inicio
+    faqs:
+      title: FAQ
+    contact:
+      title: Contacto
+    product:
+      title: Producto
+    about:
+      title: Sobre nosotros
+  generic:
+    language: Idioma
+  locales:
+    en: English
+    es: Español
+    ca: Català
+    pt: Portuguese
+  banner:
+    text: 'Promoción de lanzamiento: Gastos de envío incluidos'
+    button:
+      buy: Comprar
+  contact:
+    title: Contacto
+    subtitle: Si tienes alguna pregunta, sugerencia o simplemente quieres mandarnos
+      un saludo puedes hacerlo mediante este formulário de contacto
+    field:
+      name: Nombre y apellidos
+      email: E-mail
+      title: Asunto
+      msg: Mensaje
+    button:
+      send: Enviar
+    footer:
+      address: Dirección
+      mail: Datos de contacto
+      social: Redes sociales
+    socialmedia:
+      facebook: https://www.facebook.com/dionIberica/
+      instagram: demo
+    map:
+      url: <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2988.9505296730413!2d2.268290714747905!3d41.48367219798485!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a4ba36d5f459ff%3A0xc74a69672c830f7e!2sCarrer+Riera+d&#39;en+Font%2C+60%2C+08391+Tiana%2C+Barcelona!5e0!3m2!1ses!2ses!4v1488965152986"
+        width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+    message_placeholder: Mensaje
+    subject_placeholder: Asunto
+    telephone_placeholder: Introduzca su teléfono
+    email_placeholder: Introduzca su correo electrónico
+    name_placeholder: Introduzca su nombre
+    text: Dinos dónde te gustaría encontar Dion y nosotros nos encargaremos de llevarlo
+  contact-sent:
+    title: Contacto
+    message: Si no lo hace ahora, ¿Cúando?
+    sent_title: Su mensaje se ha enviado correctamente
+    sent_description: Gracias por ponerse en contacte con nosotros!
+  footer:
+    contact:
+      title: Contacto
+    follow:
+      title: Siguenos
+    company:
+      name: Dion Resakapsulus Spain S.L.
+    email: info@dioniberica.com
+    address: C/ Riera de'n Font, 60A, 2-5, Tiana (Barcelona)
+    telephone: "(+34) 627.179.740"
+  faqs:
+    title: Faqs
+    section1:
+      title: Preguntas frecuentes
+      text: Hemos creado una lista con las preguntas más frecuentes para que podáis
+        tener toda la información que necesitáis en cualquier momento. Si tenéis cualquier
+        pregunta no dudéis en contactarnos.
+    section2:
+      title: Preguntas no tan frecuentes
+      text: Hemos creado otra lista con preguntas menos frecuentes que creemos que
+        también merecen una respuesta.
+  product:
+    title: Blister 10 comprimidos Dion
+    price:
+      title: Precio
+      data: 5 € (+0.50 € IVA)
+    cad:
+      title: 'Periodo de caducidad:'
+      data: 3 años
+    shipping:
+      title: 'Método de envío:'
+      data: Sobre con acolchamiento de seguridad para evitar desperfectos mediante
+        correo ordinario.
+    beneficios:
+      title: 'Beneficios:'
+    contraindicaciones:
+      title: 'Contraindicaciones:'
+    cm:
+      title: Cardo Mariano (Silybum Marianum)
+      data: |-
+        El cardo mariano es una planta que crece libremente en la naturaleza y que el ser humano utiliza desde tiempos bíblicos debido a sus múltiples propiedades medicinales.
+        Los primeros vestigios escritos sobre las propiedades curativas del Cardo Mariano se remontan a la época de los Griegos, cuándo el médico Dioscórides lo utilizaba como remedio para picaduras de serpientes y por Plinio quien lo administraba como remedio para la bilis. Posteriormente, en la edad media se describe su uso como potente antídoto para desintoxicar el hígado.
+        Entre estas propiedades destaca el hecho de que sea un potente protector hepático, ya que protege de las toxinas estimulando el crecimiento y la regeneración de nuevos tejidos del hígado.
+      contraindicaciones: |-
+        El cardo mariano carece de efectos tóxicos para el organismo humano.
+        Aunque tradicionalmente se ha utilizado para aumentar la leche de las lactantes, no existen pruebas suficientes para confirmar su eficacia, por lo que no se recomienda su consumo durante el embarazo y lactancia.
+    b12:
+      title: Vitamína B12
+      data: La vitamina B12, o cobalamina, es una vitamina hidrosoluble que el cuerpo
+        humano absorve diariamente para mantenerse saludable. El uso de alcohol consume
+        una gran cantidad de esta vitamina e impacta en la mucosa gastrica y en el
+        hígado, lo que se ve reflejado en un empeoramiento en su proceso de absorción.
+      contraindicaciones: No se ha demostrado que la vitamina B12 cause daño alguno.
+  about:
+    partners:
+      title: Socios comerciales
+      text: Si quieres colaborar con nosotros no dudes en contactarnos.
+  not_found:
+    title: No encontrado
+    message: Recurso no encontrado
+  cookies:
+    title: Política de Cookies
+    message: Esta web utiliza cookies para ofrecerte una mejor experiencia y servicio
+    got_it: Acepto
+    learn_more: Más información

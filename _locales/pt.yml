@@ -1,0 +1,174 @@
+# Do not edit this generated file
+---
+pt:
+  home:
+    favicon:
+      title: DION | Antecipa-te à ressaca
+    main-title: Antecipa-te à ressaca com Dion
+    main-subtitle: 'DION: O novo suplemento alimentar à base de plantas e vitaminas
+      que ajuda a previnir a ressaca.'
+    main:
+      url: imagenes/Concierto.jpg
+      how-it-works:
+        link: COMO FUNCIONA?
+      buy:
+        link: Comprar por 5.5 €
+    why:
+      title: Já podes aproveitar das tuas festas sem te preocupares com os sintomas
+        da ressaca.
+      text: Se tomares um comprimido Dion durante o consumo de álcool, estás a dar
+        ao teu corpo a energia necessária para processar o álcool a maior velocidade
+        e assim poderás acordar sem sofrer dos penosos sintomas de ressaca.
+    steps:
+      title: Instruções
+      subtitle: Segue estes três simples passos e poderás esquecer-te das ressacas.
+    suggestions:
+      title: RECOMENDAÇÕES
+      more: Mais informação
+    opinion:
+      title: Opiniões
+    composition:
+      title: Composição
+      text: |-
+        Complemento alimenticio natural compuesto a base de vitaminas y extractos de planta.
+        Suplemento alimentar, composto à base de vitaminas e extratos de plantas.
+      product:
+        photo: demo
+      price:
+        value: 5€
+        VAT: "(IVA não incluído)"
+      more:
+        info: Mais informação
+    add-to-cart:
+      text: COMPRAR
+  meta:
+    description: Se tomares Dion poderás aproveitar as tuas festas e evitar a ressaca
+      do dia seguinte.
+    keywords: ressaca, antiressaca, evitar, prevenir, curar, dor de cabeça, antecipar,
+      álcool, remedio, festa, party, discoteca, cerveja, vinho, fim de semana, amigos,
+      amigas, casamentos, despedidas de solteiro, despedidas de solteira, viagem,
+      viagens, bachellor, erasmus, residencia de estudantes, farmácia, saúde, natural,
+      cardo mariano, vitamina, vitamina B12, B12, B 12, complexo multivitaminico,
+      comprimidos, capsulas, Celine Dion, musica, dj, kit antiressaca, económico,
+      barato, sexo, porno, droga, drogas, ibuprofeno, brufen, aspirina, hang over,
+      hangover, star wars, água, sumo laranja, B1, B2, B6, acetilcisteina
+  menu:
+    home:
+      title: Inicio
+    faqs:
+      title: FAQ
+    contact:
+      title: Contacta
+    product:
+      title: demo
+    about:
+      title: Sobre nós
+  generic:
+    language: Idioma
+  locales:
+    en: English
+    es: Español
+    ca: Català
+    pt: Portuguese
+  banner:
+    text: 'Promoção de lançamento: Gastos de envio incluídos'
+    button:
+      buy: Comprar
+  contact:
+    title: Contactos
+    subtitle: Caso tenhas alguma pergunta, dúvida, opinião ou queiras simplesmente
+      cumprimentar-nos, pode fazê-lo com o seguinte formulário de contacto.
+    field:
+      name: Nome e apelido
+      email: Email
+      title: Assunto
+      msg: Mensagem
+    button:
+      send: Enviar
+    footer:
+      address: Morada
+      mail: Dados de contacto
+      social: Redes sociais
+    socialmedia:
+      facebook: https://www.facebook.com/dionport/
+      instagram: demo
+    map:
+      url: <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3114.1185880717007!2d-9.324038785351757!3d38.692120166624406!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd1ec929c79d1a7d%3A0xbc504ae8c149c80f!2sAlameda+Conde+Oeiras%2C+Oeiras%2C+Portugal!5e0!3m2!1ses!2ses!4v1488974626598"
+        width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+    message_placeholder: Mensagem
+    subject_placeholder: Assunto
+    telephone_placeholder: Introduz o teu telemóvel
+    email_placeholder: Introduz o teu email
+    name_placeholder: Introduz o teu nome
+    text: Diz-nos onde gostavas de encontrar Dion e nós levaremos
+  contact-sent:
+    title: Contacto
+    message: Se não fazes agora, quando?
+    sent_title: A tua mensagem foi enviada corretamente
+    sent_description: Obrigado por entrares em contacto conosco
+  footer:
+    contact:
+      title: Contacta
+    follow:
+      title: demo
+    company:
+      name: Dion Iberica LDA.
+    email: info-pt@dioniberica.com
+    address: Alameda Conde Oeiras - Torre I R/C Esq. 2780-139 Oeiras
+    telephone: "(+351) 91 261 38 66"
+  faqs:
+    title: Faqs
+    section1:
+      title: Perguntas frequentes
+      text: Criámos uma lista de perguntas mais frequentes para que tenhas toda a
+        informação necessária a qualquer momento. Caso tenhas alguma dúvida, entra
+        em contacto conosco.
+    section2:
+      title: Perguntas não tão frequentes
+      text: Criámos outra lista, com perguntas menos frequentes, que acreditamos que
+        merecem também uma resposta.
+  product:
+    title: Blister com 10 comprimidos Dion
+    price:
+      title: Preço
+      data: 5€
+    cad:
+      title: Validade
+      data: 3 anos
+    shipping:
+      title: Método de envio
+      data: demo
+    beneficios:
+      title: Beneficios
+    contraindicaciones:
+      title: Contra indicações
+    cm:
+      title: Cardo Mariano (Silybum Marianum)
+      data: |-
+        O Cardo Mariano é uma planta que cresce livremente na natureza e que o ser humano utiliza desde os tempos antigos, devido às suas multiplas propriedades medicinais.
+        Os primeiros vestígios escritos sobre as propriedades curativas do Cardo Mariano remontam a época dos gregos, quando o médico Dioscórides o utilizava para tratar picadas de serpentes, ou quando Plinio usava como remédio para a bilis. Posteriormente na idade média, o Cardo Mariano é descrito como portente antídoto para desintoxicar o fígado.
+        Entre estas propriedades, destaca-se o facto de ser um eficiente protetor hepático, protegendo das tóxinas e estimulando o crescimento e a regeneração de novos tecidos do fígado.
+      contraindicaciones: |-
+        O Cardo Mariano não tem efeitos toxicos para o organismo.
+        Ainda que tradicionalmente se utilizou Cardo Mariano para aumentar a quantidade de leite da grávidas, não existem provas suficientes que confirmem a sua eficácia. Dado isto, não recomendamos o seu consumo enquanto grávida e tactante.
+    b12:
+      title: Vitamina B 12
+      data: O organismo humano absorve uma quantidade diária de vitamina B12, ou cobalamina,
+        para se manter saudável. Além de muitas outras causas, o uso de álcool consome
+        uma grande quantidade de vitamina B12 e tem impacto na mucosa gástrica e no
+        fígado, o que se reflete na função do Figado, piorando a absorção da vitamina
+        no intestino.
+      contraindicaciones: Não há evidências que a vitamina B 12 tenha consequências
+        prejudiciais para o organismo.
+  about:
+    partners:
+      title: Parceiros comerciais
+      text: Se quiseres colaborar conosco, não hesites em nos contactar
+  not_found:
+    title: Não encontrado
+    message: Recurso não encontrado
+  cookies:
+    title: Política de Cookies
+    message: Esta web utiliza cookies para te oferecer uma melhor experiência e serviço
+    got_it: Aceite
+    learn_more: Mais informação

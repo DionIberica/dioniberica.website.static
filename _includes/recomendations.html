@@ -1,0 +1,26 @@
+<section class="section section-features info-icons-h">
+  <div class="container">
+    <h3 class="title text-center" style="text-transform: uppercase">
+      {{ 'home.suggestions.title' | translate }}
+    </h3>
+
+    {% assign recomendation_groups = site.data.recomendations | in_groups_of: 2 %}
+    {% for recomendation_group in recomendation_groups %}
+
+    <div class="row topspace">
+
+      {% for recomendation in recomendation_group %}
+      <figure class="col-sm-4 col-sm-push-2{% if forloop.index == 1 %} text-right{% endif %}">
+        <i class="icon fa fa-{{ recomendation.icon }} color-action"></i>
+        <div class="text">
+          <h3 class="caption">{{ recomendation | translate: 'title' }}</h3>
+          <p>{{ recomendation | translate: 'text' }}</p>
+        </div>
+      </figure>
+      {% endfor %}
+
+    </div> <!-- /row -->
+
+    {% endfor %}
+  </div>
+</section>

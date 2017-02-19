@@ -1,0 +1,18 @@
+---
+layout: default
+section: home
+locale: ca
+permalink: /ca/
+---
+
+{% include main-header.html %}
+
+{% include intro.html %}
+
+{% include steps.html %}
+
+{% include recomendations.html %}
+
+{% include testimonials.html %}
+
+{% include get_started.html %}

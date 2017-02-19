@@ -1,0 +1,45 @@
+
+<div class= "navbar {% if page.section == 'home' %}navbar-dual navbar-inverse navbar-fixed-top {% endif %}headroom ontop-now">
+  <div class="container">
+    <div class="navbar-header">
+      <!-- Button for smallest screens -->
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"><span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+      <a class="navbar-brand" href="/{{ page.locale }}">
+        <img src="/assets/images/logo-white.png" alt="{{ site.title }}" title="{{ site.title }}">
+        <img src="/assets/images/logo-white-small.png" alt="{{ site.title }}" title="{{ site.title }}" class="secondary">
+      </a>
+    </div>
+    <div class="navbar-collapse collapse">
+      <ul class="nav navbar-nav pull-right">
+        {% assign sections = 'home faqs product contact' | split: " " %}
+
+        {% for sname in sections %}
+        {% assign item = sname | section %}
+        <li class="{% if page.section == item.section %}active{% endif %}">
+          <a href="{{item.permalink}}">{{ 'menu.' | append: item.section | append:'.title' | translate }}</a>
+        </li>
+        {% endfor %}
+
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-hover="dropdown" data-toggle="dropdown">{{ 'generic.language' | translate }} <b class="caret"></b></a>
+          <ul class="dropdown-menu">
+
+            {% for locale in site.locales %}
+            {% assign item = site.pages | where: 'section', page.section | where: 'locale', locale[0] | first %}
+            <li><a href="{{item.permalink}}">{{ 'locales.' | append: locale[0] | translate }}</a></li>
+            {% endfor %}
+
+          </ul>
+        </li>
+        <li>
+          {% assign cart = 'cart' | section %}
+          <a class="btn btn-rounded" href="{{ cart.permalink }}">
+            <i class="fa fa-cart-arrow-down"></i>
+            {{ 'home.add-to-cart.text' | translate }}
+          </a>
+        </li>
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div>
+</div>
+<!-- end of fixed navbar -->

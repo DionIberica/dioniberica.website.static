@@ -1,0 +1,28 @@
+<div class='content single-portfolio-content'>
+{% assign asection = page.section | replace: '-', '/' | append: '/' %}
+{% assign dsection = page.section | split: '-' | last %}
+{% assign album = 'assets/images/' | append: asection | walk %}
+
+{% if include.reverse %}
+  {% assign album = album | reverse %}
+{% endif %}
+
+{% for picture in album %}
+{% assign filename = picture | split: '/' | last %}
+{% assign dfilename = dsection | append: '/' | append: filename %}
+<div>
+  <img src="{{ picture | cdn }}" alt="{{dfilename}}">
+  {% assign description = site.data.partners | where: 'file', dfilename | first %}
+
+  {% unless description %}
+    {% assign description = site.data.portfolio | where: 'file', dfilename | first %}
+  {% endunless %}
+
+  {% if description %}
+  <span class="caption">
+    <p>{{ description | translate: 'description'}}</p>
+  </span>
+  {% endif %}
+</div>
+{% endfor %}
+</div>
