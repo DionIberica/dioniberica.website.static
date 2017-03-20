@@ -159,6 +159,14 @@ es:
         una gran cantidad de esta vitamina e impacta en la mucosa gastrica y en el
         hígado, lo que se ve reflejado en un empeoramiento en su proceso de absorción.
       contraindicaciones: No se ha demostrado que la vitamina B12 cause daño alguno.
+  cart:
+    product: Producto
+    quantity: Cantidad
+    price: Precio
+    total: Total
+    checkout: Pagar
+    coupon: Cupón
+    stock: En stock
   about:
     partners:
       title: Socios comerciales

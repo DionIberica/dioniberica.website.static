@@ -161,6 +161,14 @@ ca:
         d'absorció.
       contraindicaciones: No s'ha demostrat que la vitamina B12 causi cap mena de
         mal.
+  cart:
+    product: demo
+    quantity: demo
+    price: demo
+    total: demo
+    checkout: demo
+    coupon: demo
+    stock: demo
   about:
     partners:
       title: Socis comercials

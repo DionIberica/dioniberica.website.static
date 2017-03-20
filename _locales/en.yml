@@ -143,6 +143,14 @@ en:
       title: demo
       data: demo
       contraindicaciones: demo
+  cart:
+    product: demo
+    quantity: demo
+    price: demo
+    total: demo
+    checkout: demo
+    coupon: demo
+    stock: demo
   about:
     partners:
       title: Partners

@@ -160,6 +160,14 @@ pt:
         no intestino.
       contraindicaciones: Não há evidências que a vitamina B 12 tenha consequências
         prejudiciais para o organismo.
+  cart:
+    product: demo
+    quantity: demo
+    price: demo
+    total: demo
+    checkout: demo
+    coupon: demo
+    stock: demo
   about:
     partners:
       title: Parceiros comerciais
