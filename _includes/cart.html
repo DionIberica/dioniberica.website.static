@@ -17,8 +17,7 @@
                         <div class="media">
                             <a class="thumbnail pull-left" href="#"> <img class="media-object" src="/assets/images/logo-white.png" style="width: 72px; height: 72px;"> </a>
                             <div class="media-body">
-                              Blister 10 comprimidos
-                              SKU: 1000
+                              {{ 'product.title' | translate }}
                               <p>
                                 <span>Status: </span><span class="text-success"><strong>{{ 'cart.stock' | translate }}</strong></span>
                               </p>
@@ -26,23 +25,23 @@
                         </div></td>
                         <td class="col-sm-4 text-center">
                           <input type="button" value="-" class="minus button is-form subtract">
-                          <input type="number" step="1" min="0" max="99" name="qty" value="" title="Qty" class="input-text qty text items" size="2" pattern="[0-9]*" inputmode="numeric">
+                          <input type="number" step="1" min="1" max="99" value="0" class="input-text qty text items" size="2" pattern="[0-9]*" inputmode="numeric">
                           <input type="button" value="+" class="plus button is-form add">
                         </td>
-                        <td class="col-sm-1 col-md-1 text-center"><strong>$4.87</strong></td>
-                        <td class="col-sm-1 col-md-1 text-center"><strong>$14.61</strong></td>
+                        <td class="col-sm-1 col-md-1 text-center"><strong id="price">0.00€</strong></td>
+                        <td class="col-sm-1 col-md-1 text-center"><strong id="subtotal">0.00€</strong></td>
                     </tr>
                     <tr>
                         <td> {{ 'cart.coupon' | translate }}  </td>
                         <td>   </td>
-                        <td><h5>Subtotal</h5></td>
-                        <td class="text-right"><h5><strong>$24.59</strong></h5></td>
+                        <td>   </td>
+                        <td>   </td>
                     </tr>
                     <tr>
                         <td>   </td>
                         <td>   </td>
-                        <td><h3>Total</h3></td>
-                        <td class="text-right"><h3><strong>$31.53</strong></h3></td>
+                        <td><h3>{{ 'cart.total' | translate }}</h3></td>
+                        <td class="text-right"><h3><strong id="total">0.00€</strong></h3></td>
                     </tr>
                     <tr>
                         <td>   </td>
@@ -50,9 +49,23 @@
                         <td>
                         </td>
                         <td>
-                        <button type="button" class="btn btn-action">
-                            {{ 'cart.checkout' | translate }} <span class="glyphicon glyphicon-play"></span>
-                        </button></td>
+                          <form action="/cart/checkout" method="POST">
+                            <script
+                              id="payment"
+                              src="https://checkout.stripe.com/checkout.js" class="stripe-button"
+                              data-key="pk_test_NdPiBNTv4O664zYCh7W4Mcrw"
+                              data-label="{{ 'cart.checkout' | translate }}"
+                              data-amount="0"
+                              data-name="{{ site.title }}"
+                              data-description="{{ 'product.title' | translate }}"
+                              data-image="{{site.url}}/assets/images/logo.png"
+                              data-locale="{{ page.locale }}"
+                              data-zip-code="true"
+                              data-shippingAddress="true"
+                              data-currency="eur">
+                            </script>
+                          </form>
+                        </td>
                     </tr>
                 </tbody>
             </table>
