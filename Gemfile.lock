@@ -3,6 +3,7 @@ GEM
   specs:
     addressable (2.5.0)
       public_suffix (~> 2.0, >= 2.0.2)
+    byebug (9.0.6)
     colorator (1.1.0)
     commonjs (0.2.7)
     ffi (1.9.17)
@@ -52,6 +53,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  byebug
   i18n (= 0.8.0)
   jekyll (= 3.4)
   jekyll-sitemap (= 1.0.0)
@@ -59,4 +61,4 @@ DEPENDENCIES
   therubyracer (~> 0.12.2)
 
 BUNDLED WITH
-   1.14.4
+   1.14.6
