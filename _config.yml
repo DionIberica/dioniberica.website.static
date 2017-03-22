@@ -7,12 +7,6 @@ domain: dioniberica.com
 exclude: [Gemfile, Gemfile.lock, vendor]
 analytics: UA-91269644-1
 
-stripe:
-  es: <%= ENV['STRIPE_PUBLIC_EN'] %>
-  ca: <%= ENV['STRIPE_PUBLIC_ES'] %>
-  en: <%= ENV['STRIPE_PUBLIC_PT'] %>
-  pt: <%= ENV['STRIPE_PUBLIC_PT'] %>
-
 locales:
   en: en_GB
   es: es_ES

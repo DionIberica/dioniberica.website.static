@@ -52,11 +52,14 @@
                           <form action="/cart/checkout" method="POST">
                             <input type="hidden" name="locale" value="{{ page.locale }}">
 
+                            {% assign locale_id = page.locale | upcase %}
+                            {% assign env_name = 'STRIPE_PUBLIC_' | append: locale_id %}
+
                             <script
                               id="payment"
                               src="https://checkout.stripe.com/checkout.js"
                               class="stripe-button"
-                              data-key="{{ site.stripe[page.locale] }}"
+                              data-key="{{ env_name | env }}"
                               data-label="{{ 'cart.checkout' | translate }}"
                               data-amount="0"
                               data-name="{{ site.title }}"
