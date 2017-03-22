@@ -50,10 +50,13 @@
                         </td>
                         <td>
                           <form action="/cart/checkout" method="POST">
+                            <input type="hidden" name="locale" value="{{ page.locale }}">
+
                             <script
                               id="payment"
-                              src="https://checkout.stripe.com/checkout.js" class="stripe-button"
-                              data-key="pk_test_NdPiBNTv4O664zYCh7W4Mcrw"
+                              src="https://checkout.stripe.com/checkout.js"
+                              class="stripe-button"
+                              data-key="{{ site.stripe[page.locale] }}"
                               data-label="{{ 'cart.checkout' | translate }}"
                               data-amount="0"
                               data-name="{{ site.title }}"
