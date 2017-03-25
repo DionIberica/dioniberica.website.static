@@ -1,8 +1,8 @@
 ---
 layout: default
 section: cart
-locale: es
-permalink: /es/cart/
+locale: pt
+permalink: /pt/cart/
 ---
 
 {% include cart.html %}
