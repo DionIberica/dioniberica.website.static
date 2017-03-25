@@ -1,7 +1,7 @@
 <section class="section section-testimonials jumbotron">
   <div class="container">
     <h2 class="title text-center topspace">{{ 'home.opinion.title' | translate }}</h2>
-    <div id="testimonials-carousel" class="carousel slide" data-ride="carousel">
+    <div id="testimonials-carousel" class="carousel slide" data-ride="carousel" data-interval="8000">
       {% assign testimonials = site.data.testimonials | where: 'idioma', 'es' %}
       <ol class="carousel-indicators">
 
