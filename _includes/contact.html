@@ -12,7 +12,8 @@
 <!-- form section -->
 <section class="section section-contact jumbotron">
   <div class="container">
-    <form id="contact-form" class="contact-form" action="/contact/support" method="POST">
+    {% assign contactsent = 'contact-sent' | section %}
+    <form id="contact-form" class="contact-form" action="/contact/support" data-success="{{contactsent.permalink}}" method="post" novalidate>
       <fieldset class="topspace">
         <div class="row">
           <div class="col-sm-4 col-sm-push-2">
