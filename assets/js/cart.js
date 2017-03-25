@@ -15,7 +15,7 @@
           $('.cart #price').text(formatPrice(data.price));
         }
 
-        $.get('/cart').done(function (data) {
+        $.get('/cart', { locale: $('html').attr('lang') }).done(function (data) {
           updateCart(data);
         });
 
