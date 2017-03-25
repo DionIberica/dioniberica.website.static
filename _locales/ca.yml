@@ -91,7 +91,7 @@ ca:
       social: Xarxes socials
     socialmedia:
       facebook: https://www.facebook.com/dionIberica/
-      instagram: demo
+      instagram: https://www.instagram.com/dion_spain
     map:
       url: <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2988.9505296730413!2d2.268290714747905!3d41.48367219798485!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a4ba36d5f459ff%3A0xc74a69672c830f7e!2sCarrer+Riera+d&#39;en+Font%2C+60%2C+08391+Tiana%2C+Barcelona!5e0!3m2!1ses!2ses!4v1488965152986"
         width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
@@ -124,7 +124,7 @@ ca:
         tota la informació necessaria en cualsevol moment. Si teniu preguntes adicionals
         no dubteu a contactar-nos.
     section2:
-      title: Preguntes freqüents
+      title: Preguntes no tant freqüents
       text: Hem creat una altre llista amb preguntes menys freqüents peró que creiem
         que també mereixen una resposta.
   product:
@@ -162,13 +162,13 @@ ca:
       contraindicaciones: No s'ha demostrat que la vitamina B12 causi cap mena de
         mal.
   cart:
-    product: demo
-    quantity: demo
-    price: demo
-    total: demo
-    checkout: demo
-    coupon: demo
-    stock: demo
+    product: Producte
+    quantity: Cuantitat
+    price: Preu
+    total: Total
+    checkout: Pagar
+    coupon: Cupó
+    stock: En stock
   about:
     partners:
       title: Socis comercials
@@ -181,3 +181,10 @@ ca:
     message: Aquesta web utilitza cookies per oferir-te una millor experiència i servei
     got_it: Accepto
     learn_more: Més informació
+  thankyou:
+    thanks: "{NAME}, gràcies per confiar amb nosaltres"
+    looking_forward: "¡Esperem tornar-te a veure!"
+    order_number: 'Comanda num: {ORDER}'
+    amount: 'Total: {MONEY}'
+    send_to: 'Enviar a: {ADRESS}'
+    continue_shopping: Seguir comprant

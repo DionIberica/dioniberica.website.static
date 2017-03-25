@@ -33,9 +33,9 @@ pt:
         Complemento alimenticio natural compuesto a base de vitaminas y extractos de planta.
         Suplemento alimentar, composto à base de vitaminas e extratos de plantas.
       product:
-        photo: demo
+        photo: "/producto/PT/blister-design.jpg"
       price:
-        value: 5€
+        value: 6,50€
         VAT: "(IVA não incluído)"
       more:
         info: Mais informação
@@ -60,7 +60,7 @@ pt:
     contact:
       title: Contacta
     product:
-      title: demo
+      title: Produto
     about:
       title: Sobre nós
   generic:
@@ -91,7 +91,7 @@ pt:
       social: Redes sociais
     socialmedia:
       facebook: https://www.facebook.com/dionport/
-      instagram: demo
+      instagram: https://www.instagram.com/dion_pt
     map:
       url: <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3114.1185880717007!2d-9.324038785351757!3d38.692120166624406!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd1ec929c79d1a7d%3A0xbc504ae8c149c80f!2sAlameda+Conde+Oeiras%2C+Oeiras%2C+Portugal!5e0!3m2!1ses!2ses!4v1488974626598"
         width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
@@ -110,7 +110,7 @@ pt:
     contact:
       title: Contacta
     follow:
-      title: demo
+      title: Segue-nos
     company:
       name: Dion Iberica LDA.
     email: info-pt@dioniberica.com
@@ -137,7 +137,7 @@ pt:
       data: 3 anos
     shipping:
       title: Método de envio
-      data: demo
+      data: Correios
     beneficios:
       title: Beneficios
     contraindicaciones:
@@ -161,13 +161,13 @@ pt:
       contraindicaciones: Não há evidências que a vitamina B 12 tenha consequências
         prejudiciais para o organismo.
   cart:
-    product: demo
-    quantity: demo
-    price: demo
-    total: demo
-    checkout: demo
-    coupon: demo
-    stock: demo
+    product: Produto
+    quantity: Quantidade
+    price: Preço
+    total: Total
+    checkout: Pagar
+    coupon: Cupon
+    stock: Em stock
   about:
     partners:
       title: Parceiros comerciais
@@ -180,3 +180,10 @@ pt:
     message: Esta web utiliza cookies para te oferecer uma melhor experiência e serviço
     got_it: Aceite
     learn_more: Mais informação
+  thankyou:
+    thanks: "{NAME}, gracias por comprar con nosotros."
+    looking_forward: "¡Esperamos verte nuevamente!"
+    order_number: 'Pedido num: {ORDER}'
+    amount: 'Total: {MONEY}'
+    send_to: 'Enviar a: {ADRESS}'
+    continue_shopping: Seguir comprando

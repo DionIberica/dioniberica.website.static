@@ -91,7 +91,7 @@ es:
       social: Redes sociales
     socialmedia:
       facebook: https://www.facebook.com/dionIberica/
-      instagram: demo
+      instagram: https://www.instagram.com/dion_spain
     map:
       url: <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2988.9505296730413!2d2.268290714747905!3d41.48367219798485!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a4ba36d5f459ff%3A0xc74a69672c830f7e!2sCarrer+Riera+d&#39;en+Font%2C+60%2C+08391+Tiana%2C+Barcelona!5e0!3m2!1ses!2ses!4v1488965152986"
         width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
@@ -147,7 +147,7 @@ es:
       title: Cardo Mariano (Silybum Marianum)
       data: |-
         El cardo mariano es una planta que crece libremente en la naturaleza y que el ser humano utiliza desde tiempos bíblicos debido a sus múltiples propiedades medicinales.
-        Los primeros vestigios escritos sobre las propiedades curativas del Cardo Mariano se remontan a la época de los Griegos, cuándo el médico Dioscórides lo utilizaba como remedio para picaduras de serpientes y por Plinio quien lo administraba como remedio para la bilis. Posteriormente, en la edad media se describe su uso como potente antídoto para desintoxicar el hígado.
+        Los primeros vestigios escritos sobre las propiedades curativas del Cardo Mariano se remontan a la época de los Griegos, cuando el médico Dioscórides lo utilizaba como remedio para picaduras de serpientes y por Plinio quien lo administraba como remedio para la bilis. Posteriormente, en la edad media se describe su uso como potente antídoto para desintoxicar el hígado.
         Entre estas propiedades destaca el hecho de que sea un potente protector hepático, ya que protege de las toxinas estimulando el crecimiento y la regeneración de nuevos tejidos del hígado.
       contraindicaciones: |-
         El cardo mariano carece de efectos tóxicos para el organismo humano.
@@ -155,8 +155,8 @@ es:
     b12:
       title: Vitamína B12
       data: La vitamina B12, o cobalamina, es una vitamina hidrosoluble que el cuerpo
-        humano absorve diariamente para mantenerse saludable. El uso de alcohol consume
-        una gran cantidad de esta vitamina e impacta en la mucosa gastrica y en el
+        humano absorbe diariamente para mantenerse saludable. El uso de alcohol consume
+        una gran cantidad de esta vitamina e impacta en la mucosa gástrica y en el
         hígado, lo que se ve reflejado en un empeoramiento en su proceso de absorción.
       contraindicaciones: No se ha demostrado que la vitamina B12 cause daño alguno.
   cart:
@@ -179,3 +179,10 @@ es:
     message: Esta web utiliza cookies para ofrecerte una mejor experiencia y servicio
     got_it: Acepto
     learn_more: Más información
+  thankyou:
+    thanks: "{NAME}, gracias por comprar con nosotros."
+    looking_forward: "¡Esperamos verte nuevamente!"
+    order_number: 'Pedido num: {ORDER}'
+    amount: 'Total: {MONEY}'
+    send_to: 'Enviar a: {ADRESS}'
+    continue_shopping: Seguir comprando
