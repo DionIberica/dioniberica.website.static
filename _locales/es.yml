@@ -105,7 +105,7 @@ es:
     title: Contacto
     message: Si no lo hace ahora, ¿Cúando?
     sent_title: Su mensaje se ha enviado correctamente
-    sent_description: Gracias por ponerse en contacte con nosotros!
+    sent_description: Gracias por ponerse en contacto con nosotros!
   footer:
     contact:
       title: Contacto
