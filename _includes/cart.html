@@ -1,6 +1,6 @@
 <div class="container cart">
     <div class="row">
-        <h2 class="text-center title">CARRITOO</h2>
+        <h2 class="text-center title">{{ 'cart.title' | translate }}</h2>
         <div class="col-sm-12 col-md-10 col-md-offset-1">
             <table class="table table-hover">
                 <thead>
@@ -15,11 +15,11 @@
                     <tr>
                         <td class="col-sm-6 col-md-6">
                         <div class="media">
-                            <a class="thumbnail pull-left" href="#"> <img class="media-object" src="/assets/images/logo-white.png" style="width: 72px; height: 72px;"> </a>
+                            <img class="media-object pull-left" src="/assets/images/producto/ES/Blister_abierto.jpg" style="height: 72px;">
                             <div class="media-body">
                               {{ 'product.title' | translate }}
                               <p>
-                                <span>Status: </span><span class="text-success"><strong>{{ 'cart.stock' | translate }}</strong></span>
+                                <span class="text-success"><strong>{{ 'cart.stock' | translate }}</strong></span>
                               </p>
                             </div>
                         </div></td>
@@ -31,12 +31,8 @@
                         <td class="col-sm-1 col-md-1 text-center"><strong id="price">0.00€</strong></td>
                         <td class="col-sm-1 col-md-1 text-center"><strong id="subtotal">0.00€</strong></td>
                     </tr>
-                    <tr>
-                        <td> {{ 'cart.coupon' | translate }}  </td>
-                        <td>   </td>
-                        <td>   </td>
-                        <td>   </td>
-                    </tr>
+                </tbody>
+                <tfoot>
                     <tr>
                         <td>   </td>
                         <td>   </td>
@@ -73,7 +69,7 @@
                           </form>
                         </td>
                     </tr>
-                </tbody>
+                </tfoot>
             </table>
         </div>
     </div>

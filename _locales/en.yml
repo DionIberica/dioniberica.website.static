@@ -157,6 +157,7 @@ en:
       contraindicaciones: There are no evidences that B12 vitamin has harmful consequences
         for the organism
   cart:
+    title: Your cart
     product: Product
     quantity: Quantity
     price: Price
