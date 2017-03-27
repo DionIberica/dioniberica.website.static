@@ -187,3 +187,6 @@ es:
     amount: 'Total: {MONEY}'
     send_to: 'Enviar a: {ADRESS}'
     continue_shopping: Seguir comprando
+  failure:
+    error: Ha ocurrido un error con su compra
+    contact: Póngase en contacto con nosotros

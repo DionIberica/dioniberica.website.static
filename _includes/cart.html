@@ -45,8 +45,14 @@
                         <td>
                         </td>
                         <td>
+                          {% assign checkoutsuccess = 'checkout.success' | section %}
+                          {% assign checkoutfailure = 'checkout.failure' | section %}
+
                           <form action="/cart/checkout" method="POST">
                             <input type="hidden" name="locale" value="{{ page.locale }}">
+
+                            <input type="hidden" name="success" value="{{ checkoutsuccess.permalink}}">
+                            <input type="hidden" name="failure" value="{{ checkoutfailure.permalink}}">
 
                             {% assign locale_id = page.locale | upcase %}
                             {% assign env_name = 'STRIPE_PUBLIC_' | append: locale_id %}
