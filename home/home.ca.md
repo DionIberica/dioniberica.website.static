@@ -2,17 +2,8 @@
 layout: default
 section: home
 locale: ca
+testimonials_locale: es
 permalink: /ca/
 ---
 
-{% include main-header.html %}
-
-{% include intro.html %}
-
-{% include steps.html %}
-
-{% include recomendations.html %}
-
-{% include testimonials.html %}
-
-{% include get_started.html %}
+{% include home.html %}

@@ -2,7 +2,7 @@
   <div class="container">
     <h2 class="title text-center topspace">{{ 'home.opinion.title' | translate }}</h2>
     <div id="testimonials-carousel" class="carousel slide" data-ride="carousel" data-interval="8000">
-      {% assign testimonials = site.data.testimonials | where: 'idioma', 'es' %}
+      {% assign testimonials = site.data.testimonials | where: 'idioma', page.testimonials_locale %}
       <ol class="carousel-indicators">
 
         {% for testimonial in testimonials %}

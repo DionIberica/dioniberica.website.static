@@ -12,7 +12,7 @@ ca:
       how-it-works:
         link: COM FUNCIONA?
       buy:
-        link: COMPRAR PER 5,5 €
+        link: COMPRAR
     why:
       title: Ja pots gaudir els teus events sense preocuparte pels símptomes de la
         ressaca
@@ -39,7 +39,7 @@ ca:
       more:
         info: Més informació
     add-to-cart:
-      text: AFEGIR AL CISTELL
+      text: AFEGIR A LA CISTELLA
   meta:
     description: Prenent un Dion abans de sortir de festa podras gaudir dels teus
       events sense patir els efectes de la ressaca del dia següent.
@@ -110,7 +110,7 @@ ca:
     contact:
       title: Contacte
     follow:
-      title: Segueixnos
+      title: Segueix-nos
     company:
       name: Dion Resakapsulus Spain S.L.
     email: info@dioniberica.com
@@ -139,30 +139,32 @@ ca:
       title: 'Métode d''enviament:'
       data: Sobre amb reforç intern de seguretat per a evitar desperfectes mitjançant
         correu ordinari.
-    beneficios:
-      title: 'Beneficis:'
-    contraindicaciones:
-      title: 'Contraindicacions:'
+    composition:
+      title: Composició
     cm:
+      beneficios:
+        title: 'Beneficis del Cardo Mariano:'
+      contraindicaciones: |-
+        No té efectes nocíus per a l'organisme humá.
+        Malgrat que tradicionalment s'ha emprat pera augmentar la llet de les lactants, no existeixen proves suficients per a confirmar la seva eficácia, pel que no es recomana el seu ús durant l'embarás i la lactancia.
       title: Cardo Mariano (Silybum Marianum)
       data: |-
         Es una planta que creix lliurement a la natura i que l'esser humá utilitza des dels temps bíblics degut a les seves múltiples propietats medicinals.
         Els primers vestigis escrits sobre les propietats curatives del Cardo Mariano es remonten a la época dels Grecs, cuan el metge Dioscóridces l'empreva com a remei contra les mossegades de les serps i per Plinio qui l'administrava com a remei per a la bilis. Posteriorment, a l'edat mitjana es descriu el seu ús com a potent antídot per a desintoxicar el fetge.
         Entre les seves propietats destaca el fet de que sigui un potent protector hepátic, ja que protegeix de les toxines estimulant el creixement i la regeneració de nous teixits del fetge.
-      contraindicaciones: |-
-        No té efectes nocíus per a l'organisme humá.
-        Malgrat que tradicionalment s'ha emprat pera augmentar la llet de les lactants, no existeixen proves suficients per a confirmar la seva eficácia, pel que no es recomana el seu ús durant l'embarás i la lactancia.
     b12:
+      beneficios:
+        title: 'Beneficis de la B12:'
+      contraindicaciones: No s'ha demostrat que la vitamina B12 causi cap mena de
+        mal.
       title: Vitamína B12
       data: La vitamina B12, o cobalamina, es una vitamina hidrosoluble que el cos
         humá absorveix diariament per a mantindre's saludable. L'ús d'alcohol consumeix
         una gran cuantitat d'aqeusta vitamina i impacta sobre la mucosa gástrica i
         sobre el fetge, el que es veu reflexat en un empitjorament en el seu procés
         d'absorció.
-      contraindicaciones: No s'ha demostrat que la vitamina B12 causi cap mena de
-        mal.
   cart:
-    title: El teu cistell
+    title: La teva cistella
     product: Producte
     quantity: Cuantitat
     price: Preu
@@ -182,13 +184,86 @@ ca:
     message: Aquesta web utilitza cookies per oferir-te una millor experiència i servei
     got_it: Accepto
     learn_more: Més informació
+    detail:
+      navitagion:
+        title: En relació a les Cookies durant la navegació
+      navigation:
+        text: 'Una cookie (o galeta informàtica) és una petita informació enviada
+          per un lloc web i emmagatzemada al navegador de l''usuari, de manera que
+          el lloc web pot consultar l''activitat prèvia de l''usuari. Les seves principals
+          funcions són:'
+        bullet: Conseguir informació sobre els hàbits de navegació de l'usuari, entre
+          d'altres.
+      thirdparty:
+        title: Cookies de tercers dioniberica.com
+        kind:
+          subtitle: Tipus de Cookie
+        firm:
+          subtitle: Empresa
+        purpose:
+          subtitle: Finalitat
+        info:
+          subtitle: Informació
+          text: Navegació anònima que permet saber què es consulta i com es navega.        http://www.google.es/intl/es/analytics/privacyoverview.html
+        manageCookies:
+          subtitle: Gestionar cookies
+          boldtext: Pots permetre, bloquejar o eliminar les cookies instal·lades al
+            teu equip mitjançant la configuració de les opcions del navegador instal·lat
+            al teu ordinador.
+          text: 'Si no estàs segur de quin tipus i versió de navegador fas servir
+            per accedir a internet:'
+          bullet_1: 'Per Windows: has de clicar a "Ajuda" a la part superior de la
+            finestra del teu navegador i seleccionar l''opció "Sobre el".'
+          bullet_2: 'Per Mac: amb la finestra del navegador oberta, s''ha de clicar
+            al menú d''Apple i seleccionar l''opció "Sobre el...".'
+      howToManage:
+        win:
+          title: Com gestionar les cookies a Windows
+          chrome:
+            pasos: |-
+              Fes clic al menú de Chrome situat a la barra d'eines del navegador.
+              Selecciona "Configuració".
+              Fes clic a "Mostrar opcions avançades..."
+              A la secció "Privacitat", fes clic al botó "Configuració de contingut...".
+              A la secció "Cookies", pots configurar les opcions que s'indiquen a continuació: Eliminar cookies, bloquejar o permetre les cookies de forma predeterminada, incloure excepcions de cookies de dominos o llocs web específics.
+              Si necessites més detalls pots consultar l'ajuda de Google Chrome.
+          ie:
+            pasos: demo
+          firefox:
+            pasos: demo
+          safari:
+            pasos: demo
+          opera:
+            pasos: demo
+        chrome:
+          subtitle: Google Chrome
+        ie:
+          subtitle: Microsoft Internet Explorer 7.0 y 8.0
+        firefox:
+          subtitle: Mozilla Firefox
+        safari:
+          subtitle: Safari
+        opera:
+          subtitle: Opera
+        mac:
+          title: demo
+          chrome:
+            pasos: demo
+          ie:
+            pasos: demo
+          firefox:
+            pasos: demo
+          safari:
+            pasos: demo
+          opera:
+            pasos: demo
   thankyou:
     thanks: "{NAME}, gràcies per confiar amb nosaltres"
-    looking_forward: "¡Esperem tornar-te a veure!"
+    looking_forward: "¡Esperem tornar-te a veure aviat!"
     order_number: 'Comanda num: {ORDER}'
     amount: 'Total: {MONEY}'
     send_to: 'Enviar a: {ADRESS}'
     continue_shopping: Seguir comprant
   failure:
-    error: Ha ocurrido un error con su compra
-    contact: Póngase en contacto con nosotros
+    error: Lamentem comunicar-li que hi ha hagut un error amb la seva compra.
+    contact: Si us plau, contacti amb nosaltres.

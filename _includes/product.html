@@ -1,6 +1,6 @@
 
 <div class="container">
-  <h1 class="page-title">
+  <h1 class="title">
     {{ 'product.title' | translate }}
   </h1>
 </div>
@@ -9,7 +9,7 @@
   <div class="row">
 
     <!-- main content -->
-    <div class="col-md-8">
+    <div class="col-md-6">
 
       <!-- carousel -->
       <div id="carousel-portfolio-item" class="carousel slide" data-ride="carousel">
@@ -17,7 +17,7 @@
         <!-- slides -->
         <div class="carousel-inner" role="listbox">
           <div class="item active">
-            <img src="/assets/images/producto/ES/Blister_cerrado.jpg" alt="">
+            <img src="/assets/images/producto/ES/Blister_cerrado.jpg" alt="" >
             <div class="carousel-caption"></div>
           </div>
           <div class="item">
@@ -49,13 +49,13 @@
     <!-- end of main content -->
 
     <!-- sidebar -->
-    <aside class="col-md-4 sidebar-right">
+    <aside class="col-md-6 sidebar-right">
       <p><b>{{ 'product.price.title' | translate }}:</b><br>{{ 'product.price.data' | translate }}</p>
       <p><b>{{ 'product.cad.title' | translate }}</b><br>{{ 'product.cad.data' | translate }}</p>
       <p><b>{{ 'product.shipping.title' | translate }}</b><br>{{ 'product.shipping.data' | translate }}</p>
 
       {% assign cart = 'cart' | section %}
-      <a href="{{ cart.permalink }}" class="btn btn-block btn-action">
+      <a href="{{ cart.permalink }}" class="btn btn-block btn-action" style="max-width: 300px;">
         <i class="fa fa-cart-arrow-down"></i>
         {{ 'home.add-to-cart.text' | translate }}
       </a>
@@ -70,18 +70,19 @@
 <!-- FAQ -->
 <section class="section section-faq">
   <div class="container">
-    <h2 class="text-center title">{{ 'product.cm.title' | translate }}</h2>
+    <h2 class="text-center title">{{ 'product.composition.title' | translate }}</h2>
+    <h3 class="text-center title">{{ 'product.cm.title' | translate }}</h3>
     <p>{{ 'product.cm.data' | translate }}</p>
     <br>
 
-    <h3 class="title">{{ 'product.beneficios.title' | translate }}</h3>
+    <h4 class="title">{{ 'product.cm.beneficios.title' | translate }}</h4>
 
     {% assign benefits_groups = site.data.benefits | where: 'component', 'cardo' | in_groups_of: 2 %}
     {% for benefits_group in benefits_groups %}
     <div class="row topspace">
       {% for benefits in benefits_group %}
       <div class="col-sm-6">
-        <h4><b>{{ benefits | translate: 'title' }}</b></h4>
+        <p><b>{{ benefits | translate: 'title' }}</b></p>
         <p>{{ benefits | translate: 'description' }}</p>
       </div>
       {% endfor %}
@@ -90,7 +91,7 @@
 
     <br>
 
-    <h3 class="title">{{ 'product.contraindicaciones.title' | translate }}</h3>
+    <h4 class="title">{{ 'product.cm.contraindicaciones.title' | translate }}</h4>
 
     <p>{{ 'product.cm.contraindicaciones' | translate }}</p>
 
@@ -101,18 +102,18 @@
 <!-- FAQ -->
 <section class="section section-faq">
   <div class="container">
-    <h2 class="text-center title">{{ 'product.b12.title' | translate }}</h2>
+    <h3 class="text-center title">{{ 'product.b12.title' | translate }}</h3>
     <p>{{ 'product.b12.data' | translate }}</p>
     <br>
 
-    <h3 class="title">{{ 'product.beneficios.title' | translate }}</h3>
+    <h4 class="title">{{ 'product.b12.beneficios.title' | translate }}</h4>
 
     {% assign benefits_groups = site.data.benefits | where: 'component', 'b12' | in_groups_of: 2 %}
     {% for benefits_group in benefits_groups %}
     <div class="row topspace">
       {% for benefits in benefits_group %}
       <div class="col-sm-6">
-        <h4><b>{{ benefits | translate: 'title' }}</b></h4>
+        <p><b>{{ benefits | translate: 'title' }}</b></p>
         <p>{{ benefits | translate: 'description' }}</p>
       </div>
       {% endfor %}
@@ -121,7 +122,7 @@
 
     <br>
 
-    <h3 class="title">{{ 'product.contraindicaciones.title' | translate }}</h3>
+    <h4 class="title">{{ 'product.b12.contraindicaciones.title' | translate }}</h4>
 
     <p>{{ 'product.b12.contraindicaciones' | translate }}</p>
 

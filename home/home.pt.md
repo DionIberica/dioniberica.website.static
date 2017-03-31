@@ -2,15 +2,8 @@
 layout: default
 section: home
 locale: pt
+testimonials_locale: pt
 permalink: /pt/
 ---
 
-{% include main-header.html %}
-
-{% include intro.html %}
-
-{% include steps.html %}
-
-{% include testimonials.html %}
-
-{% include get_started.html %}
+{% include home.html %}

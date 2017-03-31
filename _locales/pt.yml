@@ -12,7 +12,7 @@ pt:
       how-it-works:
         link: COMO FUNCIONA?
       buy:
-        link: Comprar por 6.5 €
+        link: COMPRAR
     why:
       title: Já podes aproveitar das tuas festas sem te preocupares com os sintomas
         da ressaca.
@@ -35,12 +35,12 @@ pt:
       product:
         photo: "/producto/PT/blister-design.jpg"
       price:
-        value: 6,50€
+        value: 5€
         VAT: "(IVA não incluído)"
       more:
         info: Mais informação
     add-to-cart:
-      text: COMPRAR
+      text: ADICIONAR AO CARRINHO
   meta:
     description: Se tomares Dion poderás aproveitar as tuas festas e evitar a ressaca
       do dia seguinte.
@@ -131,37 +131,39 @@ pt:
     title: Blister com 10 comprimidos Dion
     price:
       title: Preço
-      data: 5€
+      data: 5 € (+1.15 € VAT)
     cad:
-      title: Validade
+      title: 'Validade:'
       data: 3 anos
     shipping:
-      title: Método de envio
+      title: 'Método de envio:'
       data: Correios
-    beneficios:
-      title: Beneficios
-    contraindicaciones:
-      title: Contra indicações
+    composition:
+      title: Composição
     cm:
+      beneficios:
+        title: 'Beneficios do Cardo Mariano:'
+      contraindicaciones: |-
+        O Cardo Mariano não tem efeitos toxicos para o organismo.
+        Ainda que tradicionalmente se utilizou Cardo Mariano para aumentar a quantidade de leite da grávidas, não existem provas suficientes que confirmem a sua eficácia. Dado isto, não recomendamos o seu consumo enquanto grávida e tactante.
       title: Cardo Mariano (Silybum Marianum)
       data: |-
         O Cardo Mariano é uma planta que cresce livremente na natureza e que o ser humano utiliza desde os tempos antigos, devido às suas multiplas propriedades medicinais.
         Os primeiros vestígios escritos sobre as propriedades curativas do Cardo Mariano remontam a época dos gregos, quando o médico Dioscórides o utilizava para tratar picadas de serpentes, ou quando Plinio usava como remédio para a bilis. Posteriormente na idade média, o Cardo Mariano é descrito como portente antídoto para desintoxicar o fígado.
         Entre estas propriedades, destaca-se o facto de ser um eficiente protetor hepático, protegendo das tóxinas e estimulando o crescimento e a regeneração de novos tecidos do fígado.
-      contraindicaciones: |-
-        O Cardo Mariano não tem efeitos toxicos para o organismo.
-        Ainda que tradicionalmente se utilizou Cardo Mariano para aumentar a quantidade de leite da grávidas, não existem provas suficientes que confirmem a sua eficácia. Dado isto, não recomendamos o seu consumo enquanto grávida e tactante.
     b12:
+      beneficios:
+        title: 'Beneficios da B12:'
+      contraindicaciones: Não há evidências que a vitamina B 12 tenha consequências
+        prejudiciais para o organismo.
       title: Vitamina B 12
       data: O organismo humano absorve uma quantidade diária de vitamina B12, ou cobalamina,
         para se manter saudável. Além de muitas outras causas, o uso de álcool consome
         uma grande quantidade de vitamina B12 e tem impacto na mucosa gástrica e no
         fígado, o que se reflete na função do Figado, piorando a absorção da vitamina
         no intestino.
-      contraindicaciones: Não há evidências que a vitamina B 12 tenha consequências
-        prejudiciais para o organismo.
   cart:
-    title: COMPRAR
+    title: O teu carrinho
     product: Produto
     quantity: Quantidade
     price: Preço
@@ -181,13 +183,85 @@ pt:
     message: Esta web utiliza cookies para te oferecer uma melhor experiência e serviço
     got_it: Aceite
     learn_more: Mais informação
+    detail:
+      navitagion:
+        title: Relativamente às Cookies durante a navegação
+      navigation:
+        text: 'Uma cookie é uma pequena informação enviada por um site web e armazenada
+          no navegador do usuário, de forma que a que o site possa consultar a atividade
+          de usuário. As suas principais funções são:'
+        bullet: Conseguir informação sobre os hábitos de navegação do usuário.
+      thirdparty:
+        title: Cookies de terceros dioniberica.com
+        kind:
+          subtitle: Tipo de Cookie
+        firm:
+          subtitle: Empresa
+        purpose:
+          subtitle: Finalidade
+        info:
+          subtitle: Informação
+          text: Navegação de formulários que permitem saber qual é a consulta e como
+            navega. http://www.google.es/intl/es/analytics/privacyoverview.html
+        manageCookies:
+          subtitle: Gerir Cookies
+          boldtext: Podes permitir, bloquear ou eliminar as cookies instaladas no
+            teu computador mediante a configuração das opções do navegador instaladas
+            no teu computador.
+          text: 'Se não estás certo sobre o tipo e versão do navegador do teu computador,
+            podes aceder na internet:'
+          bullet_1: 'Para Windows: clica em "Ajuda" na parte superior da janela do
+            teu navegador e seleciona a opção "Acerca de".'
+          bullet_2: 'Para Mac: com a janela do navegador aberta, clica no menu da
+            Apple e seleciona a opção "Acerca de…".'
+      howToManage:
+        win:
+          title: Como gerir as cookies no Windows
+          chrome:
+            pasos: |-
+              Carrega no menú de Chrome Chrome situado na barra de ferramentas do navegador.
+              Seleciona "Configuração".
+              Carrega em "Mostrar opcões avançadas"…
+              Na secção "Privacidade", carrega no botão "Configuração de conteúdo"….
+              Na secção "Cookies", podes configurar as opções que são indicam: Eliminar cookies, bloquear ou permitir as cookies de forma predeterminada, incluir excepciones de cookies de dominios o sitios web específicos.
+              Para mayor detalle consulta la ayuda de Google Chrome.
+          ie:
+            pasos: demo
+          firefox:
+            pasos: demo
+          safari:
+            pasos: demo
+          opera:
+            pasos: demo
+        chrome:
+          subtitle: Google Chrome
+        ie:
+          subtitle: Microsoft Internet Explorer 7.0 y 8.0
+        firefox:
+          subtitle: Mozilla Firefox
+        safari:
+          subtitle: Safari
+        opera:
+          subtitle: Opera
+        mac:
+          title: demo
+          chrome:
+            pasos: demo
+          ie:
+            pasos: demo
+          firefox:
+            pasos: demo
+          safari:
+            pasos: demo
+          opera:
+            pasos: demo
   thankyou:
-    thanks: "{NAME}, gracias por comprar con nosotros."
-    looking_forward: "¡Esperamos verte nuevamente!"
+    thanks: "{NAME}, obrigado pela sua compra."
+    looking_forward: Esperamos ver-te em breve!
     order_number: 'Pedido num: {ORDER}'
     amount: 'Total: {MONEY}'
     send_to: 'Enviar a: {ADRESS}'
-    continue_shopping: Seguir comprando
+    continue_shopping: Continuar compra
   failure:
-    error: Ha ocurrido un error con su compra
-    contact: Póngase en contacto con nosotros
+    error: Ouve um erro com a sua compra
+    contact: Por favor, contacta conosco
