@@ -144,20 +144,23 @@ ca:
     cm:
       beneficios:
         title: 'Beneficis del Cardo Mariano:'
-      contraindicaciones: |-
-        No té efectes nocíus per a l'organisme humá.
-        Malgrat que tradicionalment s'ha emprat pera augmentar la llet de les lactants, no existeixen proves suficients per a confirmar la seva eficácia, pel que no es recomana el seu ús durant l'embarás i la lactancia.
-      title: Cardo Mariano (Silybum Marianum)
       data: |-
         Es una planta que creix lliurement a la natura i que l'esser humá utilitza des dels temps bíblics degut a les seves múltiples propietats medicinals.
         Els primers vestigis escrits sobre les propietats curatives del Cardo Mariano es remonten a la época dels Grecs, cuan el metge Dioscóridces l'empreva com a remei contra les mossegades de les serps i per Plinio qui l'administrava com a remei per a la bilis. Posteriorment, a l'edat mitjana es descriu el seu ús com a potent antídot per a desintoxicar el fetge.
         Entre les seves propietats destaca el fet de que sigui un potent protector hepátic, ja que protegeix de les toxines estimulant el creixement i la regeneració de nous teixits del fetge.
+      contraindicaciones:
+        title: 'Contraindicacions del Cardo Mariano:'
+        description: |-
+          No té efectes nocíus per a l'organisme humá.
+          Malgrat que tradicionalment s'ha emprat pera augmentar la llet de les lactants, no existeixen proves suficients per a confirmar la seva eficácia, pel que no es recomana el seu ús durant l'embarás i la lactancia.
+      title: Cardo Mariano (Silybum Marianum)
     b12:
+      title: Vitamína B12
       beneficios:
         title: 'Beneficis de la B12:'
-      contraindicaciones: No s'ha demostrat que la vitamina B12 causi cap mena de
-        mal.
-      title: Vitamína B12
+      contraindicaciones:
+        title: 'Contraindicacions de la B12:'
+        description: No s'ha demostrat que la vitamina B12 causi cap mena de mal.
       data: La vitamina B12, o cobalamina, es una vitamina hidrosoluble que el cos
         humá absorveix diariament per a mantindre's saludable. L'ús d'alcohol consumeix
         una gran cuantitat d'aqeusta vitamina i impacta sobre la mucosa gástrica i

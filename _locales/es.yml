@@ -144,19 +144,23 @@ es:
     cm:
       beneficios:
         title: 'Beneficios del Cardo Mariano:'
-      contraindicaciones: |-
-        El cardo mariano carece de efectos tóxicos para el organismo humano.
-        Aunque tradicionalmente se ha utilizado para aumentar la leche de las lactantes, no existen pruebas suficientes para confirmar su eficacia, por lo que no se recomienda su consumo durante el embarazo y lactancia.
-      title: Cardo Mariano (Silybum Marianum)
       data: |-
         El cardo mariano es una planta que crece libremente en la naturaleza y que el ser humano utiliza desde tiempos bíblicos debido a sus múltiples propiedades medicinales.
         Los primeros vestigios escritos sobre las propiedades curativas del Cardo Mariano se remontan a la época de los Griegos, cuando el médico Dioscórides lo utilizaba como remedio para picaduras de serpientes y por Plinio quien lo administraba como remedio para la bilis. Posteriormente, en la edad media se describe su uso como potente antídoto para desintoxicar el hígado.
         Entre estas propiedades destaca el hecho de que sea un potente protector hepático, ya que protege de las toxinas estimulando el crecimiento y la regeneración de nuevos tejidos del hígado.
+      contraindicaciones:
+        title: 'Contraindicaciones del Cardo Mariano:'
+        description: |-
+          El cardo mariano carece de efectos tóxicos para el organismo humano.
+          Aunque tradicionalmente se ha utilizado para aumentar la leche de las lactantes, no existen pruebas suficientes para confirmar su eficacia, por lo que no se recomienda su consumo durante el embarazo y lactancia.
+      title: Cardo Mariano (Silybum Marianum)
     b12:
+      title: Vitamína B12
       beneficios:
         title: 'Beneficios de la B12:'
-      contraindicaciones: No se ha demostrado que la vitamina B12 cause daño alguno.
-      title: Vitamína B12
+      contraindicaciones:
+        title: 'Contraindicaciones de la B12:'
+        description: No se ha demostrado que la vitamina B12 cause daño alguno.
       data: La vitamina B12, o cobalamina, es una vitamina hidrosoluble que el cuerpo
         humano absorbe diariamente para mantenerse saludable. El uso de alcohol consume
         una gran cantidad de esta vitamina e impacta en la mucosa gástrica y en el

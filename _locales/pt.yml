@@ -143,20 +143,24 @@ pt:
     cm:
       beneficios:
         title: 'Beneficios do Cardo Mariano:'
-      contraindicaciones: |-
-        O Cardo Mariano não tem efeitos toxicos para o organismo.
-        Ainda que tradicionalmente se utilizou Cardo Mariano para aumentar a quantidade de leite da grávidas, não existem provas suficientes que confirmem a sua eficácia. Dado isto, não recomendamos o seu consumo enquanto grávida e tactante.
-      title: Cardo Mariano (Silybum Marianum)
       data: |-
         O Cardo Mariano é uma planta que cresce livremente na natureza e que o ser humano utiliza desde os tempos antigos, devido às suas multiplas propriedades medicinais.
         Os primeiros vestígios escritos sobre as propriedades curativas do Cardo Mariano remontam a época dos gregos, quando o médico Dioscórides o utilizava para tratar picadas de serpentes, ou quando Plinio usava como remédio para a bilis. Posteriormente na idade média, o Cardo Mariano é descrito como portente antídoto para desintoxicar o fígado.
         Entre estas propriedades, destaca-se o facto de ser um eficiente protetor hepático, protegendo das tóxinas e estimulando o crescimento e a regeneração de novos tecidos do fígado.
+      contraindicaciones:
+        title: 'Contra indicações do Cardo Mariano:'
+        description: |-
+          O Cardo Mariano não tem efeitos toxicos para o organismo.
+          Ainda que tradicionalmente se utilizou Cardo Mariano para aumentar a quantidade de leite da grávidas, não existem provas suficientes que confirmem a sua eficácia. Dado isto, não recomendamos o seu consumo enquanto grávida e tactante.
+      title: Cardo Mariano (Silybum Marianum)
     b12:
+      title: Vitamina B 12
       beneficios:
         title: 'Beneficios da B12:'
-      contraindicaciones: Não há evidências que a vitamina B 12 tenha consequências
-        prejudiciais para o organismo.
-      title: Vitamina B 12
+      contraindicaciones:
+        title: 'Contra indicações da B12:'
+        description: Não há evidências que a vitamina B 12 tenha consequências prejudiciais
+          para o organismo.
       data: O organismo humano absorve uma quantidade diária de vitamina B12, ou cobalamina,
         para se manter saudável. Além de muitas outras causas, o uso de álcool consome
         uma grande quantidade de vitamina B12 e tem impacto na mucosa gástrica e no
