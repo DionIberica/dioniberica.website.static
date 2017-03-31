@@ -11,7 +11,9 @@
           $('.cart .items').val(data.items);
           $('.cart #payment').data('amount', data.amount);
           $('.cart #payment').attr('data-amount', data.amount);
-          $('.cart #total, .cart #subtotal').text(formatPrice(data.amount));
+          $('.cart #subtotal').text(formatPrice(data.subtotal));
+          $('.cart #total').text(formatPrice(data.amount));
+          $('.cart #taxes').text(formatPrice(data.taxes));
           $('.cart #price').text(formatPrice(data.price));
         }
 
