@@ -89,8 +89,8 @@ en:
       facebook: https://www.facebook.com/dionport/
       instagram: https://www.instagram.com/dion_pt
     map:
-      url: <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3114.1185880717007!2d-9.324038785351757!3d38.692120166624406!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd1ec929c79d1a7d%3A0xbc504ae8c149c80f!2sAlameda+Conde+Oeiras%2C+Oeiras%2C+Portugal!5e0!3m2!1ses!2ses!4v1488974626598"
-        width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+      longitude: '38.692116'
+      latitude: "-9.3218501"
     message_placeholder: Your message
     subject_placeholder: Your subject
     telephone_placeholder: Enter your telephone

@@ -9,14 +9,10 @@
 <script src="/assets/js/cart.js"></script>
 
 <!-- Google Maps -->
-<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js"></script>
+<script async defer type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyADcs7zskZXwjPTUGHWKPKMYYQMj5tCOyo&callback=initMap"></script>
 <script type="text/javascript">
-    var myLatlng;
-    var map;
-    var marker;
-
-    function initialize() {
-        myLatlng = new google.maps.LatLng(41.3861161,2.170571);
+    function initMap() {
+        var myLatlng = new google.maps.LatLng({{ 'contact.map.longitude' | translate }},{{ 'contact.map.latitude' | translate }});
 
         var mapOptions = {
             zoom: 17,
@@ -25,7 +21,7 @@
             scrollwheel: false,
             draggable: false
         };
-        map = new google.maps.Map(document.getElementById('map'), mapOptions);
+        var map = new google.maps.Map(document.getElementById('map'), mapOptions);
 
         var contentString = '<p style="line-height: 20px;">{{ 'map.description' | translate }}</p>';
 
@@ -33,7 +29,7 @@
             content: contentString
         });
 
-        marker = new google.maps.Marker({
+        var marker = new google.maps.Marker({
             position: myLatlng,
             map: map,
             title: 'Marker'
@@ -43,8 +39,6 @@
             infowindow.open(map, marker);
         });
     }
-
-    google.maps.event.addDomListener(window, 'load', initialize);
 </script>
 
 <!-- Begin Cookie Consent plugin by Silktide - https://cookieconsent.insites.com -->

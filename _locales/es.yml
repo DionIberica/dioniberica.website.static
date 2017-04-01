@@ -93,8 +93,8 @@ es:
       facebook: https://www.facebook.com/dionIberica/
       instagram: https://www.instagram.com/dion_spain
     map:
-      url: <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2988.9505296730413!2d2.268290714747905!3d41.48367219798485!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a4ba36d5f459ff%3A0xc74a69672c830f7e!2sCarrer+Riera+d&#39;en+Font%2C+60%2C+08391+Tiana%2C+Barcelona!5e0!3m2!1ses!2ses!4v1488965152986"
-        width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+      longitude: '41.4836682'
+      latitude: '2.2704794'
     message_placeholder: Mensaje
     subject_placeholder: Asunto
     telephone_placeholder: Introduzca su teléfono
