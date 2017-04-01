@@ -60,14 +60,20 @@
                             <input type="hidden" name="success" value="{{ checkoutsuccess.permalink}}">
                             <input type="hidden" name="failure" value="{{ checkoutfailure.permalink}}">
 
-                            {% assign locale_id = page.locale | upcase %}
-                            {% assign env_name = 'STRIPE_PUBLIC_' | append: locale_id %}
+                            {% assign env_name = 'JEKYLL_ENV' | env  %}
+
+                            {% if env_name == "production" %}
+                              {% assign locale_id = page.locale | upcase %}
+                              {% assign payment_env_name = 'STRIPE_PUBLIC_' | append: locale_id %}
+                            {% else %}
+                              {% assign payment_env_name = 'TEST_STRIPE_PUBLIC' %}
+                            {% endif %}
 
                             <script
                               id="payment"
                               src="https://checkout.stripe.com/checkout.js"
                               class="stripe-button"
-                              data-key="{{ env_name | env }}"
+                              data-key="{{ payment_env_name | env }}"
                               data-label="{{ 'cart.checkout' | translate }}"
                               data-amount="0"
                               data-name="{{ site.title }}"
