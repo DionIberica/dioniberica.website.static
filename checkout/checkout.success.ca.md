@@ -1,6 +1,6 @@
 ---
 layout: default
-section: cart
+section: checkout.success
 locale: ca
 permalink: /ca/checkout/success/
 ---

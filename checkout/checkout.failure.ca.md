@@ -1,6 +1,6 @@
 ---
 layout: default
-section: cart
+section: checkout.failure
 locale: ca
 permalink: /ca/checkout/failure/
 ---
