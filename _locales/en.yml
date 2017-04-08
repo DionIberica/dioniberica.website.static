@@ -260,6 +260,7 @@ en:
     success:
       title: Your cart
   mail:
+    sender: info.pt@dioniberica.com
     title: We appreciate your trust in Dion
     subtitle: We have just received your purchase. Thank you!
     text: Your articles will be sent as soon as posible.
@@ -286,5 +287,6 @@ en:
     footer:
       help: Do you need any help? Please, contact with us and we will do our best.
       call: 'Call us: (+351)'
-      email: 'Or send us an e-mail: info.pt@dioniberica.com'
+      send: Or send us an e-mail
+      email: info.pt@dioniberica.com
       provider: This e-mail was sent by Dion Portugal

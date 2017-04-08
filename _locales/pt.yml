@@ -277,6 +277,7 @@ pt:
     success:
       title: O teu carrinho
   mail:
+    sender: info.pt@dioniberica.com
     title: Obrigado por confiares em nós
     subtitle: Recebemos o teu pedido - obrigado!
     text: Os artigos que pediste serão enviados o quanto antes.
@@ -304,5 +305,6 @@ pt:
       help: Necessitas de ajuda? Entra em contacto conosco e faremos os possiveis
         para que aproveites a tua experiência conosco.
       call: 'Liga-nos: +351 91 261 38 66'
-      email: 'Envia-nos um email: info.pt@dioniberica.com'
+      send: Envia-nos um email
+      email: info.pt@dioniberica.com
       provider: Este email foi enviado por Dion Portugal

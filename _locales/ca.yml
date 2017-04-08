@@ -278,6 +278,7 @@ ca:
     success:
       title: La teva cistella
   mail:
+    sender: info@dioniberica.com
     title: Grácies per confiar en Dion
     subtitle: Acabem de rebre la teva comanda. Moltes grácies!
     text: Els articles que has demanat serán enviats tant aviat com ens sigui posible.
@@ -305,5 +306,6 @@ ca:
       help: Necesites asisténcia? Contacta amb nosaltres i farem tot el que poguem
         per a garantir que gaudeixes de la teva experiencia amb nosaltres.
       call: 'Truca''ns al telefon: (+34) 627.17.97.40.'
-      email: 'Escriu-nos al mail: info@dioniberica.com.'
+      send: Escriu-nos al mail
+      email: info@dioniberica.com
       provider: Aquest e-mail ha estat enviat per Dion Spain.
