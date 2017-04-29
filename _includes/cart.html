@@ -55,7 +55,7 @@
                           {% assign checkoutfailure = 'checkout.failure' | section %}
 
                           <form action="/cart/checkout" method="POST">
-                            <input type="hidden" name="locale" value="{{ page.locale }}">
+                            <input type="hidden" name="locale" value="{{ site.locales[page.locale] }}">
 
                             <input type="hidden" name="success" value="{{ checkoutsuccess.permalink}}">
                             <input type="hidden" name="failure" value="{{ checkoutfailure.permalink}}">
