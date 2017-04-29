@@ -36,6 +36,10 @@
 
           event.preventDefault();
         });
+
+        $('.cart form').submit(function( event ) {
+          $('.cart .loading').show();
+        });
     });
 
 })( jQuery );
