@@ -118,6 +118,9 @@ ca:
     email: info@dioniberica.com
     address: C/ Riera de'n Font, 60A, 2-5, Tiana (Barcelona)
     telephone: "(+34) 627.179.740"
+    issim:
+      text: 'Fotografies per cortesía de l''estudi fotográfic profesional:'
+      logo: "/logo_issim"
   faqs:
     title: Faqs
     section1:
@@ -189,79 +192,6 @@ ca:
     message: Aquesta web utilitza cookies per oferir-te una millor experiència i servei
     got_it: Accepto
     learn_more: Més informació
-    detail:
-      navitagion:
-        title: En relació a les Cookies durant la navegació
-      navigation:
-        text: 'Una cookie (o galeta informàtica) és una petita informació enviada
-          per un lloc web i emmagatzemada al navegador de l''usuari, de manera que
-          el lloc web pot consultar l''activitat prèvia de l''usuari. Les seves principals
-          funcions són:'
-        bullet: Conseguir informació sobre els hàbits de navegació de l'usuari, entre
-          d'altres.
-      thirdparty:
-        title: Cookies de tercers dioniberica.com
-        kind:
-          subtitle: Tipus de Cookie
-        firm:
-          subtitle: Empresa
-        purpose:
-          subtitle: Finalitat
-        info:
-          subtitle: Informació
-          text: Navegació anònima que permet saber què es consulta i com es navega.        http://www.google.es/intl/es/analytics/privacyoverview.html
-        manageCookies:
-          subtitle: Gestionar cookies
-          boldtext: Pots permetre, bloquejar o eliminar les cookies instal·lades al
-            teu equip mitjançant la configuració de les opcions del navegador instal·lat
-            al teu ordinador.
-          text: 'Si no estàs segur de quin tipus i versió de navegador fas servir
-            per accedir a internet:'
-          bullet_1: 'Per Windows: has de clicar a "Ajuda" a la part superior de la
-            finestra del teu navegador i seleccionar l''opció "Sobre el".'
-          bullet_2: 'Per Mac: amb la finestra del navegador oberta, s''ha de clicar
-            al menú d''Apple i seleccionar l''opció "Sobre el...".'
-      howToManage:
-        win:
-          title: Com gestionar les cookies a Windows
-          chrome:
-            pasos: |-
-              Fes clic al menú de Chrome situat a la barra d'eines del navegador.
-              Selecciona "Configuració".
-              Fes clic a "Mostrar opcions avançades..."
-              A la secció "Privacitat", fes clic al botó "Configuració de contingut...".
-              A la secció "Cookies", pots configurar les opcions que s'indiquen a continuació: Eliminar cookies, bloquejar o permetre les cookies de forma predeterminada, incloure excepcions de cookies de dominos o llocs web específics.
-              Si necessites més detalls pots consultar l'ajuda de Google Chrome.
-          ie:
-            pasos: demo
-          firefox:
-            pasos: demo
-          safari:
-            pasos: demo
-          opera:
-            pasos: demo
-        chrome:
-          subtitle: Google Chrome
-        ie:
-          subtitle: Microsoft Internet Explorer 7.0 y 8.0
-        firefox:
-          subtitle: Mozilla Firefox
-        safari:
-          subtitle: Safari
-        opera:
-          subtitle: Opera
-        mac:
-          title: demo
-          chrome:
-            pasos: demo
-          ie:
-            pasos: demo
-          firefox:
-            pasos: demo
-          safari:
-            pasos: demo
-          opera:
-            pasos: demo
   thankyou:
     old:
       thanks: "{NAME}, gràcies per confiar amb nosaltres"
@@ -284,6 +214,7 @@ ca:
     title: Grácies per confiar en Dion
     subtitle: Acabem de rebre la teva comanda. Moltes grácies!
     text: Els articles que has demanat serán enviats tant aviat com ens sigui posible.
+      T'enviarem un correu confirmant la seva sortida del nostre magatzem.
     purchaseNumber:
       title: Número de comanda
     data:
