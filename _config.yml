@@ -5,7 +5,7 @@ locale: en
 url: "http://www.dioniberica.com"
 domain: dioniberica.com
 exclude: [Gemfile, Gemfile.lock, vendor]
-analytics: UA-85432346-1
+analytics: UA-91269644-1
 
 locales:
   en: en_GB
