@@ -119,7 +119,7 @@ en:
       text: Pictures provided by
       logo: "/logo_issim"
   faqs:
-    title: Faqs
+    title: FAQs
     section1:
       title: Frequently Asked Questions
       text: We have created a list of frequently asked questions in order for you
@@ -193,7 +193,7 @@ en:
     old:
       thanks: "{NAME}, thanks for trusting us."
     thanks: Thanks for trusting us.
-    looking_forward: "¡We are looking forward to see you soon!"
+    looking_forward: We are looking forward to see you soon!
     order_number: 'Order num: {ORDER}'
     amount: 'Total: {MONEY}'
     send_to: 'Send to: {ADRESS}'
