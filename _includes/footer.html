@@ -34,7 +34,7 @@
           <div class="widget-body">
             <p class="simplenav">
 
-            {% assign sections = 'home faqs product contact' | split: " " %}
+            {% assign sections = 'home faqs shops product contact' | split: " " %}
             {% for sname in sections %}
             {% assign item = sname | section %}
             <a href="{{item.permalink}}">{{ 'menu.'| append: item.section | append:'.title' | translate }}</a> |

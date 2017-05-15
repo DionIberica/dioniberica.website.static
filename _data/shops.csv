@@ -1,0 +1,12 @@
+idioma,name,type,latitude,longitude,address,monday,tuesday,wednesday,thursday,friday,saturday,sunday
+es,Farmàcia Roca 1904,Farmàcia,"41,502976","2,390242","Carrer de Montserrat, 1, 08340 Vilassar de Mar, Barcelona",9:00–21:00,9:00–21:00,9:00–21:00,9:00–21:00,9:00–21:00,9:00–14:00,
+es,Farmàcia de Mar,Farmàcia,"41,498753","2,384534","Ronda Vilassar, 2, (Complex Vicor 4), 08340 Vilassar de Mar, Barcelona",9:00–21:00,9:00–21:00,9:00–21:00,9:00–21:00,9:00–21:00,9:30–14:30,
+es,Farmàcia Basora Caus,Farmàcia,"41,384962","2,161902","Gran Via de les Corts Catalanes, 571, 08011 Barcelona",9:00–21:00,9:00–21:00,9:00–21:00,9:00–21:00,9:00–21:00,9:00–21:00,
+es,Farmàcia Videllet Mestres,Farmàcia,"41,387310","2,140796","Carrer d'Entença, 254, 08029 Barcelona","8:30–13:30,16:00–20:00","8:30–13:30,16:00–20:00","8:30–13:30,16:00–20:00","8:30–13:30,16:00–20:00","8:30–13:30,16:00–20:00",9:00–13:30,
+es,Farmàcia Blai,Farmàcia,"41,374293","2,163058","Carrer de Blasco de Garay, 10, 08004 Barcelona",9:00–22:00,9:00–22:00,9:00–22:00,9:00–22:00,9:00–22:00,9:00–22:00,
+es,Farmàcia Trujillo Isern,Farmàcia,"41,736496","1,828840","Avinguda de les Bases de Manresa, 66-70, 08240 Manresa, Barcelona","9:00–14:00,16:30–20:30","9:00–14:00,16:30–20:30","9:00–14:00,16:30–20:30","9:00–14:00,16:30–20:30","9:00–14:00,16:30–20:30",9:30–14:00,
+es,Farmacia Juan José Salgado Blanco,Farmácia,"41,426088","2,227649","Avinguda de la Platja, 82, 08930 Sant Adrià de Besòs, Barcelona",,,,,,,
+pt,Salva Vidas,Bar,"38,706896","-9,144389","Travessa dos Remolares, 9, Cais do Sodré, Lisboa",,,,,,,
+pt,Farmácia Camões,Farmácia,"38,710681","-9,143953","Praça Luís de Camões, 22-24, Lisboa",,,,,,,
+pt,Farmacia Durão,Farmácia,"38,710753","-9,141454","R. Garrett 90, Lisboa",,,,,,,
+pt,Farmácia Sacoor do Riviera,Farmácia,"38,685016","-9,343362","R. Bartolomeu Dias A, 2775-551 Carcavelos",,,,,,,

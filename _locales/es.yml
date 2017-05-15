@@ -60,6 +60,8 @@ es:
       title: FAQ
     contact:
       title: Contacto
+    shops:
+      title: Dónde encontrarnos
     product:
       title: Producto
     about:
@@ -119,7 +121,7 @@ es:
     address: C/ Riera de'n Font, 60A, 2-5, Tiana (Barcelona)
     telephone: "(+34) 627.179.740"
     issim:
-      text: 'Fotografías por cortesía del estudio de fotografia profesional:'
+      text: 'Imágenes por cortesía del estudio de fotografía profesional:'
       logo: "/logo_issim"
   faqs:
     title: FAQs
@@ -136,14 +138,13 @@ es:
     title: Blister 10 comprimidos Dion
     price:
       title: Precio
-      data: 5 € (+0.50 € IVA)
+      data: 5,5 € (IVA incluido)
     cad:
       title: 'Periodo de caducidad:'
       data: 3 años
     shipping:
       title: 'Método de envío:'
-      data: Sobre con acolchamiento de seguridad para evitar desperfectos mediante
-        correo ordinario.
+      data: Correo ordinario con sobre acolchado.
     composition:
       title: Composición
     cm:
@@ -211,7 +212,7 @@ es:
   mail:
     sender: info@dioniberica.com
     title: Gracias por confiar en Dion
-    subtitle: Ya hemos recibido tu pedido - ¡muchas gracias!
+    subtitle: Ya hemos recibido tu pedido ¡Muchas gracias!
     text: Los ítems que pediste serán enviados en breve. Te mandaremos un correo confirmando
       el envío.
     purchaseNumber:
@@ -241,3 +242,21 @@ es:
       send: Escríbenos un email
       email: info@dioniberica.com
       provider: Este email fue enviado por Dion Spain
+  shops:
+    title: Dónde encontrarnos
+    subtitle: En el siguiente mapa podrás ver todos los establecimientos donde encontrar
+      Dion conjuntamente con los horarios de apertura. Si no tienes cerca ningún establecimiento,
+      puedes pedir el Dion a través de esta web y te lo enviamos a casa. Si deseas
+      que algún establecimiento de tus alrededores disponga de Dion, no dudes en contactarnos
+      y lo gestionaremos para que así sea.
+    type:
+      pharmacy: Farmacia
+      bar: Bar
+    week:
+      monday: Lunes
+      tuesday: Martes
+      wednesday: Miércoles
+      thursday: Jueves
+      friday: Viernes
+      saturday: Sábado
+      sunday: Domingo

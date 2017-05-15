@@ -9,6 +9,7 @@ DATA_FILES = {
   recomendations: 'https://docs.google.com/spreadsheets/d/16LcVmLS3Da94C4-KuX_ijAh8K0XUgkgQRwOP-5EIM2Y/pub?gid=1957447366&single=true&output=csv',
   steps:          'https://docs.google.com/spreadsheets/d/16LcVmLS3Da94C4-KuX_ijAh8K0XUgkgQRwOP-5EIM2Y/pub?gid=1268967111&single=true&output=csv',
   benefits:       'https://docs.google.com/spreadsheets/d/16LcVmLS3Da94C4-KuX_ijAh8K0XUgkgQRwOP-5EIM2Y/pub?gid=1895306404&single=true&output=csv',
+  shops:          'https://docs.google.com/spreadsheets/d/16LcVmLS3Da94C4-KuX_ijAh8K0XUgkgQRwOP-5EIM2Y/pub?gid=239668728&single=true&output=csv',
 }
 
 task :i18n do

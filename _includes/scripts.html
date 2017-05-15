@@ -1,45 +1,20 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.4/js/bootstrap.js"></script>
 
+{% if page.shops_locale %}
+<script src="/assets/js/shops.{{page.shops_locale}}.js"></script>
+{% endif %}
+
 <script src="/assets/js/bootstrap-hover-dropdown.min.js"></script>
 <script src="/assets/js/headroom.min.js"></script>
 <script src="/assets/js/jQuery.headroom.min.js"></script>
 <script src="/assets/js/template.js"></script>
 <script src="/assets/js/contact.js"></script>
 <script src="/assets/js/cart.js"></script>
+<script src="/assets/js/maps.js"></script>
 
 <!-- Google Maps -->
-<script async defer type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyADcs7zskZXwjPTUGHWKPKMYYQMj5tCOyo&callback=initMap"></script>
-<script type="text/javascript">
-    function initMap() {
-        var myLatlng = new google.maps.LatLng({{ 'contact.map.longitude' | translate }},{{ 'contact.map.latitude' | translate }});
-
-        var mapOptions = {
-            zoom: 17,
-            center: myLatlng,
-            mapTypeId: google.maps.MapTypeId.ROADMAP,
-            scrollwheel: false,
-            draggable: false
-        };
-        var map = new google.maps.Map(document.getElementById('map'), mapOptions);
-
-        var contentString = '<p style="line-height: 20px;">{{ 'contact.map.description' | translate }}</p>';
-
-        var infowindow = new google.maps.InfoWindow({
-            content: contentString
-        });
-
-        var marker = new google.maps.Marker({
-            position: myLatlng,
-            map: map,
-            title: 'Marker'
-        });
-
-        google.maps.event.addListener(marker, 'click', function() {
-            infowindow.open(map, marker);
-        });
-    }
-</script>
+<script async defer type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyADcs7zskZXwjPTUGHWKPKMYYQMj5tCOyo&callback=initMaps"></script>
 
 <!-- Begin Cookie Consent plugin by Silktide - https://cookieconsent.insites.com -->
 {% assign cookies = 'cookies' | section %}

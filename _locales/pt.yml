@@ -57,6 +57,8 @@ pt:
       title: FAQ
     contact:
       title: Contactos
+    shops:
+      title: Onde nos encontrar
     product:
       title: Produto
     about:
@@ -116,8 +118,8 @@ pt:
     address: Alameda Conde Oeiras - Torre I R/C Esq. 2780-139 Oeiras
     telephone: "(+351) 91 261 38 66"
     issim:
-      text: demo
-      logo: demo
+      text: 'Imagens oferecidas pelo estudo fotografico:'
+      logo: "/logo_issim"
   faqs:
     title: FAQs
     section1:
@@ -238,3 +240,20 @@ pt:
       send: Envia-nos um email
       email: info.pt@dioniberica.com
       provider: Este email foi enviado por Dion Portugal
+  shops:
+    title: Onde nos encontrar
+    subtitle: No seguinte mapa poderás ver todos o pontos de venda da Dion. Se não
+      tens nenhum ao pé de ti, encomenda online que enviamos diretamente para tua
+      casa. Caso queiras que a Dion esteja em algum estabelecimento ao pé de ti, escreve-nos
+      e faremos com que aconteça.
+    type:
+      pharmacy: Farmácia
+      bar: Bar
+    week:
+      monday: segunda-feira
+      tuesday: terça-feira
+      wednesday: quarta-feira
+      thursday: quinta-feira
+      friday: sexta-feira
+      saturday: sábado
+      sunday: domingo

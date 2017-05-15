@@ -60,6 +60,8 @@ ca:
       title: FAQ
     contact:
       title: Contacte
+    shops:
+      title: On trobar-nos
     product:
       title: Producte
     about:
@@ -119,7 +121,7 @@ ca:
     address: C/ Riera de'n Font, 60A, 2-5, Tiana (Barcelona)
     telephone: "(+34) 627.179.740"
     issim:
-      text: 'Fotografies per cortesia de l''estudi fotogràfic professional:'
+      text: 'Imatges per cortesia de l''estudi fotogràfic professional:'
       logo: "/logo_issim"
   faqs:
     title: FAQs
@@ -136,14 +138,13 @@ ca:
     title: Blíster de 10 comprimits Dion
     price:
       title: Preu
-      data: 5 € (+0.50 € IVA)
+      data: 5,5 € (IVA incluido)
     cad:
       title: 'Caducitat:'
       data: 3 anys
     shipping:
       title: 'Mètode d''enviament:'
-      data: Sobre amb reforç intern de seguretat per a evitar desperfectes mitjançant
-        correu ordinari.
+      data: Correu ordinari amb sobre reforçat.
     composition:
       title: Composició
     cm:
@@ -242,3 +243,21 @@ ca:
       send: Escriu-nos al mail
       email: info@dioniberica.com
       provider: Aquest e-mail ha estat enviat per Dion Spain.
+  shops:
+    title: On trobar-nos
+    subtitle: En el següent mapa podràs veure tots els establiments on trobar Dion
+      conjuntament amb l'horari d'obertura. Si no tens cap establiment a prop, pots
+      demanar Dion mitjançant aquesta web i t'ho enviarem a casa. Si desitges que
+      algun establiment del teu voltant disposi de Dion, no dubtis a contactar-nos
+      i ho gestionarem perquè així sigui.
+    type:
+      pharmacy: Farmàcia
+      bar: Bar
+    week:
+      monday: Dilluns
+      tuesday: Dimarts
+      wednesday: Dimecres
+      thursday: Dijous
+      friday: Divendres
+      saturday: Dissabte
+      sunday: Diumenge
