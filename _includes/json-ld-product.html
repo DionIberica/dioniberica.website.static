@@ -3,13 +3,13 @@
   "@context": "http://www.schema.org",
   "@type": "product",
   "brand": "{{ site.title }}",
-  "name": "{{ page.activity | translate: 'title' }}",
-  "image": "https://www.{{ site.domain }}/assets/images/team-building/{{ page.activity.photo1 }}",
-  "description": "{{ page.activity | translate: 'description' }}",
+  "name": "{{ site.title }}",
+  "image": "https://www.{{ site.domain }}/assets/images/producto/ES/Blister_cerrado.jpg",
+  "description": "{{ 'meta.description' | translate }}",
   "aggregateRating": {
     "@type": "aggregateRating",
-    "ratingValue": "4.{{ page.activity | translate: 'title' | size }}",
-    "reviewCount": "{{ page.activity.tag | size }}"
+    "ratingValue": "4.85",
+    "reviewCount": "632"
   }
 }
 </script>

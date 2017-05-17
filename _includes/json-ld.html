@@ -4,23 +4,11 @@
   "@type": "Organization",
   "name": "{{ site.title }}",
   "url": "https://www.{{ site.domain }}",
-  "logo": "https://www.{{ site.domain }}/assets2/img/logos/logo.png",
+  "logo": "https://www.{{ site.domain }}/assets/images/logo.png",
   "description": "{{ 'meta.description' | translate }}",
-  "address": {
-    "@type": "PostalAddress",
-    "streetAddress": "{{ 'generic.address' | translate }}",
-    "addressLocality": "{{ 'generic.town' | translate }}",
-    "addressRegion": "{{ 'generic.region' | translate }}",
-    "postalCode": "{{ 'generic.postal' | translate }}",
-    "addressCountry": "{{ 'generic.country' | translate }}"
-  },
   "contactPoint": [{
     "@type": "ContactPoint",
-    "telephone": "+34679400576",
-    "contactType": "customer service"
-  },{
-    "@type": "ContactPoint",
-    "telephone": "+34644282929",
+    "telephone": "{{ 'footer.telephone' | translate }}",
     "contactType": "customer service"
   }]
 }
