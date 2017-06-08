@@ -20,6 +20,7 @@
 
           if (coupon) {
             $('.cart #coupon-label').text(data.coupon).show();
+            $('.cart #coupon').hide();
           }
         }
 
@@ -48,11 +49,12 @@
         });
 
         $('.cart #coupon').submit(function(event) {
-          var $coupon = $('.cart #coupon input[name=coupon]');
+          var $coupon_form = $('.cart #coupon');
+          var $coupon_input = $('.cart #coupon input[name=coupon]');
           var $coupon_reason = $('.cart #coupon-reason');
 
-          $.post('/cart/coupon', {coupon: $coupon.val()}).done(function (data) {
-            $coupon.val('');
+          $.post('/cart/coupon', {coupon: $coupon_input.val()}).done(function (data) {
+            $coupon_form.hide();
             $coupon_reason.text('');
 
             updateCart(data);
