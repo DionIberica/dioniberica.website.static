@@ -26,6 +26,9 @@
 
         $.get('/cart', { locale: $('html').attr('lang') }).done(function (data) {
           updateCart(data);
+
+          $('.cart #loading').hide();
+          $('.cart #detail').show();
         });
 
         $('.cart .add').click(function(event) {
@@ -45,7 +48,8 @@
         });
 
         $('.cart #checkout').submit(function( event ) {
-          $('.cart .loading').show();
+          $('.cart #detail').hide();
+          $('.cart #loading').show();
         });
 
         $('.cart #coupon').submit(function(event) {
