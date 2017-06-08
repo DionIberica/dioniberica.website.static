@@ -176,9 +176,13 @@ pt:
     quantity: Quantidade
     price: Preço
     total: Total
-    checkout: Pagar
-    coupon: Cupon
+    tax: Tax
+    discount: Desconto
+    coupon:
+      label: Cupon
+      apply: Aplicar
     stock: Em stock
+    checkout: Pagar
   about:
     partners:
       title: Parceiros comerciais
