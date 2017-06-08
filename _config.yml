@@ -2,7 +2,7 @@
 title: Dion Iberica
 email: info@dioniberica.com
 locale: en
-url: "http://www.dioniberica.com"
+url: "https://www.dioniberica.com"
 domain: dioniberica.com
 exclude: [Gemfile, Gemfile.lock, vendor]
 analytics: UA-91269644-1
