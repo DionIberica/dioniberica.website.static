@@ -48,7 +48,11 @@
         });
 
         $('.cart #coupon').submit(function(event) {
-          $.post('/cart/coupon').done(function (data) {
+          var $coupon = $('.cart #coupon input[name=coupon]');
+
+          $.post('/cart/coupon', {coupon: $coupon.val()}).done(function (data) {
+            $coupon.val('');
+
             updateCart(data);
           });
 
