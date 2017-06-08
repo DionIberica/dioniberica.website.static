@@ -16,6 +16,7 @@
           $('.cart #taxes').text(formatPrice(data.taxes));
           $('.cart #discount').text(formatPrice(data.discount));
           $('.cart #price').text(formatPrice(data.price));
+          $('.cart #coupon-reason').text(data.coupon_reason);
 
           if (coupon) {
             $('.cart #coupon-label').text(data.coupon).show();
