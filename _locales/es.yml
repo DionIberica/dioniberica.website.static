@@ -177,8 +177,8 @@ es:
     quantity: Cantidad
     price: Precio
     total: Total
-    tax: Tax
-    discount: Descompte
+    tax: Impuestos
+    discount: Descuento
     coupon:
       label: Cupón
       apply: Aplicar

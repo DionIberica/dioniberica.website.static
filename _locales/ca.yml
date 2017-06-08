@@ -178,8 +178,8 @@ ca:
     quantity: Quantitat
     price: Preu
     total: Total
-    tax: Tax
-    discount: Descuento
+    tax: Impostos
+    discount: Descompte
     coupon:
       label: Cupó
       apply: Aplicar

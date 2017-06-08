@@ -177,10 +177,10 @@ pt:
     price: Preço
     total: Total
     tax: Tax
-    discount: demo
+    discount: Desconto
     coupon:
       label: Cupon
-      apply: demo
+      apply: Aplicar
     stock: Em stock
     checkout: Pagar
   about:

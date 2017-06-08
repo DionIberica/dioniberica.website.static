@@ -175,11 +175,11 @@ en:
     quantity: Quantity
     price: Price
     total: Total
-    tax: Tax
-    discount: demo
+    tax: Taxes
+    discount: Discount
     coupon:
-      label: Discount
-      apply: demo
+      label: Coupon
+      apply: Apply
     stock: Stock
     checkout: Pay
   about:

@@ -54,8 +54,10 @@
           var $coupon_reason = $('.cart #coupon-reason');
 
           $.post('/cart/coupon', {coupon: $coupon_input.val()}).done(function (data) {
-            $coupon_form.hide();
-            $coupon_reason.text('');
+            if (data.coupon) {
+              $coupon_form.hide();
+              $coupon_reason.text('');
+            }
 
             updateCart(data);
           });
