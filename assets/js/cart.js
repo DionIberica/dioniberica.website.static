@@ -26,14 +26,6 @@
           updateCart(data);
         });
 
-        $('.cart #coupon').click(function(event) {
-          $.post('/cart/coupon').done(function (data) {
-            updateCart(data);
-          });
-
-          event.preventDefault();
-        });
-
         $('.cart .add').click(function(event) {
           $.post('/cart/add').done(function (data) {
             updateCart(data);
@@ -52,6 +44,16 @@
 
         $('.cart #checkout').submit(function( event ) {
           $('.cart .loading').show();
+        });
+
+        $('.cart #coupon').submit(function(event) {
+          $.post('/cart/coupon').done(function (data) {
+            updateCart(data);
+          });
+
+          event.preventDefault();
+
+          return false;
         });
     });
 
