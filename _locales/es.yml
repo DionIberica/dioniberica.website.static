@@ -177,9 +177,13 @@ es:
     quantity: Cantidad
     price: Precio
     total: Total
-    checkout: Pagar
-    coupon: Cupón
+    tax: Tax
+    discount: Descompte
+    coupon:
+      label: Cupón
+      apply: Aplicar
     stock: En stock
+    checkout: Pagar
   about:
     partners:
       title: Socios comerciales
@@ -194,7 +198,7 @@ es:
     learn_more: Más información
   thankyou:
     old:
-      thanks: "{NAME}, gracias por comprar con nosotros."
+      thanks: "{NAME}, gracias por confiar en nosotros."
     thanks: Gracias por comprar con nosotros.
     looking_forward: "¡Esperamos verte de nuevo muy pronto!"
     order_number: 'Pedido num: {ORDER}'

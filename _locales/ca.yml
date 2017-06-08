@@ -178,9 +178,13 @@ ca:
     quantity: Quantitat
     price: Preu
     total: Total
-    checkout: Pagar
-    coupon: Cupó
+    tax: Tax
+    discount: Descuento
+    coupon:
+      label: Cupó
+      apply: Aplicar
     stock: En estoc
+    checkout: Pagar
   about:
     partners:
       title: Socis comercials
@@ -195,7 +199,7 @@ ca:
     learn_more: Més informació
   thankyou:
     old:
-      thanks: "{NAME}, gràcies per confiar amb nosaltres"
+      thanks: "{NAME}, gràcies per confiar en nosaltres"
     thanks: Gràcies per confiar amb nosaltres
     looking_forward: Esperem tornar-te a veure aviat!
     order_number: 'Comanda num: {ORDER}'

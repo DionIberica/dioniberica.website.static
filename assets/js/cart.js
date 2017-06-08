@@ -6,7 +6,7 @@
         }
 
         function updateCart(data) {
-          var formated = (data.amount / 100).toFixed(2) + '€';
+          var coupon = data.coupon;
 
           $('.cart .items').val(data.items);
           $('.cart #payment').data('amount', data.amount);
@@ -14,11 +14,24 @@
           $('.cart #subtotal').text(formatPrice(data.subtotal));
           $('.cart #total').text(formatPrice(data.amount));
           $('.cart #taxes').text(formatPrice(data.taxes));
+          $('.cart #discount').text(formatPrice(data.discount));
           $('.cart #price').text(formatPrice(data.price));
+
+          if (coupon) {
+            $('.cart #coupon-label').text(data.coupon).show();
+          }
         }
 
         $.get('/cart', { locale: $('html').attr('lang') }).done(function (data) {
           updateCart(data);
+        });
+
+        $('.cart #coupon').click(function(event) {
+          $.post('/cart/coupon').done(function (data) {
+            updateCart(data);
+          });
+
+          event.preventDefault();
         });
 
         $('.cart .add').click(function(event) {
@@ -37,7 +50,7 @@
           event.preventDefault();
         });
 
-        $('.cart form').submit(function( event ) {
+        $('.cart #checkout').submit(function( event ) {
           $('.cart .loading').show();
         });
     });

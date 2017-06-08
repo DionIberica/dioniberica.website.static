@@ -175,9 +175,13 @@ en:
     quantity: Quantity
     price: Price
     total: Total
-    checkout: Pay
-    coupon: Discount
+    tax: Tax
+    discount: demo
+    coupon:
+      label: Discount
+      apply: demo
     stock: Stock
+    checkout: Pay
   about:
     partners:
       title: Partners

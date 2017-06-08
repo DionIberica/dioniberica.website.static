@@ -34,9 +34,22 @@
                 </tbody>
                 <tfoot>
                     <tr>
+                        <td>
+                          <form id="coupon" action="/cart/coupon" method="POST">
+                            <input type="hidden" name="locale" value="{{ page.locale }}">
+                            <span>{{ 'cart.coupon.label' | translate }}:</span>
+                            <input type="text" name="coupon"/>
+                            <input type="submit" value="{{ 'cart.coupon.apply' | translate }}"/>
+                          </form>
+                        </td>
+                        <td class="text-right"><code id="coupon-label" style="display: none"></code></td>
+                        <td><strong>{{ 'cart.discount' | translate }}: </strong></td>
+                        <td class="text-right"><strong id="discount">-0.00€</strong></td>
+                    </tr>
+                    <tr>
                         <td>   </td>
                         <td>   </td>
-                        <td><strong>Tax: </strong></td>
+                        <td><strong>{{ 'cart.tax' | translate }}: </strong></td>
                         <td class="text-right"><strong id="taxes">0.00€</strong></td>
                     </tr>
                     <tr>
@@ -55,7 +68,7 @@
                           {% assign checkoutsuccess = 'checkout.success' | section %}
                           {% assign checkoutfailure = 'checkout.failure' | section %}
 
-                          <form action="/cart/checkout" method="POST">
+                          <form id="checkout" action="/cart/checkout" method="POST">
                             <input type="hidden" name="locale" value="{{ page.locale }}">
 
                             <input type="hidden" name="success" value="{{ checkoutsuccess.permalink}}">
