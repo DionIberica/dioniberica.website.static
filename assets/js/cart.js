@@ -49,9 +49,11 @@
 
         $('.cart #coupon').submit(function(event) {
           var $coupon = $('.cart #coupon input[name=coupon]');
+          var $coupon_reason = $('.cart #coupon-reason');
 
           $.post('/cart/coupon', {coupon: $coupon.val()}).done(function (data) {
             $coupon.val('');
+            $coupon_reason.text('');
 
             updateCart(data);
           });
