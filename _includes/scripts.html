@@ -10,8 +10,11 @@
 <script src="/assets/js/jQuery.headroom.min.js"></script>
 <script src="/assets/js/template.js"></script>
 <script src="/assets/js/contact.js"></script>
-<script src="/assets/js/cart.js"></script>
 <script src="/assets/js/maps.js"></script>
+
+{% if page.section == 'cart' %}
+<script src="/assets/js/cart.js"></script>
+{% endif %}
 
 <!-- Google Maps -->
 <script async defer type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyADcs7zskZXwjPTUGHWKPKMYYQMj5tCOyo&callback=initMaps"></script>
