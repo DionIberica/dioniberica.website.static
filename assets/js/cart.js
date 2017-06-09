@@ -8,7 +8,7 @@
         function updateCart(data) {
           var coupon = data.coupon;
 
-          $('.cart .items').val(data.items);
+          $('.cart select[name=quantity]').val(data.items);
           $('.cart #payment').data('amount', data.amount);
           $('.cart #payment').attr('data-amount', data.amount);
           $('.cart #subtotal').text(formatPrice(data.subtotal));
@@ -31,16 +31,8 @@
           $('.cart #detail').show();
         });
 
-        $('.cart .add').click(function(event) {
-          $.post('/cart/add').done(function (data) {
-            updateCart(data);
-          });
-
-          event.preventDefault();
-        });
-
-        $('.cart .subtract').click(function(event) {
-          $.post('/cart/subtract').done(function (data) {
+        $('.cart select[name=quantity]').change(function(event) {
+          $.post('/cart/quantity', {quantity: $(this).val()}).done(function (data) {
             updateCart(data);
           });
 
