@@ -24,6 +24,10 @@
           }
         }
 
+        function disablePayButton(value) {
+          $('#checkout button').attr('disabled', value);
+        }
+
         $.get('/cart', { locale: $('html').attr('lang') }).done(function (data) {
           updateCart(data);
 
@@ -32,8 +36,11 @@
         });
 
         $('.cart select[name=quantity]').change(function(event) {
+          disablePayButton(true);
+
           $.post('/cart/quantity', {quantity: $(this).val()}).done(function (data) {
             updateCart(data);
+            disablePayButton(false);
           });
 
           event.preventDefault();
