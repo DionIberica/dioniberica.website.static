@@ -58,7 +58,7 @@ pt:
     contact:
       title: Contactos
     shops:
-      title: Onde nos encontrar
+      title: Pontos de venda
     product:
       title: Produto
     about:
@@ -227,6 +227,8 @@ pt:
       text: Dados de envio
     purchaseResume:
       text: Resumo do pedido
+    product:
+      text: Produto
     volume:
       text: Quantidade
     price:

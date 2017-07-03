@@ -61,7 +61,7 @@ ca:
     contact:
       title: Contacte
     shops:
-      title: On trobar-nos
+      title: Punts de venta
     product:
       title: Producte
     about:
@@ -230,6 +230,8 @@ ca:
       text: Dades per a l'enviament
     purchaseResume:
       text: Resum de la comanda
+    product:
+      text: Producte
     volume:
       text: Quantitat
     price:
