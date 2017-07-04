@@ -25,6 +25,12 @@ module Jekyll
       end
     end
 
+    def field(input, field=nil)
+      locale = @context.registers[:page]['locale']
+
+      input[field][locale]
+    end
+
     def section(name)
       site = @context.registers[:site]
       locale = @context.registers[:page]['locale']

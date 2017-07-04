@@ -29,8 +29,8 @@ function initShopsMap() {
   }
 
   shops.forEach(function (shop) {
-    var latitude = parseFloat(shop.latitude.replace(/,/,'.'));
-    var longitude = parseFloat(shop.longitude.replace(/,/,'.'));
+    var latitude = parseFloat(shop.latitude);
+    var longitude = parseFloat(shop.longitude);
     var week = [
       [monday, shop.monday],
       [tuesday, shop.tuesday],

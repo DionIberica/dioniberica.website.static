@@ -1,0 +1,129 @@
+- title:
+    es: Con agua o con copas
+    ca: Amb aigua o copes
+    en: With water or drinks
+    pt: Com água ou a bebida alcoólica que estás a consumir
+  text:
+    es: Puedes usar cualquier líquido para facilitar la ingestión del comprimido,
+      siempre que sea apto para el consumo humano.
+    ca: Pots utilitzar qualsevol líquid per facilitar la ingestió del comprimit, sempre
+      que sigui apte per al consum humà.
+    en: You may use any method to take Dion, including the alcoholic beverage you
+      are drinking
+    pt: Podes utilizar qualquer liquido para facilitar a ingestão do Dion, inclusivamente
+      álcool.
+  visible: true
+  icon: glass
+- title:
+    es: Después de cenar
+    ca: Després de menjar
+    en: After dinner
+    pt: Depois de jantar
+  text:
+    es: Tras tomar Dion, es mejor esperar un tiempo antes de consumir alimentos. Evitando
+      que las vitaminas se digieran con la comida optimizarás su rendimiento.
+    ca: Després de prendre Dion, millor esperar un temps abans de consumir aliments
+      per a optimitzar el rendiment.
+    en: 'You should take Dion after your meal, in order to not mix with food, and
+      by that way optimizing the effectiveness of Dion.
+
+'
+    pt: Na hora de tomar Dion, é preferivel que seja depois do consumo de alimentos,
+      evitando assim que seja digerido com a comida e otimizando o seu efeito.
+  visible: true
+  icon: cutlery
+- title:
+    es: Uno o dos comprimidos
+    ca: Un o dos comprimits
+    en: One or two pills7
+    pt: Um ou dos comprimidos
+  text:
+    es: Con un solo comprimido, tu cuerpo debería tener suficiente para paliar los
+      síntomas de la resaca. Si eventualmente tomas una dosis mayor, tu cuerpo eliminará
+      las vitaminas sobrantes mediante los fluidos corporales.
+    ca: Amb un sol comprimit, el teu cos hauria de ser capaç de pal·liar els símptomes
+      de la ressaca. Si eventualment prens dosis majors, el teu cos eliminarà les
+      vitamines sobrants a través dels fluids corporals.
+    en: Just a tablet will help your body to be cappable to reduce hangover simptoms.
+      If you eventually consume a higuer dose your body will delete any vitamin excess
+      in a natural way.
+    pt: Com apenas um comprimido, o teu corpo deverá ter capacidade suficiente para
+      reduzir o sintomas da ressaca. Se eventualmente tomas uma dose maior, o teu
+      corpo irá eliminar as vitaminas em excesso de forma natural.
+  visible: false
+  icon: balance-scale
+- title:
+    es: Socializate
+    ca: Socialitza't
+    en: Socialize
+    pt: Socializa
+  text:
+    es: Comparte Dion con tus amistades, especialmente con las que tengan tus mismas
+      aficiones diurnas y nocturnas. Cuando despertéis sin resaca podréis dedicar
+      tiempo de calidad a vuestras aficiones.
+    ca: 'T''animem que comparteixis Dion amb les teves amistats, i molt especialment
+      amb aquelles que comparteixin les teves mateixes aficions diürnes i nocturnes.
+      Quan desperteu sense ressaca podreu dedicar temps de qualitat a les vostres
+      aficions. '
+    en: Share Dion with your friends, mainly the ones who like to party as you. When
+      you wake up without hangover, all of you can fully enjoy your days.
+    pt: Partilha Dion com os teus amigos, principalmente aqueles que gostam tanto
+      de festejar como tu. Quando acordarem sem ressaca, poderão dedicar tempo de
+      qualidade naquilo que mais gostam.
+  visible: true
+  icon: comments
+- title:
+    es: Duerme
+    ca: Dorm
+    en: Sleep
+    pt: Dorme
+  text:
+    es: Dale a tu cuerpo el tiempo necesario para recuperarse. El protector hepático
+      acelerará el metabolismo del alcohol, pero cuantas más copas tomes, más tiempo
+      necesitará tu cuerpo para hacer limpieza.
+    ca: Dóna-li al teu cos el temps necessari per a recuperar-se. El protector hepàtic
+      accelerarà el metabolisme de l'alcohol, però com més beguis, més temps necessitarà
+      el teu cos per fer neteja.
+    en: Give your body the time it takes to recover. Dion will speed up the metabolism
+      of alcohol consumption, however, the more you drink, the longer your body will
+      need to rest.
+    pt: Dá ao teu corpo o tempo necessário para se recuperar. O Dion irá acelarar
+      o processo de metabolismo do consumo do álcool, contudo, quanto mais beberes,
+      mais tempo o teu corpo irá necessitar para recuperar.
+  visible: true
+  icon: bed
+- title:
+    es: Evita los medicamentos
+    ca: Evita els medicaments
+    en: Avoid medicines
+    pt: Evita medicamentos
+  text:
+    es: Sustituye los medicamentos para combatir la resaca por Dion y agua. De este
+      modo no habituarás tu cuerpo a los medicamentos y te resultarán más efectivos
+      cuando realmente los necesites.
+    ca: Substitueix els medicaments per a combatre la ressaca per Dion i aigua. D'aquesta
+      manera el teu cos no s'habituarà als medicaments i et resultaran més efectius
+      i potents quan realment els necessitis.
+    en: To fight hangover, replace medicines by Dion and water. This way you do not
+      accustom your body to medicines.
+    pt: Para combater a ressaca, substitui os medicamentos por Dion e água. Deste
+      modo não habituas o teu corpo a medicamentos, e estes irão fazer mais efeito,
+      quando de facto precisares deles.
+  visible: true
+  icon: plus-square
+- title:
+    es: Bebe agua
+    ca: Beu aigua
+    en: Drink water
+    pt: Bebe agua
+  text:
+    es: Beber agua te ayudará a combatir la deshidratación que es el principal causante
+      del típico dolor de cabeza de la resaca.
+    ca: Beure aigua t'ajudarà a combatre la deshidratació que causa el típic mal de
+      cap de la ressaca.
+    en: Drinking water helps your body to fight dehydration, which is the primarily
+      responsible for the headache when you are in a hangover.
+    pt: Beber água ajuda o teu organismo a combater a desidratação, que é o principal
+      responsável pela dor de cabeça quando estás em ressaca.
+  visible: true
+  icon: tint

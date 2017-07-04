@@ -20,7 +20,7 @@
 
   {% if description %}
   <span class="caption">
-    <p>{{ description | translate: 'description'}}</p>
+    <p>{{ description | field: 'description'}}</p>
   </span>
   {% endif %}
 </div>

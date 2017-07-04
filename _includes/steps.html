@@ -9,7 +9,7 @@
       {% for step in site.data.steps %}
       <figure class="col-md-4 col-sm-6 bottomspace-xs text-center">
         <i class="fa fa-{{ step.icon }} fa-4x color-action"></i>
-        <h4>{{ step | translate: 'text'}}</h4>
+        <h4>{{ step | field: 'text'}}</h4>
       </figure>
       {% endfor %}
     </div> <!-- /row  -->
