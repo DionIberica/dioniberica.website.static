@@ -144,7 +144,9 @@ ca:
       data: 3 anys
     shipping:
       title: 'Mètode d''enviament:'
-      data: Correu ordinari amb sobre reforçat.
+      data: |-
+        Correu ordinari amb sobre reforçat.
+        Comprant 5 Blísters t'enviem la comanda per correu urgent.
     composition:
       title: Composició
     cm:
@@ -200,7 +202,8 @@ ca:
   thankyou:
     old:
       thanks: "{NAME}, gràcies per confiar en nosaltres"
-    thanks: Gràcies per confiar amb nosaltres
+    thanks: Gràcies per confiar en nosaltres. Ben aviat rebràs un correu amb la confirmació
+      de la comanda.
     looking_forward: Esperem tornar-te a veure aviat!
     order_number: 'Comanda num: {ORDER}'
     amount: 'Total: {MONEY}'

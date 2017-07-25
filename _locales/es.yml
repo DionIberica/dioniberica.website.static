@@ -144,7 +144,9 @@ es:
       data: 3 años
     shipping:
       title: 'Método de envío:'
-      data: Correo ordinario con sobre acolchado.
+      data: |-
+        Correo ordinario con sobre acolchado.
+        Comprando 5 Blísteres te mandamos el pedido por correo urgente.
     composition:
       title: Composición
     cm:
@@ -199,7 +201,8 @@ es:
   thankyou:
     old:
       thanks: "{NAME}, gracias por confiar en nosotros."
-    thanks: Gracias por comprar con nosotros.
+    thanks: Gracias por confiar en nosotros. Pronto recibirás un e-mail con la confirmación
+      del pedido.
     looking_forward: "¡Esperamos verte de nuevo muy pronto!"
     order_number: 'Pedido num: {ORDER}'
     amount: 'Total: {MONEY}'
