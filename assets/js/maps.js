@@ -29,8 +29,6 @@ function initShopsMap() {
   }
 
   shops.forEach(function (shop) {
-    var latitude = parseFloat(shop.latitude.replace(/,/,'.'));
-    var longitude = parseFloat(shop.longitude.replace(/,/,'.'));
     var week = [
       [monday, shop.monday],
       [tuesday, shop.tuesday],
@@ -51,8 +49,8 @@ function initShopsMap() {
 
     var marker = new google.maps.Marker({
       position: {
-        lat: latitude,
-        lng: longitude
+        lat: shop.latitude,
+        lng: shop.longitude
       },
       map: map,
       title: shop.name,

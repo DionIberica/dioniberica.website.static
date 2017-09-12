@@ -82,8 +82,7 @@
     <div class="row topspace">
       {% for benefits in benefits_group %}
       <div class="col-sm-6">
-        <p><b>{{ benefits | translate: 'title' }}</b></p>
-        <p>{{ benefits | translate: 'description' }}</p>
+        <p><b>{{ benefits | field: 'title' }}</b></p>
       </div>
       {% endfor %}
     </div> <!-- /row -->
@@ -113,8 +112,7 @@
     <div class="row topspace">
       {% for benefits in benefits_group %}
       <div class="col-sm-6">
-        <p><b>{{ benefits | translate: 'title' }}</b></p>
-        <p>{{ benefits | translate: 'description' }}</p>
+        <p><b>{{ benefits | field: 'title' }}</b></p>
       </div>
       {% endfor %}
     </div> <!-- /row -->

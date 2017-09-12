@@ -13,8 +13,8 @@
       <figure class="col-sm-4 col-sm-push-2{% if forloop.index == 1 %} text-right{% endif %}">
         <i class="icon fa fa-{{ recomendation.icon }} color-action"></i>
         <div class="text">
-          <h3 class="caption">{{ recomendation | translate: 'title' }}</h3>
-          <p>{{ recomendation | translate: 'text' }}</p>
+          <h3 class="caption">{{ recomendation | field: 'title' }}</h3>
+          <p>{{ recomendation | field: 'text' }}</p>
         </div>
       </figure>
       {% endfor %}

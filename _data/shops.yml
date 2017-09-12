@@ -1,0 +1,156 @@
+- name: Farmàcia Roca 1904
+  kind: pharmacy
+  target: es
+  latitude: 41.502976
+  longitude: 2.390242
+  address: Carrer de Montserrat, 1, 08340 Vilassar de Mar, Barcelona
+  monday: 9:00–21:00
+  tuesday: 9:00–21:00
+  wednesday: 9:00–21:00
+  thursday: 9:00–21:00
+  friday: 9:00–21:00
+  saturday: 9:00–14:00
+  sunday: 
+- name: Farmàcia de Mar
+  kind: pharmacy
+  target: es
+  latitude: 41.498753
+  longitude: 2.384534
+  address: Ronda Vilassar, 2, (Complex Vicor 4), 08340 Vilassar de Mar, Barcelona
+  monday: 9:00–21:00
+  tuesday: 9:00–21:00
+  wednesday: 9:00–21:00
+  thursday: 9:00–21:00
+  friday: 9:00–21:00
+  saturday: 9:30–14:30
+  sunday: 
+- name: Farmàcia Basora Caus
+  kind: pharmacy
+  target: es
+  latitude: 41.384962
+  longitude: 2.161902
+  address: Gran Via de les Corts Catalanes, 571, 08011 Barcelona
+  monday: 9:00–21:00
+  tuesday: 9:00–21:00
+  wednesday: 9:00–21:00
+  thursday: 9:00–21:00
+  friday: 9:00–21:00
+  saturday: 9:00–21:00
+  sunday: 
+- name: Farmàcia Videllet Mestres
+  kind: pharmacy
+  target: es
+  latitude: 41.38731
+  longitude: 2.140796
+  address: Carrer d'Entença, 254, 08029 Barcelona
+  monday: 8:30–13:30,16:00–20:00
+  tuesday: 8:30–13:30,16:00–20:00
+  wednesday: 8:30–13:30,16:00–20:00
+  thursday: 8:30–13:30,16:00–20:00
+  friday: 8:30–13:30,16:00–20:00
+  saturday: 9:00–13:30
+  sunday: 
+- name: Farmàcia Blai
+  kind: pharmacy
+  target: es
+  latitude: 41.374293
+  longitude: 2.163058
+  address: Carrer de Blasco de Garay, 10, 08004 Barcelona
+  monday: 9:00–22:00
+  tuesday: 9:00–22:00
+  wednesday: 9:00–22:00
+  thursday: 9:00–22:00
+  friday: 9:00–22:00
+  saturday: 9:00–22:00
+  sunday: 
+- name: Farmàcia Trujillo Isern
+  kind: pharmacy
+  target: es
+  latitude: 41.736496
+  longitude: 1.82884
+  address: Avinguda de les Bases de Manresa, 66-70, 08240 Manresa, Barcelona
+  monday: 9:00–14:00,16:30–20:30
+  tuesday: 9:00–14:00,16:30–20:30
+  wednesday: 9:00–14:00,16:30–20:30
+  thursday: 9:00–14:00,16:30–20:30
+  friday: 9:00–14:00,16:30–20:30
+  saturday: 9:30–14:00
+  sunday: 
+- name: Farmacia Juan José Salgado Blanco
+  kind: pharmacy
+  target: es
+  latitude: 41.426088
+  longitude: 2.227649
+  address: Avinguda de la Platja, 82, 08930 Sant Adrià de Besòs, Barcelona
+  monday: 
+  tuesday: 
+  wednesday: 
+  thursday: 
+  friday: 
+  saturday: 
+  sunday: 
+- name: Salva Vidas
+  kind: bar
+  target: pt
+  latitude: 38.706896
+  longitude: -9.144389
+  address: Travessa dos Remolares, 9, Cais do Sodré, Lisboa
+  monday: 
+  tuesday: 
+  wednesday: 
+  thursday: 
+  friday: 
+  saturday: 
+  sunday: 
+- name: Farmácia Camões
+  kind: pharmacy
+  target: pt
+  latitude: 38.710681
+  longitude: -9.143953
+  address: Praça Luís de Camões, 22-24, Lisboa
+  monday: 
+  tuesday: 
+  wednesday: 
+  thursday: 
+  friday: 
+  saturday: 
+  sunday: 
+- name: Farmacia Durão
+  kind: pharmacy
+  target: pt
+  latitude: 38.710753
+  longitude: -9.141454
+  address: R. Garrett 90, Lisboa
+  monday: 
+  tuesday: 
+  wednesday: 
+  thursday: 
+  friday: 
+  saturday: 
+  sunday: 
+- name: Farmácia Sacoor do Riviera
+  kind: pharmacy
+  target: pt
+  latitude: 38.685016
+  longitude: -9.343362
+  address: R. Bartolomeu Dias A, 2775-551 Carcavelos
+  monday: 
+  tuesday: 
+  wednesday: 
+  thursday: 
+  friday: 
+  saturday: 
+  sunday: 
+- name: Farmàcia Emma Ribas
+  kind: pharmacy
+  target: es
+  latitude: 41.405318
+  longitude: 2.142387
+  address: 'Ronda del General Mitre, 199, 08023 Barcelona, '
+  monday: 8.30-21:00
+  tuesday: 8.30-21:00
+  wednesday: 8.30-21:00
+  thursday: 8.30-21:00
+  friday: 8.30-21:00
+  saturday: 9:00-14:00
+  sunday: 

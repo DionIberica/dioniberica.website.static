@@ -2,7 +2,7 @@
   <div class="container">
     <h2 class="title text-center topspace">{{ 'home.opinion.title' | translate }}</h2>
     <div id="testimonials-carousel" class="carousel slide" data-ride="carousel" data-interval="8000">
-      {% assign testimonials = site.data.testimonials | where: 'idioma', page.testimonials_locale %}
+      {% assign testimonials = site.data.testimonials | where: 'target', page.testimonials_locale %}
       <ol class="carousel-indicators">
 
         {% for testimonial in testimonials %}
@@ -14,15 +14,15 @@
         {% for testimonial in testimonials %}
         <div class="row item{% if forloop.index == 1 %} active{% endif %}">
           <div class="col-sm-3 profile">
-            <img src="/assets/images/testimonials/{{ testimonial.photo }}" width="150" height="150" alt="{{ testimonial.name }}" />
+            <img src="{{ testimonial.photo }}" width="150" height="150" alt="{{ testimonial.name }}" />
           </div>
           <div class="col-sm-9 content">
             <blockquote>
               <i class="fa fa-quote-left"></i>
-              <p>{{ testimonial | translate: 'description' }}</p>
+              <p>{{ testimonial | field: 'description' }}</p>
             </blockquote>
             <p class="source">{{ testimonial.name }}
-            <br/><span class="title">{{ testimonial | translate: 'role' }}</span>
+            <br/><span class="title">{{ testimonial | field: 'role' }}</span>
             </p>
           </div>
           <!--//content-->
