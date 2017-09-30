@@ -144,10 +144,7 @@ ca:
       data: 3 anys
     shipping:
       title: 'Mètode d''enviament:'
-      data: |-
-        Correu ordinari.
-        Comprant 5 Blísters t'enviem la comanda per correu urgent.
-        Comanda mínima de 2 blisters per a compres de la Unió Europea que no siguin d'Espanya o de Portugal.
+      data: Correu ordinari.
     special-shipping:
       title: 'Condicions especials:'
       data: |-

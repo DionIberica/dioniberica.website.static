@@ -144,10 +144,7 @@ es:
       data: 3 años
     shipping:
       title: 'Método de envío:'
-      data: |-
-        Correo ordinario.
-        Comprando 5 Blísteres te mandamos el pedido por correo urgente.
-        Pedido mínimo de 2 blisteres para compras de la Unión Europea fuera de España o Portugal.
+      data: Correo ordinario.
     special-shipping:
       title: 'Condiciones especiales:'
       data: |-
