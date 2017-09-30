@@ -145,8 +145,14 @@ ca:
     shipping:
       title: 'Mètode d''enviament:'
       data: |-
-        Correu ordinari amb sobre reforçat.
+        Correu ordinari.
         Comprant 5 Blísters t'enviem la comanda per correu urgent.
+        Comanda mínima de 2 blisters per a compres de la Unió Europea que no siguin d'Espanya o de Portugal.
+    special-shipping:
+      title: 'Condicions especials:'
+      data: |-
+        Comprant 5 Blísters t'enviem la comanda per correu urgent.
+        Comanda mínima de 2 blisters per a compres de la Unió Europea que no siguin d'Espanya o de Portugal.
     composition:
       title: Composició
     cm:
@@ -168,7 +174,7 @@ ca:
         title: 'Beneficis de la B12:'
       contraindicaciones:
         title: 'Contraindicacions de la B12:'
-        description: No s'ha demostrat que la vitamina B12 causi cap mena de mal.
+        description: No hi ha indicis de que la vitamina B12 causi cap mena de mal.
       data: La vitamina B12, o cobalamina, és una vitamina hidrosoluble que el cos
         humà absorbeix diàriament per a mantenir-se saludable. L'ús d'alcohol consumeix
         una gran quantitat d'aquesta vitamina i impacta sobre la mucosa gàstrica i

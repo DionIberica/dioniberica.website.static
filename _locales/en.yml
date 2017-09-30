@@ -141,7 +141,13 @@ en:
       data: 3 years
     shipping:
       title: 'Shipping method:'
-      data: Ordinary post with reinforced envelope to stand behind product integrity.
+      data: |-
+        Ordinary post with reinforced envelope to stand behind product integrity.
+        Minimum purchase of 2 blisters for purchases from European Union countries that are not Spain or Portugal.
+    special-shipping:
+      title: 'Special conditions:'
+      data: Minimum purchase of 2 blisters for purchases from European Union countries
+        that are not Spain or Portugal.
     composition:
       title: Composition
     cm:

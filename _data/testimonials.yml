@@ -1,19 +1,4 @@
 - target: es
-  name: Mariano González
-  role:
-    es: Estudiante
-    ca: Estudiant
-    en: N/A
-    pt: N/A
-  description:
-    es: Gracias a Dion ya no tengo que escoger entre salir a tomar algo o estudiar
-      al dia siguiente.
-    ca: Gràcies a Dion ja no haig d'escollir entre sortir a prendre alguna cosa o
-      estudiar l'endemà
-    en: N/A
-    pt: N/A
-  photo: https://www.datocms-assets.com/2612/1499176324-mariano.jpg?w=150
-- target: es
   name: Francisco Oyola
   role:
     es: Director de Marketing
@@ -105,3 +90,18 @@
       sobreviver ao Carnaval de Torres. Todos os dias acordei como \"novo\", não percebo
       como é que isto funciona, mas funciona.\r"
   photo: https://www.datocms-assets.com/2612/1499176402-fabio.jpg?w=150
+- target: es
+  name: Jaime Saiz
+  role:
+    es: Estudiante
+    ca: Estudiant
+    en: N/A
+    pt: N/A
+  description:
+    es: Gracias a Dion ya no tengo que escoger entre salir a tomar algo o estudiar
+      al día siguiente.
+    ca: Gràcies a Dion ja no haig d'escollir entre sortir a prendre alguna cosa o
+      estudiar l'endemà.
+    en: N/A
+    pt: N/A
+  photo: https://www.datocms-assets.com/2612/1506345081-jaime3.png?w=150

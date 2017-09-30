@@ -154,3 +154,42 @@
   friday: 8.30-21:00
   saturday: 9:00-14:00
   sunday: 
+- name: Farmàcia Lda Saida Barberà Casajuana
+  kind: pharmacy
+  target: es
+  latitude: 41.577426
+  longitude: 2.033802
+  address: Ctra. de Castellar, 478, 08227 Terrassa
+  monday: 9:00-13:30,16:30-20:30
+  tuesday: 9:00-13:30,16:30-20:30
+  wednesday: 9:00-13:30,16:30-20:30
+  thursday: 9:00-13:30,16:30-20:30
+  friday: 9:00-13:30,16:30-20:30
+  saturday: 9:00-13:30
+  sunday: 
+- name: Farmàcia Gallardo
+  kind: pharmacy
+  target: es
+  latitude: 41.4030283
+  longitude: 2.1965873999999985
+  address: Carrer de Llacuna, 100, 08018 Barcelona
+  monday: 8:00-20:30
+  tuesday: 8:00-20:30
+  wednesday: 8:00-20:30
+  thursday: 8:00-20:30
+  friday: 8:00-20:30
+  saturday: 9:00-14:00
+  sunday: 
+- name: Farmàcia Claret de Oriole
+  kind: pharmacy
+  target: es
+  latitude: 41.3924663
+  longitude: 2.1875486999999794
+  address: Carrer de Sardenya, 61, 08018 Barcelona
+  monday: 
+  tuesday: 
+  wednesday: 
+  thursday: 
+  friday: 
+  saturday: 
+  sunday: 

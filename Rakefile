@@ -3,27 +3,12 @@ require 'csv'
 require 'yaml'
 
 I18N_FILE = "https://docs.google.com/spreadsheets/d/16LcVmLS3Da94C4-KuX_ijAh8K0XUgkgQRwOP-5EIM2Y/pub?gid=0&single=true&output=csv"
-DATA_FILES = {
-  faq:            'https://docs.google.com/spreadsheets/d/16LcVmLS3Da94C4-KuX_ijAh8K0XUgkgQRwOP-5EIM2Y/pub?gid=1539468359&single=true&output=csv',
-  testimonials:   'https://docs.google.com/spreadsheets/d/16LcVmLS3Da94C4-KuX_ijAh8K0XUgkgQRwOP-5EIM2Y/pub?gid=1558132726&single=true&output=csv',
-  recomendations: 'https://docs.google.com/spreadsheets/d/16LcVmLS3Da94C4-KuX_ijAh8K0XUgkgQRwOP-5EIM2Y/pub?gid=1957447366&single=true&output=csv',
-  steps:          'https://docs.google.com/spreadsheets/d/16LcVmLS3Da94C4-KuX_ijAh8K0XUgkgQRwOP-5EIM2Y/pub?gid=1268967111&single=true&output=csv',
-  benefits:       'https://docs.google.com/spreadsheets/d/16LcVmLS3Da94C4-KuX_ijAh8K0XUgkgQRwOP-5EIM2Y/pub?gid=1895306404&single=true&output=csv',
-  shops:          'https://docs.google.com/spreadsheets/d/16LcVmLS3Da94C4-KuX_ijAh8K0XUgkgQRwOP-5EIM2Y/pub?gid=239668728&single=true&output=csv',
-}
 
 task :i18n do
   puts "Downloading i18n files..."
 
   open(I18N_FILE) do |file|
     csv2yaml(file)
-  end
-end
-
-task :data do
-  puts "Downloading data files..."
-  DATA_FILES.each do |key, value|
-    download(value, "_data/#{key}.csv")
   end
 end
 

@@ -145,8 +145,14 @@ es:
     shipping:
       title: 'Método de envío:'
       data: |-
-        Correo ordinario con sobre acolchado.
+        Correo ordinario.
         Comprando 5 Blísteres te mandamos el pedido por correo urgente.
+        Pedido mínimo de 2 blisteres para compras de la Unión Europea fuera de España o Portugal.
+    special-shipping:
+      title: 'Condiciones especiales:'
+      data: |-
+        Comprando 5 Blísteres te mandamos el pedido por correo urgente.
+        Pedido mínimo de 2 blisteres para compras de la Unión Europea que no sean España o Portugal.
     composition:
       title: Composición
     cm:
@@ -168,7 +174,7 @@ es:
         title: 'Beneficios de la B12:'
       contraindicaciones:
         title: 'Contraindicaciones de la B12:'
-        description: No se ha demostrado que la vitamina B12 cause daño alguno.
+        description: No existen indicios de que la vitamina B12 cause daño alguno.
       data: La vitamina B12, o cobalamina, es una vitamina hidrosoluble que el cuerpo
         humano absorbe diariamente para mantenerse saludable. El uso de alcohol consume
         una gran cantidad de esta vitamina e impacta en la mucosa gástrica y en el

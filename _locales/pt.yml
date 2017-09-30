@@ -142,6 +142,10 @@ pt:
     shipping:
       title: 'Método de envio:'
       data: Correios
+    special-shipping:
+      title: 'Condições especiais:'
+      data: Compra mínima de 2 blisters para compras da União Europeia que não sejam
+        de Portugal ou da Espanha.
     composition:
       title: Composição
     cm:
