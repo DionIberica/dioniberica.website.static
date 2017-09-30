@@ -10,6 +10,14 @@ def localize(model, field)
   Hash[*translations.flatten(1)]
 end
 
+gallery =  dato.product.gallery.map do |image|
+  image.url(w: 600)
+end
+
+create_data_file("_data/product.yml", :yaml, {
+  gallery: gallery,
+})
+
 benefits = dato.benefits.map do |benefit|
   {
     component: benefit.component,
