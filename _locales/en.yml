@@ -41,14 +41,8 @@ en:
   meta:
     description: Take a Dion and be able to party and to avoid hangover in the next
       day.
-    keywords: hangover, hungover, anti hangover, avoid, prevent, headache, alcohol,
-      solution, remedy, party, disco, discotheque, night club, beer, wine, weekend,
-      friends, wedding, hen party, hen do, bachelorette party, stag party, stag do,
-      bachelor party, leaving party, going-away party, trip, travel, erasmus, student,
-      student residence, pharmacy, chemist, health, natural, cardo mariano, vitamin,
-      B12 vitamin, B12, B 12,  multivitaminic complex, tablet, pill, Celine Dion,
-      music, dj, kit anti hangover, economic, cheap, sex, porn, pron, drug, ibuprofeno,
-      aspirina, star wars, water, orange, orange juice, B1, B2, B6, acetilcisteina
+    keywords: hangover, hungover, anti hangover, headache, alcohol, B12 vitamin, silimarine,
+      prevent hangover
   menu:
     home:
       title: Home
@@ -58,6 +52,14 @@ en:
       title: Contact
     shops:
       title: Points of sale
+    return:
+      title: Return Conditions
+    privacy:
+      title: Privacy Policy
+    legaladvise:
+      title: Legal Notice
+    generalterm:
+      title: General Terms
     product:
       title: Product
     about:
@@ -117,6 +119,8 @@ en:
     email: info-pt@dioniberica.com
     address: Alameda Conde Oeiras - Torre I R/C Esq. 2780-139 Oeiras
     telephone: "(+351) 91 261 38 66"
+    working:
+      hours: Telephone Assistance from Monday to Friday from 8:00 a.m. to 4:00 p.m
     issim:
       text: 'Pictures provided by:'
       logo: "/logo_issim"

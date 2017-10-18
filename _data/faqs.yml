@@ -93,7 +93,7 @@
       water or the alcoholic drink that you are consuming.
     pt: Podes tomar Dion com a ajuda de qualquer método que te ajude a ingestão, como
       água ou a bebida alcoólica que estás a consumir.
-- frequent: true
+- frequent: false
   title:
     es: "¿Puedo tener una sobredosis?"
     ca: Puc tenir sobredosis?
@@ -110,7 +110,7 @@
       higher doses than we recommend of pill per day.
     pt: Não se observam efeitos de sobre dosagem pelo consumo de Dion, contudo apelamos
       à tua responsabilidade para não tomares doses excessivas.
-- frequent: true
+- frequent: false
   title:
     es: "¿Dion atenuará el efecto del alcohol?"
     ca: Dion atenuarà l'efecte de l'alcohol?
@@ -144,7 +144,7 @@
     pt: A toma de Dion não evitará que o álcool entre da tua corrente sanguínea sendo
       que, pelo bem da nossa sociedade apelamos à tua responsabilidade de não conduzir
       se beberes álcool.
-- frequent: true
+- frequent: false
   title:
     es: "¿Funciona con todos los tipos de resaca?"
     ca: Funciona per a tots els tipus de ressaca?
@@ -160,7 +160,7 @@
       products that may make you unwell, you should stop taking them.
     pt: O Dion vai ajudar o teu organismo a assimilar melhor o álcool. Se tomas outros
       produtos que podem produzir-te mau estar, talvez devas deixar de os tomar.
-- frequent: true
+- frequent: false
   title:
     es: "¿Me ayudará a tener más sexo?"
     ca: M'ajudarà a tenir més sexe?
@@ -185,7 +185,7 @@
       também tenha tomado Dion, têm maior probabilidade de, tanto tu como a tua parceira,
       possam repetir os vossos momentos de cabeça fresca e bem estar, quantas vezes
       quanto possível.
-- frequent: true
+- frequent: false
   title:
     es: Estoy embarazada ¿Puedo tomar Dion?
     ca: Estic embarassada, puc prendre Dion?
@@ -215,7 +215,7 @@
       O Dion vai te evitar a ressaca, contudo os efeitos prejudiciais do álcool serão
       muito prejudiciais para a tua saúde e para a do bebé. Se te encontras nesta
       situação não tomes nem álcool nem Dion.
-- frequent: true
+- frequent: false
   title:
     es: "¿Este producto es mágico?"
     ca: Aquest producte és màgic?
@@ -234,7 +234,7 @@
     pt: Ainda que o mesmo possa parecer, este produto não faz magia, simplesmente
       integra os elemento que a natureza põe à nossa disposição para evitar os horríveis
       sintomas da ressaca.
-- frequent: true
+- frequent: false
   title:
     es: "¿Quieren que me vuleva alcohólico?"
     ca: Volen que em torni alcohòlic?
@@ -261,7 +261,7 @@
       apenas por teres bebido uns copos a mais. Se tiveres menos ressacas, irão aumentar
       as probabilidades de tu encontrares novos passatempos que não estejam relacionados
       com o consumo de álcool.
-- frequent: true
+- frequent: false
   title:
     es: "¿Puedo alimentarme solamente de Dion?"
     ca: Puc alimentar-me només de Dion?

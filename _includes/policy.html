@@ -1,0 +1,17 @@
+{% assign policy = include.policy %}
+
+<header>
+  <div class="container">
+    <h2 class="text-center title">{{ policy | field: 'title' }}</h2>
+  </div>
+</header>
+
+<section class="section">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        {{ policy | field: 'text' }}
+      </div>
+    </div>
+  </div>
+</section>

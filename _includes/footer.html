@@ -37,11 +37,10 @@
             {% assign sections = 'home faqs shops product contact' | split: " " %}
             {% for sname in sections %}
             {% assign item = sname | section %}
-            <a href="{{item.permalink}}">{{ 'menu.'| append: item.section | append:'.title' | translate }}</a> |
+            <a href="{{item.permalink}}">{{ 'menu.'| append: item.section | append:'.title' | translate }}</a>
+            {% unless forloop.last %} | {% endunless %}
             {% endfor %}
 
-            {% assign cookies = 'cookies' | section %}
-            <a href="{{ cookies.permalink }}">{{ 'cookies.title' | translate }}</a>
             </p>
           </div>
         </div>
@@ -49,6 +48,28 @@
           <div class="widget-body">
             <p class="text-right">
             Copyright &copy; 2017 {{ 'footer.company.name' | translate }}
+            </p>
+          </div>
+        </div>
+      </div> <!-- /row of widgets -->
+    </div>
+  </div>
+  <div class="footer3">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 text-center widget">
+          <div class="widget-body">
+            <p class="simplenav">
+
+            {% assign sections = 'privacy return generalterm legaladvise' | split: " " %}
+            {% for sname in sections %}
+            {% assign item = sname | section %}
+            <a href="{{item.permalink}}">{{ 'menu.'| append: item.section | append:'.title' | translate }}</a> |
+            {% endfor %}
+
+            {% assign cookies = 'cookies' | section %}
+            <a href="{{ cookies.permalink }}">{{ 'cookies.title' | translate }}</a>
+
             </p>
           </div>
         </div>
