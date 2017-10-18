@@ -55,4 +55,23 @@
       </div> <!-- /row of widgets -->
     </div>
   </div>
+  <div class="footer3">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 text-center widget">
+          <div class="widget-body">
+            <p class="simplenav">
+
+            {% assign sections = 'privacy return generalterm legaladvise' | split: " " %}
+            {% for sname in sections %}
+            {% assign item = sname | section %}
+            <a href="{{item.permalink}}">{{ 'menu.'| append: item.section | append:'.title' | translate }}</a> |
+            {% endfor %}
+
+            </p>
+          </div>
+        </div>
+      </div> <!-- /row of widgets -->
+    </div>
+  </div>
 </footer>

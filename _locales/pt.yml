@@ -42,14 +42,8 @@ pt:
       text: ADICIONAR AO CARRINHO
   meta:
     description: Toma Dion, aproveita as tuas festas e evita a ressaca do dia seguinte.
-    keywords: ressaca, antiressaca, evitar, prevenir, curar, dor de cabeça, antecipar,
-      álcool, remedio, festa, party, discoteca, cerveja, vinho, fim de semana, amigos,
-      amigas, casamentos, despedidas de solteiro, despedidas de solteira, viagem,
-      viagens, bachellor, erasmus, residencia de estudantes, farmácia, saúde, natural,
-      cardo mariano, vitamina, vitamina B12, B12, B 12, complexo multivitaminico,
-      comprimidos, capsulas, Celine Dion, musica, dj, kit antiressaca, económico,
-      barato, sexo, porno, droga, drogas, ibuprofeno, brufen, aspirina, hang over,
-      hangover, star wars, água, sumo laranja, B1, B2, B6, acetilcisteina
+    keywords: ressaca, comprimidos para ressaca, antiressaca, dor de cabeça, álcool,
+      vitamina B12, cardo mariano
   menu:
     home:
       title: Início
@@ -59,6 +53,14 @@ pt:
       title: Contactos
     shops:
       title: Pontos de venda
+    return:
+      title: Condições de Devolução
+    privacy:
+      title: Política de Privacidade
+    legaladvise:
+      title: Aviso Legal
+    generalterm:
+      title: Condições Gerais
     product:
       title: Produto
     about:
@@ -117,6 +119,8 @@ pt:
     email: info-pt@dioniberica.com
     address: Alameda Conde Oeiras - Torre I R/C Esq. 2780-139 Oeiras
     telephone: "(+351) 91 261 38 66"
+    working:
+      hours: Atenção telefonica da segunda-feira até a sexta-feira das 8h00 às 16h00
     issim:
       text: 'Imagens oferecidas pelo estudo fotografico:'
       logo: "/logo_issim"
@@ -141,7 +145,7 @@ pt:
       data: 3 anos
     shipping:
       title: 'Método de envio:'
-      data: Correios
+      data: Correios.
     special-shipping:
       title: 'Condições especiais:'
       data: Compra mínima de 2 blisters para compras da União Europeia que não sejam

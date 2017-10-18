@@ -44,15 +44,8 @@ ca:
   meta:
     description: Prenent un Dion abans de sortir de festa podràs gaudir dels teus
       esdeveniments sense patir els efectes de la ressaca de l'endemà.
-    keywords: ressaca, antiressaca, evitar, prevenir, curar, mal de cap, anticipar,
-      alcohol, remeis per a la ressaca, remei, festa, party, copa, discoteca, cervesa,
-      vi, finde, cap de setmana, amics, amigues, bodes, comiats de solter, comiats
-      de soltera, viatge, viatges, bachellor, erasmus, residència d'estudiants, farmàcia,
-      salut, sanitat, natural, cardo mariano, vitamina, vitamina B12, B12, B 12, complex
-      multivitaminic, comprimits, pastilles, capsules, Celine Dion, música, dj, kit
-      antiressaca, economic, sexe, porno, prono, droga, drogues, timo, fake, ibuprofeno,
-      aspirina, ibu, ibuporfeno, hang over, hangover, star wars, agua, suc de taronja,
-      B1, B2, B6, acetilcisteina
+    keywords: ressaca, pastilles per ressaca, antiressaca, mal de cap, nausees alcohol,
+      vitamina B12, cardo mariano, previndre ressaca, curar ressaca
   menu:
     home:
       title: Inici
@@ -62,6 +55,14 @@ ca:
       title: Contacte
     shops:
       title: Punts de venta
+    return:
+      title: Condicions de Devolució i Reemborsament
+    privacy:
+      title: Politica de privacitat
+    legaladvise:
+      title: Advertencia Legal
+    generalterm:
+      title: Condicions Generals
     product:
       title: Producte
     about:
@@ -120,6 +121,8 @@ ca:
     email: info@dioniberica.com
     address: C/ Riera de'n Font, 60A, 2-5, Tiana (Barcelona)
     telephone: "(+34) 627.179.740"
+    working:
+      hours: Atenció Telefónica de Dilluns a Divendres de 8:00 a 16:00
     issim:
       text: 'Imatges per cortesia de l''estudi fotogràfic professional:'
       logo: "/logo_issim"
@@ -224,8 +227,8 @@ ca:
     sender: info@dioniberica.com
     title: Gràcies per confiar en Dion
     subtitle: Acabem de rebre la teva comanda. Moltes gràcies!
-    text: Els articles que has demanat seran enviats tan aviat com ens sigui possible.
-      T'enviarem un correu confirmant la seva sortida del nostre magatzem.
+    text: La teva comanda será enviada tan aviat com ens sigui possible. T'enviarem
+      un correu confirmant la seva sortida del nostre magatzem.
     purchaseNumber:
       title: Número de comanda
     data:

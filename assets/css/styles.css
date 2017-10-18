@@ -1928,3 +1928,24 @@ img.pull-left {
 .footer2 .widget-simplenav a {
   margin: 0 5px;
 }
+.footer3 {
+  background: #2b2b2b;
+  padding: 15px 0;
+  color: #777;
+  font-size: 12px;
+}
+.footer3 a {
+  color: #aaa;
+}
+.footer3 a:hover {
+  color: #fff;
+}
+.footer3 p {
+  margin: 0;
+}
+.footer3 .widget-simplenav {
+  margin-left: -5px;
+}
+.footer3 .widget-simplenav a {
+  margin: 0 5px;
+}

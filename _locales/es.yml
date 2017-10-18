@@ -44,15 +44,8 @@ es:
   meta:
     description: Tomando Dion antes de salir de fiesta podrás disfrutar de tus eventos
       y evitarás tener resaca al dia siguiente.
-    keywords: resaca, antiresaca, evitar, prevenir, curar, dolor cabeza, anticipar,
-      alcohol, remedios resaca, remedio, fiesta, party, cubata, discoteca, cerveza,
-      vino, finde, fin de semana, amigos, amigas, bodas, despedidas de soltero, despedidas
-      de soltera, viaje, viajes, bachellor, erasmus, residencia estudiantes, farmacia,
-      salud, sanidad, natural, cardo mariano, vitamina, vitamina B12, B12, B 12, complejo
-      multivitaminico, comprimidos, pastillas, capsulas, Celine Dion, musica, dj,
-      kit antiresaca, economico, barato, sexo, porno, prono, droga, drogas, timo,
-      fake, ibuprofeno, aspirina, ibu, ibuporfeno, hang over, hangover, star wars,
-      agua, zumo naranja, B1, B2, B6, acetilcisteina
+    keywords: resaca, pastillas para resaca, antiresaca, dolor cabeza, nauseas alcohol,
+      vitamina B12, cardo mariano, prevenir resaca, curar resaca
   menu:
     home:
       title: Inicio
@@ -62,6 +55,14 @@ es:
       title: Contacto
     shops:
       title: Puntos de venta
+    return:
+      title: Condiciones de Devolución y Reembolso
+    privacy:
+      title: Política de privacidad
+    legaladvise:
+      title: Aviso Legal
+    generalterm:
+      title: Condiciones Generales
     product:
       title: Producto
     about:
@@ -120,6 +121,8 @@ es:
     email: info@dioniberica.com
     address: C/ Riera de'n Font, 60A, 2-5, Tiana (Barcelona)
     telephone: "(+34) 627.179.740"
+    working:
+      hours: Atención Telefónica de Lunes a Viernes de 8:00 a 16:00
     issim:
       text: 'Imágenes por cortesía del estudio de fotografía profesional:'
       logo: "/logo_issim"
@@ -223,8 +226,8 @@ es:
     sender: info@dioniberica.com
     title: Gracias por confiar en Dion
     subtitle: Ya hemos recibido tu pedido ¡Muchas gracias!
-    text: Los ítems que pediste serán enviados en breve. Te mandaremos un correo confirmando
-      el envío.
+    text: Tu pedido será enviado en breve. Te mandaremos un correo confirmando el
+      envío.
     purchaseNumber:
       title: Pedido número
     data:
