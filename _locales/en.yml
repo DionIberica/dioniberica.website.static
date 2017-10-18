@@ -64,6 +64,14 @@ en:
       title: Product
     about:
       title: About
+  return:
+    title: Return Conditions
+  privacy:
+    title: Privacy Policy
+  legaladvise:
+    title: Legal Notice
+  generalterm:
+    title: General Terms
   generic:
     language: Language
   locales:

@@ -65,6 +65,14 @@ pt:
       title: Produto
     about:
       title: Sobre nós
+  return:
+    title: Condições de Devolução
+  privacy:
+    title: Política de Privacidade
+  legaladvise:
+    title: Aviso Legal
+  generalterm:
+    title: Condições Gerais
   generic:
     language: Idioma
   locales:

@@ -67,6 +67,14 @@ ca:
       title: Producte
     about:
       title: Sobre nosaltres
+  return:
+    title: Condicions de Devolució i Reemborsament
+  privacy:
+    title: Politica de privacitat
+  legaladvise:
+    title: Advertencia Legal
+  generalterm:
+    title: Condicions Generals
   generic:
     language: Idioma
   locales:

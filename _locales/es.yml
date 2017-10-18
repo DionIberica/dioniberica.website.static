@@ -67,6 +67,14 @@ es:
       title: Producto
     about:
       title: Sobre nosotros
+  return:
+    title: Condiciones de Devolución y Reembolso
+  privacy:
+    title: Política de privacidad
+  legaladvise:
+    title: Aviso Legal
+  generalterm:
+    title: Condiciones Generales
   generic:
     language: Idioma
   locales:
