@@ -186,10 +186,62 @@
   latitude: 41.3924663
   longitude: 2.1875486999999794
   address: Carrer de Sardenya, 61, 08018 Barcelona
-  monday: 
-  tuesday: 
-  wednesday: 
-  thursday: 
-  friday: 
+  monday: 9:00–13:30,16:30–20:00
+  tuesday: 9:00–13:30,16:30–20:00
+  wednesday: 9:00–13:30,16:30–20:00
+  thursday: 9:00–13:30,16:30–20:00
+  friday: 9:00–13:30,16:30–20:00
+  saturday: 9:00–13:30
+  sunday: 
+- name: Farmàcia Princesa
+  kind: pharmacy
+  target: es
+  latitude: 41.3852449
+  longitude: 2.1804290000000037
+  address: Carrer de la Princesa, 20, 08003 Barcelona
+  monday: 9:00-20:00
+  tuesday: 9:00-20:00
+  wednesday: 9:00-20:00
+  thursday: 9:00-20:00
+  friday: 9:00-20:00
+  saturday: 9:00-14:00
+  sunday: 
+- name: Farmàcia Nieto
+  kind: pharmacy
+  target: es
+  latitude: 41.3782532
+  longitude: 2.1732984000000215
+  address: Carrer Nou de la Rambla, 28, 08001 Barcelona, España
+  monday: 9:00-21:00
+  tuesday: 9:00-21:00
+  wednesday: 9:00-21:00
+  thursday: 9:00-21:00
+  friday: 9:00-21:00
+  saturday: 
+  sunday: 
+- name: Farmàcia Beltran Rovira
+  kind: pharmacy
+  target: es
+  latitude: 41.3783542
+  longitude: 2.1692778999999973
+  address: Rbla. del Raval 14, 08001 Barcelon
+  monday: 9:00-13:30 , 16:30-20:00
+  tuesday: 9:00-13:30 , 16:30-20:00
+  wednesday: 9:00-13:30 , 16:30-20:00
+  thursday: 9:00-13:30 , 16:30-20:00
+  friday: 9:00-13:30 , 16:30-20:00
+  saturday: 
+  sunday: 
+- name: Farmàcia Dr. Carreras
+  kind: pharmacy
+  target: es
+  latitude: 41.381088
+  longitude: 2.172524
+  address: C/ de l'Hospital, 14, 08001 Barcelona
+  monday: 9:00–13:30, 16:30–20:00
+  tuesday: 9:00–13:30, 16:30–20:00
+  wednesday: 9:00–13:30, 16:30–20:00
+  thursday: 9:00–13:30, 16:30–20:00
+  friday: 9:00–13:30, 16:30–20:00
   saturday: 
   sunday: 
