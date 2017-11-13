@@ -30,15 +30,6 @@ create_data_file("_data/product.yml", :yaml, {
   gallery: gallery,
 })
 
-benefits = dato.benefits.map do |benefit|
-  {
-    component: benefit.component,
-    title: localize(benefit, 'title'),
-  }
-end
-
-create_data_file("_data/benefits.yml", :yaml, benefits)
-
 faqs = dato.faqs.map do |faq|
   {
     frequent: faq.frequent,

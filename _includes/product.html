@@ -64,27 +64,6 @@
     <h2 class="text-center title">{{ 'product.composition.title' | translate }}</h2>
     <h3 class="text-center title">{{ 'product.cm.title' | translate }}</h3>
     <p>{{ 'product.cm.data' | translate }}</p>
-    <br>
-
-    <h4 class="title">{{ 'product.cm.beneficios.title' | translate }}</h4>
-
-    {% assign benefits_groups = site.data.benefits | where: 'component', 'cardo' | in_groups_of: 2 %}
-    {% for benefits_group in benefits_groups %}
-    <div class="row topspace">
-      {% for benefits in benefits_group %}
-      <div class="col-sm-6">
-        <p><b>{{ benefits | field: 'title' }}</b></p>
-      </div>
-      {% endfor %}
-    </div> <!-- /row -->
-    {% endfor %}
-
-    <br>
-
-    <h4 class="title">{{ 'product.cm.contraindicaciones.title' | translate }}</h4>
-
-    <p>{{ 'product.cm.contraindicaciones.description' | translate }}</p>
-
   </div>
 </section>
 <!-- end of FAQ -->
@@ -94,27 +73,6 @@
   <div class="container">
     <h3 class="text-center title">{{ 'product.b12.title' | translate }}</h3>
     <p>{{ 'product.b12.data' | translate }}</p>
-    <br>
-
-    <h4 class="title">{{ 'product.b12.beneficios.title' | translate }}</h4>
-
-    {% assign benefits_groups = site.data.benefits | where: 'component', 'b12' | in_groups_of: 2 %}
-    {% for benefits_group in benefits_groups %}
-    <div class="row topspace">
-      {% for benefits in benefits_group %}
-      <div class="col-sm-6">
-        <p><b>{{ benefits | field: 'title' }}</b></p>
-      </div>
-      {% endfor %}
-    </div> <!-- /row -->
-    {% endfor %}
-
-    <br>
-
-    <h4 class="title">{{ 'product.b12.contraindicaciones.title' | translate }}</h4>
-
-    <p>{{ 'product.b12.contraindicaciones.description' | translate }}</p>
-
   </div>
 </section>
 <!-- end of FAQ -->
