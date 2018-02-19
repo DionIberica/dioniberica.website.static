@@ -54,7 +54,7 @@ ca:
     contact:
       title: Contacte
     shops:
-      title: Punts de venta
+      title: Punts de venda
     return:
       title: Condicions de Devolució i Reemborsament
     privacy:
@@ -127,7 +127,7 @@ ca:
     company:
       name: Dion Resakapsulus Spain S.L.
     email: info@dioniberica.com
-    address: C/ Riera de'n Font, 60A, 2-5, Tiana (Barcelona)
+    address: C/ Riera de'n Font, 60 Tiana (Barcelona)
     telephone: "(+34) 627.179.740"
     working:
       hours: Atenció Telefónica de Dilluns a Divendres de 8:00 a 16:00
@@ -159,8 +159,8 @@ ca:
     special-shipping:
       title: 'Condicions especials:'
       data: |-
-        Comprant 5 Blísters t'enviem la comanda per correu urgent.
-        Comanda mínima de 2 blisters per a compres de la Unió Europea que no siguin d'Espanya o de Portugal.
+        Les comandes superiors a 25€ s'enviaran per correu urgent.
+        Comanda mínima de 15€ per a compres des de la Unió Europea fora d'Espanya.
     composition:
       title: Composició
     cm:

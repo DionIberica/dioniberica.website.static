@@ -127,7 +127,7 @@ es:
     company:
       name: Dion Resakapsulus Spain S.L.
     email: info@dioniberica.com
-    address: C/ Riera de'n Font, 60A, 2-5, Tiana (Barcelona)
+    address: C/ Riera de'n Font, 60 Tiana (Barcelona)
     telephone: "(+34) 627.179.740"
     working:
       hours: Atención Telefónica de Lunes a Viernes de 8:00 a 16:00
@@ -159,8 +159,8 @@ es:
     special-shipping:
       title: 'Condiciones especiales:'
       data: |-
-        Comprando 5 Blísteres te mandamos el pedido por correo urgente.
-        Pedido mínimo de 2 blisteres para compras de la Unión Europea que no sean España o Portugal.
+        Los pedidos superiores a 25€ se mandarán por correo urgente.
+        Pedido mínimo de 15€ para compras desde la Unión Europea fuera de España.
     composition:
       title: Composición
     cm:

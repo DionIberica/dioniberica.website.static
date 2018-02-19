@@ -100,12 +100,12 @@ pt:
       mail: Dados de contacto
       social: Redes sociais
     socialmedia:
-      facebook: https://www.facebook.com/dionport/
-      instagram: https://www.instagram.com/dion_pt
+      facebook: https://www.facebook.com/dionIberica/
+      instagram: https://www.instagram.com/dion_spain
     map:
-      longitude: '38.692116'
-      latitude: "-9.3218501"
-      description: Dion Iberica LDA.
+      longitude: '41.4836682'
+      latitude: '2.2704794'
+      description: Dion Resakapsulus Spain S.L.
     message_placeholder: Mensagem
     subject_placeholder: Assunto
     telephone_placeholder: Introduz o teu telemóvel
@@ -123,10 +123,10 @@ pt:
     follow:
       title: Segue-nos
     company:
-      name: Dion Iberica LDA.
-    email: info-pt@dioniberica.com
-    address: Alameda Conde Oeiras - Torre I R/C Esq. 2780-139 Oeiras
-    telephone: "(+351) 91 261 38 66"
+      name: Dion Resakapsulus Spain S.L.
+    email: info@dioniberica.com
+    address: C/ Riera de'n Font, 60 Tiana (Barcelona)
+    telephone: "(+34) 627.179.740"
     working:
       hours: Atenção telefonica da segunda-feira até a sexta-feira das 8h00 às 16h00
     issim:
@@ -229,7 +229,7 @@ pt:
     success:
       title: O teu carrinho
   mail:
-    sender: info.pt@dioniberica.com
+    sender: info@dioniberica.com
     title: Obrigado por confiares em nós
     subtitle: Recebemos o teu pedido - obrigado!
     text: Os artigos que pediste serão enviados o quanto antes.
@@ -258,10 +258,10 @@ pt:
     footer:
       help: Necessitas de ajuda? Entra em contacto conosco e faremos os possiveis
         para que aproveites a tua experiência conosco.
-      call: 'Liga-nos: +351 91 261 38 66'
+      call: 'Liga-nos: (+34) 627.17.97.40.'
       send: Envia-nos um email
-      email: info.pt@dioniberica.com
-      provider: Este email foi enviado por Dion Portugal
+      email: info@dioniberica.com
+      provider: Este email foi enviado por Dion Spain
   shops:
     title: Onde nos encontrar
     subtitle: No seguinte mapa poderás ver todos o pontos de venda da Dion. Se não

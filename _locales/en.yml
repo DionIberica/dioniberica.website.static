@@ -99,12 +99,12 @@ en:
       mail: Contacts
       social: Social
     socialmedia:
-      facebook: https://www.facebook.com/dionport/
-      instagram: https://www.instagram.com/dion_pt
+      facebook: https://www.facebook.com/dionIberica/
+      instagram: https://www.instagram.com/dion_spain
     map:
-      longitude: '38.692116'
-      latitude: "-9.3218501"
-      description: Dion Iberica LDA
+      longitude: '41.4836682'
+      latitude: '2.2704794'
+      description: Dion Resakapsulus Spain S.L.
     message_placeholder: Your message
     subject_placeholder: Your subject
     telephone_placeholder: Enter your telephone
@@ -123,10 +123,10 @@ en:
     follow:
       title: Follow us
     company:
-      name: Dion Iberica LDA
-    email: info-pt@dioniberica.com
-    address: Alameda Conde Oeiras - Torre I R/C Esq. 2780-139 Oeiras
-    telephone: "(+351) 91 261 38 66"
+      name: Dion Resakapsulus Spain S.L.
+    email: info@dioniberica.com
+    address: C/ Riera de'n Font, 60 Tiana (Barcelona)
+    telephone: "(+34) 627.179.740"
     working:
       hours: Telephone Assistance from Monday to Friday from 8:00 a.m. to 4:00 p.m
     issim:
@@ -229,7 +229,7 @@ en:
     success:
       title: Your cart
   mail:
-    sender: info.pt@dioniberica.com
+    sender: info@dioniberica.com
     title: We appreciate your trust in Dion
     subtitle: We have just received your purchase. Thank you!
     text: Your articles will be sent as soon as posible.
@@ -257,10 +257,10 @@ en:
       total: Total
     footer:
       help: Do you need any help? Please, contact with us and we will do our best.
-      call: 'Call us: (+351) 91 261 38 66'
+      call: 'Call us: (+34) 627.17.97.40.'
       send: Or send us an e-mail
-      email: info.pt@dioniberica.com
-      provider: This e-mail has been sent by Dion Portugal
+      email: info@dioniberica.com
+      provider: This e-mail has been sent by Dion Spain
   shops:
     title: Where to find us
     subtitle: In the following map you can see all the points of sale of Dion. If
