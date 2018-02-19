@@ -9,3 +9,20 @@
     </p>
   </div>
 </section>
+
+<script>
+  function urlParam (name) {
+    var results = new RegExp('[\?&]' + name + '=([^&#]*)').exec(window.location.href);
+    return results[1] || 0;
+  }
+
+  gtag('event', 'conversion', {
+    'send_to': 'AW-861480598/gjXBCPji2nIQls3kmgM'
+  });
+  gtag('event', 'conversion', {
+    'send_to': 'AW-861480598/EFHfCI_G4H0Qls3kmgM',
+    'value': urlParam('amount'),
+    'currency': 'EUR',
+    'transaction_id': urlParam('transaction')
+  });
+</script>

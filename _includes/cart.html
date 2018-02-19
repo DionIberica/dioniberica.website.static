@@ -94,8 +94,7 @@
                             {% assign env_name = 'JEKYLL_ENV' | env  %}
 
                             {% if env_name == "production" %}
-                              {% assign locale_id = page.locale | upcase %}
-                              {% assign payment_env_name = 'STRIPE_PUBLIC_' | append: locale_id %}
+                              {% assign payment_env_name = 'STRIPE_PUBLIC' %}
                             {% else %}
                               {% assign payment_env_name = 'TEST_STRIPE_PUBLIC' %}
                             {% endif %}
