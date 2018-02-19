@@ -39,7 +39,7 @@ function initShopsMap() {
       [sunday, shop.sunday]
     ].filter(function (day) { return !!day[1]; });
 
-    var contentString = '<b>' + shop.name + '</b><br/><br/>' + week.map(function (day) {
+    var contentString = '<b>' + shop.name + '</b><br/><br/>' + shop.address +'<br/><br/>' + week.map(function (day) {
       return day[0] + ': ' + day[1]
     }).join('<br>');
 
