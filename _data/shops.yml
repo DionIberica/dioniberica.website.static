@@ -271,3 +271,29 @@
   friday: 
   saturday: 
   sunday: 
+- name: Farmàcia Montserrat Miquel Serra
+  kind: pharmacy
+  target: es
+  latitude: 41.3983809
+  longitude: 2.1513148999999885
+  address: Carrer de Balmes, 222, 08006 Barcelona, España
+  monday: 09:00-13:30, 16:30-20:00
+  tuesday: 09:00-13:30, 16:30-20:00
+  wednesday: 09:00-13:30, 16:30-20:00
+  thursday: 09:00-13:30, 16:30-20:00
+  friday: 09:00-13:30, 16:30-20:00
+  saturday: 09:00-13:30
+  sunday: 
+- name: Farmacia Fariñas
+  kind: pharmacy
+  target: es
+  latitude: 41.3970561
+  longitude: 2.1423681999999644
+  address: Carrer d'Amigó, 70 08021 Barcelona
+  monday: 08:30-14:00, 16:00-20:30
+  tuesday: 08:30-14:00, 16:00-20:30
+  wednesday: 08:30-14:00, 16:00-20:30
+  thursday: 08:30-14:00, 16:00-20:30
+  friday: 08:30-14:00, 16:00-20:30
+  saturday: 09:30-14:00
+  sunday: ''
