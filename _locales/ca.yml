@@ -35,8 +35,8 @@ ca:
       product:
         photo: "/producto/ES/blister-design.jpg"
       price:
-        value: 5€
-        VAT: "(IVA no inclòs)"
+        value: 5,95€
+        VAT: "(IVA inclòs)"
       more:
         info: Més informació
     add-to-cart:
@@ -149,7 +149,7 @@ ca:
     title: Blíster de 10 comprimits Dion
     price:
       title: Preu
-      data: 5,5 € (IVA incluido)
+      data: 5,95 € (IVA inclòs)
     cad:
       title: 'Caducitat:'
       data: 3 anys

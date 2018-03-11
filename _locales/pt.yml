@@ -34,8 +34,8 @@ pt:
       product:
         photo: "/producto/PT/blister-design.jpg"
       price:
-        value: 5,65€
-        VAT: "(IVA não incluído)"
+        value: 5,95€
+        VAT: "(IVA incluído)"
       more:
         info: Mais informação
     add-to-cart:
@@ -147,7 +147,7 @@ pt:
     title: Blister com 10 comprimidos Dion
     price:
       title: Preço
-      data: 6.95 € (IVA incluido)
+      data: 5,95 € (IVA incluido)
     cad:
       title: 'Validade:'
       data: 3 anos

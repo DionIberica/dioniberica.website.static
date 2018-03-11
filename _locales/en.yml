@@ -32,8 +32,8 @@ en:
       product:
         photo: "/producto/PT/blister-design.jpg"
       price:
-        value: 5,65€
-        VAT: "(VAT not included)"
+        value: 5,95€
+        VAT: "(VAT included)"
       more:
         info: More info
     add-to-cart:
@@ -147,7 +147,7 @@ en:
     title: 10 tablet blister
     price:
       title: Price
-      data: 6.95 € (VAT Included)
+      data: 5.95 €  (VAT Included)
     cad:
       title: 'Validity:'
       data: 3 years
