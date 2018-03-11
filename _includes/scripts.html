@@ -1,8 +1,8 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.4/js/bootstrap.js"></script>
 
-{% if page.shops_locale %}
-<script src="/assets/js/shops.{{page.shops_locale}}.js"></script>
+{% if page.section == 'shops' %}
+<script src="/assets/js/shops.js"></script>
 {% endif %}
 
 <script src="/assets/js/bootstrap-hover-dropdown.min.js"></script>
