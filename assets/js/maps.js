@@ -14,7 +14,7 @@ function initShopsMap() {
   var centered = new google.maps.LatLng(longitude, latitude);
 
   var mapOptions = {
-    zoom: 10,
+    zoom: 11,
     center: centered,
     mapTypeId: google.maps.MapTypeId.ROADMAP,
     scrollwheel: false
