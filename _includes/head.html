@@ -20,10 +20,15 @@
     <meta name="description" content="{{ pagedescripion }}">
     <meta name="keyword" content="{{ 'meta.keywords' | translate }}"/>
     <meta name="author" content="{{ site.title }}">
-    <meta name="robots" content="index, follow">
 
     {% if page.section == 'home' %}
       {% assign pagetitle = site.title %}
+    {% endif %}
+
+    {% if page.noindex %}
+    <meta name="robots" content="noindex" />
+    {% else %}
+    <meta name="robots" content="index, follow">
     {% endif %}
 
     <!-- Open Graph -->
