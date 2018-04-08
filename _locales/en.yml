@@ -199,12 +199,12 @@ en:
     stock: Stock
     checkout: Pay
     delivery:
-      text: A sua comanda será depositada na caixa postal da direcção que nos indique.
+      text: Your order will be deposited in your address mailbox.
     comercial:
       delivery:
-        text: In case to indicate an address that correspond to a workplace or commercial
-          venue, indicate your name and the name of the venue to facilitate the delivery
-          of your order.
+        text: Em caso de indicar uma direcção que corresponda a um lugar de trabalho
+          ou um local comercial, indique o seu nome e o nome do comércio para facilitar
+          a entrega da sua comanda.
   about:
     partners:
       title: Partners
