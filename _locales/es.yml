@@ -145,6 +145,10 @@ es:
       title: Preguntas no tan frecuentes
       text: Hemos creado otra lista con preguntas menos frecuentes que creemos que
         también merecen una respuesta.
+    section3:
+      title: Preguntas relacionadas con las entregas de los pedidos
+      text: Hemos recopilado las principales preguntas relacionadas con la entrega
+        de los pedidos
   product:
     title: Blister 10 comprimidos Dion
     price:

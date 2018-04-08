@@ -1,4 +1,5 @@
 - frequent: true
+  kind: frequent
   title:
     es: "¿Qué es Dion?"
     ca: Què és Dion?
@@ -17,6 +18,7 @@
       evitando o mau estar e as nauseas produzidas pelo excesso do consumo de bebidas
       alcoólicas. '
 - frequent: true
+  kind: frequent
   title:
     es: "¿Me lo puedes explicar técnicamente? "
     ca: Pots explicar-m'ho amb més detall?
@@ -43,6 +45,7 @@
       vitamina ao organismo, favorecendo o metabolismo da homocisteína. Adicionalmente,
       o cardo mariano exerce como um protetor heática natural.
 - frequent: true
+  kind: frequent
   title:
     es: "¿Cuándo debo tomar Dion?"
     ca: Quan haig de prendre Dion?
@@ -60,6 +63,7 @@
     pt: O mesmo devo ser tomado antes dos sintomas da ressaca, ou seja, depois da
       refeição durante as tuas primeiras bebidas
 - frequent: true
+  kind: frequent
   title:
     es: Olvidé tomar Dion, ¿Qué hago?
     ca: Vaig oblidar prendre Dion, què faig?
@@ -79,6 +83,7 @@
       contudo não haverá milagres. Se isto te acontece frequentemente avisa os teus
       amigos para que te possam lembrar de tomar.
 - frequent: true
+  kind: frequent
   title:
     es: "¿Necesito agua para tomar Dion?"
     ca: Necessito aigua per a prendre Dion?
@@ -94,6 +99,7 @@
     pt: Podes tomar Dion com a ajuda de qualquer método que te ajude a ingestão, como
       água ou a bebida alcoólica que estás a consumir.
 - frequent: false
+  kind: not-frequent
   title:
     es: "¿Puedo tener una sobredosis?"
     ca: Puc tenir sobredosis?
@@ -111,6 +117,7 @@
     pt: Não se observam efeitos de sobre dosagem pelo consumo de Dion, contudo apelamos
       à tua responsabilidade para não tomares doses excessivas.
 - frequent: false
+  kind: not-frequent
   title:
     es: "¿Dion atenuará el efecto del alcohol?"
     ca: Dion atenuarà l'efecte de l'alcohol?
@@ -127,6 +134,7 @@
     pt: O álcool entrará na tua corrente sanguínea independentemente de teres tomado
       Dion ou não, pelo que o efeito do álcool será igualmente prejudicial à tua saúde.
 - frequent: true
+  kind: not-frequent
   title:
     es: "¿Tomando Dion podré conducir?"
     ca: Prenent Dion, podré conduir?
@@ -145,6 +153,7 @@
       que, pelo bem da nossa sociedade apelamos à tua responsabilidade de não conduzir
       se beberes álcool.
 - frequent: false
+  kind: not-frequent
   title:
     es: "¿Funciona con todos los tipos de resaca?"
     ca: Funciona per a tots els tipus de ressaca?
@@ -161,6 +170,7 @@
     pt: O Dion vai ajudar o teu organismo a assimilar melhor o álcool. Se tomas outros
       produtos que podem produzir-te mau estar, talvez devas deixar de os tomar.
 - frequent: false
+  kind: not-frequent
   title:
     es: "¿Me ayudará a tener más sexo?"
     ca: M'ajudarà a tenir més sexe?
@@ -186,6 +196,7 @@
       possam repetir os vossos momentos de cabeça fresca e bem estar, quantas vezes
       quanto possível.
 - frequent: false
+  kind: not-frequent
   title:
     es: Estoy embarazada ¿Puedo tomar Dion?
     ca: Estic embarassada, puc prendre Dion?
@@ -216,6 +227,7 @@
       muito prejudiciais para a tua saúde e para a do bebé. Se te encontras nesta
       situação não tomes nem álcool nem Dion.
 - frequent: false
+  kind: not-frequent
   title:
     es: "¿Este producto es mágico?"
     ca: Aquest producte és màgic?
@@ -235,6 +247,7 @@
       integra os elemento que a natureza põe à nossa disposição para evitar os horríveis
       sintomas da ressaca.
 - frequent: false
+  kind: not-frequent
   title:
     es: "¿Quieren que me vuleva alcohólico?"
     ca: Volen que em torni alcohòlic?
@@ -262,6 +275,7 @@
       as probabilidades de tu encontrares novos passatempos que não estejam relacionados
       com o consumo de álcool.
 - frequent: false
+  kind: not-frequent
   title:
     es: "¿Puedo alimentarme solamente de Dion?"
     ca: Puc alimentar-me només de Dion?
@@ -278,3 +292,145 @@
     pt: O Dion não é um substituto de uma dieta saudável e equilibrada. Caso tomes
       suplementos alimentares que incluam os mesmo composto, recomendamos que os substituas
       por Dion.
+- frequent: false
+  kind: delivery
+  title:
+    es: "¿Cuánto tardará mi pedido?"
+    ca: Quant trigarà la meva comanda?
+    en: When will I receive my order?
+    pt: Quanto demorará a minha comanda?
+  description:
+    es: Si tu compra es inferior a 25 € se enviará mediante Correos ordinarios y tardará
+      entre 3 y 5 días laborables. Si tu compra es superior a 25 € se mandará por
+      Correo Urgente y tardará entre 1 y 2 días laborables. Para mayor información
+      revisa la forma de envío en las Condiciones Generales.
+    ca: Si la teva compra és inferior a 25 € s'enviarà mitjançant Correus Ordinaris
+      i trigarà entre 3 i 5 dies laborables. Si la teva compra és superior a 25 €
+      es manarà per Correu Urgent i trigarà entre 1 i 2 dies laborables. Per a major
+      informació revisa la forma d'enviament a les Condicions Generals.
+    en: If you purchase less than 25 € we will send it by Ordinary Post and its delivery
+      will take between 3 and 5 business days. If your purchase is upper than 25 €
+      we will send it by Express Post and it will take between 1 and 2 business days.
+      For greater information and for outer Spain purchases please review our political
+      of sendings.
+    pt: Se a tua compra é inferior a 25 € enviar-se-á mediante Correios Ordinários
+      e demorará entre 3 e 5 dias laborables. Se a tua compra é superior a 25 € mandar-se-á
+      por Correio Urgente e demorará entre 1 e 2 dias laborables. Para maior informação
+      e para envios fora da Espanha rever a forma de enviamento nas Condições Gerais.
+- frequent: false
+  kind: delivery
+  title:
+    es: En horario laboral no suelo estar en casa, ¿Es mejor que indique mi trabajo
+      como dirección de entrega?
+    ca: En horari laboral no solc estar a casa. És millor que indiqui el meu treball
+      com a adreça de lliurament?
+    en: In labour schedule I don't use to be at home. Is it better to indicate my
+      work as a delivery address?
+    pt: Em horário trabalhista não costumo estar em casa. É melhor que indique o meu
+      trabalho como direcção de entrega?
+  description:
+    es: No es necesario que estés en casa para recibir tu pedido, el cartero lo dejará
+      en tu buzón. Si lo vas a mandar a tu trabajo te recomendamos que antes te asegures
+      de que hay un buzón y que indiques todos los datos necesarios para garantizar
+      la entrega del pedido.
+    ca: No és necessari que estiguis a casa per rebre la teva comanda, el carter la
+      deixarà a la teva bústia. Si ho vols enviar a la feina et recomanem que abans
+      t'asseguris que hi ha una bústia i que indiquis totes les dades necessàries
+      per garantir el lliurament de la comanda.
+    en: It is not necessary your pressence at home in order to receive yours order,
+      the postman will leave it in your mailbox. If you want it to be send at work
+      we recommend you to previously ensure that exists a mailbox and that you indicate
+      us all the necessary data to guarantee the delivery.
+    pt: Não é necessário que estejas em casa para receber a tua compra, o carteiro
+      irá deixá-la na tua caixa postal. Se vas envia-lo ao trabalho recomendamos-te
+      que garantas que há uma caixa postal e que indiques todos os dados necessários
+      para garantir a entrega do pedido.
+- frequent: false
+  kind: delivery
+  title:
+    es: "¿Tendré un localizador de seguimiento?"
+    ca: Tindré un localitzador de seguiment?
+    en: Will I be able to track my order?
+    pt: Terei um localizador de seguimento?
+  description:
+    es: Si tu pedido entra en la categoría de pedidos urgentes puedes solicitarnos
+      el localizador de tu envío mandándonos un correo.
+    ca: Si la teva comanda entra en la categoria de comandes urgents pots sol·licitar-nos
+      el localitzador del teu enviament mitjançant un correu electrònic.
+    en: If you make an express order you can request us a tracking number by e-mail.
+    pt: Se a tua comanda e urgente podes solicitar-nos o tracking number do teu pedido
+      mediante um correio electrónico.
+- frequent: false
+  kind: delivery
+  title:
+    es: "¿Cómo se realizará la entrega?"
+    ca: Com es realitzarà el lliurament?
+    en: How will the delivery be done?
+    pt: Como será feita a entrega?
+  description:
+    es: El cartero depositará tu pedido en tu buzón. Si nos indicas una dirección
+      de entrega que no disponga de un buzón como puede ser tu lugar de trabajo o
+      un local comercial te recomendamos que indiques el nombre de la empresa o del
+      comercio además del tuyo para facilitar la entrega.
+    ca: " El carter dipositarà la teva comanda en la teva bústia. Si ens indiques
+      una adreça de lliurament que no disposi d'una bústia com pot ser el teu lloc
+      de treball o un local comercial et recomanem que indiquis el nom de l'empresa
+      o del comerç a més del teu per facilitar el lliurament."
+    en: The postman will deposit yours order in your mailbox. If you indicate us an
+      address of delivery without a mailbox such as your workplace or a commercial
+      venue, we recommend you to indicate some business information in addition to
+      your name to facilitate the delivery.
+    pt: O carteiro depositará a tua compra na tua caixa postal. Se indicas-nos uma
+      direcção de entrega que não disponha de caixa postal como pode ser o teu lugar
+      de trabalho ou um local comercial te recomendamos que indiques o nome da empresa
+      ou do comércio além do teu para facilitar a entrega.
+- frequent: false
+  kind: delivery
+  title:
+    es: "¿Y si lo quiero con envío urgente?"
+    ca: I si ho vull amb enviament urgent?
+    en: What happens if I prefer an express delivery?
+    pt: E se desejo enviamento urgente?
+  description:
+    es: Si deseas realizar una compra inferior a 25 € y quieres asegurarte de que
+      la recibes en 2 días, contacta con nosotros antes de realizar la compra y te
+      indicaremos cómo proceder.
+    ca: Si desitges realitzar una compra inferior a 25 € i vols assegurar-te que la
+      reps en 2 dies, contacta amb nosaltres abans de realitzar la compra i t'indicarem
+      com fer-ho.
+    en: If you wish to realise a purchase lower than 25 € and be sure that you receive
+      it in 2 days, contact with us before buying and we will indicate you how to
+      do it.
+    pt: Se desejas realizar uma compra inferior aos 25 € e queres te assegurar que
+      a recebes em 2 dias, contacta conosco antes de realizar a compra e diremos-te
+      o como fazer.
+- frequent: false
+  kind: delivery
+  title:
+    es: Prefiero comprarlo en una farmacia, herbolario o tienda especializada ¿Qué
+      puedo hacer?
+    ca: Prefereixo comprar-ho en una farmàcia, herbolari o tenda especialitzada. Què
+      puc fer?
+    en: I prefer to buy Dion in a pharmacy. What can I do?
+    pt: Prefiro comprá-lo numa farmácia. O que posso fazer?
+  description:
+    es: Muy fácil, revisa el apartado de tiendas físicas en las que se vende Dion.
+      Si no encuentras ninguna cerca de tu casa mándanos un email. Cuanta más información
+      nos facilites como el código postal, la dirección de tu casa o la dirección
+      exacta de tu farmacia de confianza, más fácil será para nosotros lograr que
+      puedas adquirir Dion en una tienda física cerca de tu casa o lugar de trabajo.
+    ca: Molt fàcil, revisa l'apartat de tendes físiques que venen Dion. Si no trobes
+      cap a prop de casa teva, envia'ns un email. Quanta més informació ens facilitis
+      com el codi postal, l'adreça de la teva casa o l'adreça exacta de la teva farmàcia
+      de confiança, més fàcil serà per a nosaltres aconseguir que puguis adquirir
+      Dion en una tenda física a prop de la teva casa o lloc de treball.
+    en: Very easy, take a look at the points of sale view in this website. If you
+      do not find any place near your house, send us an email. The more information
+      you give us, such us the address of your house or the exact address of your
+      confidence pharmacy, the easier will be for us achieve that you can buy Dion
+      in a tent near your house or your workplace.
+    pt: Muito fácil, revisa o apartado de pontos de venda de Dion. Se não encontras
+      nenhum perto da tua casa, envia-mos um email. Quanta mais informação facilites-nos
+      como a direcção da tua casa ou a direcção exacta da tua farmácia de confiança,
+      mais fácil será para nós conseguir que possas adquirir Dion perto da tua casa
+      ou do teu lugar de trabalho.

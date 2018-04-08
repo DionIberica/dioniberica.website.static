@@ -143,6 +143,9 @@ en:
       title: Not so Frequently Asked Questions
       text: We have created a second list, of non frequently asked questions, that
         we also believe to deserve an answer.
+    section3:
+      title: Order Deliveries Related Questions
+      text: These are the main questions related with the order deliveries
   product:
     title: 10 tablet blister
     price:

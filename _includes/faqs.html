@@ -1,7 +1,12 @@
+{% assign kinds = 'frequent not-frequent delivery' | split: " " %}
+
+{% for kind in kinds %}
 <header>
   <div class="container">
-    <h2 class="text-center title">{{ 'faqs.section1.title' | translate }}</h2>
-    <p class="text-center text-muted">{{ 'faqs.section1.text' | translate }}</p>
+    {% assign title = 'faqs.section' | append: forloop.index | append: '.title' %}
+    {% assign text = 'faqs.section' | append: forloop.index | append: '.text' %}
+    <h2 class="text-center title">{{ title | translate }}</h2>
+    <p class="text-center text-muted">{{ text | translate }}</p>
   </div>
 </header>
 
@@ -9,7 +14,7 @@
 <section class="section section-faq">
   <div class="container">
     <br>
-    {% assign faq_groups = site.data.faqs | where: 'frequent', true | in_groups_of: 2 %}
+    {% assign faq_groups = site.data.faqs | where: 'kind', kind | in_groups_of: 2 %}
     {% for faq_group in faq_groups %}
     <div class="row topspace">
       {% for faq in faq_group %}
@@ -23,28 +28,4 @@
   </div>
 </section>
 <!-- end of FAQ -->
-
-<header>
-  <div class="container">
-    <h2 class="text-center title">{{ 'faqs.section2.title' | translate }}</h2>
-    <p class="text-center text-muted">{{ 'faqs.section2.text' | translate }}</p>
-  </div>
-</header>
-
-<!-- FAQ -->
-<section class="section section-faq">
-  <div class="container">
-    {% assign faq_groups = site.data.faqs | where: 'frequent', false | in_groups_of: 2 %}
-    {% for faq_group in faq_groups %}
-    <div class="row topspace">
-      {% for faq in faq_group %}
-      <div class="col-sm-6">
-        <h4><b>{{ faq | field: 'title' }}</b></h4>
-        <p>{{ faq | field: 'description' }}</p>
-      </div>
-      {% endfor %}
-    </div> <!-- /row -->
-    {% endfor %}
-  </div>
-</section>
-<!-- end of FAQ -->
+{% endfor %}

@@ -145,6 +145,10 @@ ca:
       title: Preguntes no tan freqüents
       text: Hem creat una altra llista amb preguntes menys freqüents però que creiem
         que també mereixen una resposta.
+    section3:
+      title: Preguntes relacionades amb els lliuraments de les comandes
+      text: Hem recopilat les principals preguntes relacionades amb el lliurament
+        de les comandes
   product:
     title: Blíster de 10 comprimits Dion
     price:
