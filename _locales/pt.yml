@@ -199,6 +199,13 @@ pt:
       apply: Aplicar
     stock: Em stock
     checkout: Pagar
+    delivery:
+      text: Your order will be deposited in your address mailbox.
+    comercial:
+      delivery:
+        text: Em caso de indicar uma direcção que corresponda a um lugar de trabalho
+          ou um local comercial, indique o seu nome e o nome do comércio para facilitar
+          a entrega da sua comanda.
   about:
     partners:
       title: Parceiros comerciais

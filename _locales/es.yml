@@ -200,6 +200,13 @@ es:
       apply: Aplicar
     stock: En stock
     checkout: Pagar
+    delivery:
+      text: Su pedido será depositado en el buzón de la dirección que nos indique.
+    comercial:
+      delivery:
+        text: En caso de indicar una dirección que corresponda a un lugar de trabajo
+          o local comercial, indique su nombre y el nombre del comercio para facilitar
+          la entrega de su pedido.
   about:
     partners:
       title: Socios comerciales
@@ -223,8 +230,10 @@ es:
     send_to: 'Enviar a: {ADRESS}'
     continue_shopping: Seguir comprando
   failure:
-    error: Lamentamos comunicarle que ha ocurrido un error con su compra
-    contact: Por favor, póngase en contacto con nosotros
+    error: Lamentamos comunicarle que ha ocurrido un error con su compra, por favor
+      inténtelo de nuevo revisando que introduce correctamente los números de su tarjeta
+    contact: Si tras intentarlo de nuevo sigue apareciendo este error, por favor,
+      póngase en contacto con nosotros
   checkout:
     failure:
       title: Tu carrito

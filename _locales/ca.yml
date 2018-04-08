@@ -201,6 +201,13 @@ ca:
       apply: Aplicar
     stock: En estoc
     checkout: Pagar
+    delivery:
+      text: La seva comanda serà dipositada en la bústia de l'adreça que ens indiqui.
+    comercial:
+      delivery:
+        text: En cas d'indicar una adreça que correspongui a un lloc de treball o
+          local comercial, indiqui el seu nom i el nom del comerç per facilitar el
+          lliurament de la seva comanda.
   about:
     partners:
       title: Socis comercials
@@ -224,8 +231,11 @@ ca:
     send_to: 'Enviar a: {ADRESS}'
     continue_shopping: Seguir comprant
   failure:
-    error: Lamentem comunicar-li que hi ha hagut un error amb la seva compra.
-    contact: Si us plau, contacti amb nosaltres.
+    error: Lamentem comunicar-li que hi ha hagut un error amb la seva compra, si us
+      plau torni a intentar-ho revisant que introdueix correctament les dades de la
+      seva targeta
+    contact: Si després d'intentar-ho de nou segueix apareixent aquest error, per
+      favor, posi's en contacte amb nosaltres
   checkout:
     failure:
       title: La teva cistella

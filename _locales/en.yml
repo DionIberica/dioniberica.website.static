@@ -198,6 +198,13 @@ en:
       apply: Apply
     stock: Stock
     checkout: Pay
+    delivery:
+      text: A sua comanda será depositada na caixa postal da direcção que nos indique.
+    comercial:
+      delivery:
+        text: In case to indicate an address that correspond to a workplace or commercial
+          venue, indicate your name and the name of the venue to facilitate the delivery
+          of your order.
   about:
     partners:
       title: Partners
