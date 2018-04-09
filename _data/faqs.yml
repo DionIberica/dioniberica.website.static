@@ -1,5 +1,4 @@
-- frequent: true
-  kind: frequent
+- kind: frequent
   title:
     es: "¿Qué es Dion?"
     ca: Què és Dion?
@@ -17,8 +16,7 @@
     pt: 'A Dion é um protetor hepático que te ajuda a metabolizar melhor o álcool
       evitando o mau estar e as nauseas produzidas pelo excesso do consumo de bebidas
       alcoólicas. '
-- frequent: true
-  kind: frequent
+- kind: frequent
   title:
     es: "¿Me lo puedes explicar técnicamente? "
     ca: Pots explicar-m'ho amb més detall?
@@ -44,8 +42,7 @@
       desta molécula consome uma grande quantidade de vitamina B12. A Dion leva esta
       vitamina ao organismo, favorecendo o metabolismo da homocisteína. Adicionalmente,
       o cardo mariano exerce como um protetor heática natural.
-- frequent: true
-  kind: frequent
+- kind: frequent
   title:
     es: "¿Cuándo debo tomar Dion?"
     ca: Quan haig de prendre Dion?
@@ -62,8 +59,7 @@
       alcohol consumption of your party.
     pt: O mesmo devo ser tomado antes dos sintomas da ressaca, ou seja, depois da
       refeição durante as tuas primeiras bebidas
-- frequent: true
-  kind: frequent
+- kind: frequent
   title:
     es: Olvidé tomar Dion, ¿Qué hago?
     ca: Vaig oblidar prendre Dion, què faig?
@@ -82,8 +78,7 @@
     pt: Se já estás de ressaca, podes tomar Dion, e vai te ajudar a acelerar a recuperação,
       contudo não haverá milagres. Se isto te acontece frequentemente avisa os teus
       amigos para que te possam lembrar de tomar.
-- frequent: true
-  kind: frequent
+- kind: frequent
   title:
     es: "¿Necesito agua para tomar Dion?"
     ca: Necessito aigua per a prendre Dion?
@@ -98,8 +93,7 @@
       water or the alcoholic drink that you are consuming.
     pt: Podes tomar Dion com a ajuda de qualquer método que te ajude a ingestão, como
       água ou a bebida alcoólica que estás a consumir.
-- frequent: false
-  kind: not-frequent
+- kind: not-frequent
   title:
     es: "¿Puedo tener una sobredosis?"
     ca: Puc tenir sobredosis?
@@ -116,8 +110,7 @@
       higher doses than we recommend of pill per day.
     pt: Não se observam efeitos de sobre dosagem pelo consumo de Dion, contudo apelamos
       à tua responsabilidade para não tomares doses excessivas.
-- frequent: false
-  kind: not-frequent
+- kind: not-frequent
   title:
     es: "¿Dion atenuará el efecto del alcohol?"
     ca: Dion atenuarà l'efecte de l'alcohol?
@@ -133,8 +126,7 @@
       or not, so the effect of alcohol will also be harmful to your health.
     pt: O álcool entrará na tua corrente sanguínea independentemente de teres tomado
       Dion ou não, pelo que o efeito do álcool será igualmente prejudicial à tua saúde.
-- frequent: true
-  kind: not-frequent
+- kind: not-frequent
   title:
     es: "¿Tomando Dion podré conducir?"
     ca: Prenent Dion, podré conduir?
@@ -152,8 +144,7 @@
     pt: A toma de Dion não evitará que o álcool entre da tua corrente sanguínea sendo
       que, pelo bem da nossa sociedade apelamos à tua responsabilidade de não conduzir
       se beberes álcool.
-- frequent: false
-  kind: not-frequent
+- kind: not-frequent
   title:
     es: "¿Funciona con todos los tipos de resaca?"
     ca: Funciona per a tots els tipus de ressaca?
@@ -169,8 +160,7 @@
       products that may make you unwell, you should stop taking them.
     pt: O Dion vai ajudar o teu organismo a assimilar melhor o álcool. Se tomas outros
       produtos que podem produzir-te mau estar, talvez devas deixar de os tomar.
-- frequent: false
-  kind: not-frequent
+- kind: not-frequent
   title:
     es: "¿Me ayudará a tener más sexo?"
     ca: M'ajudarà a tenir més sexe?
@@ -195,8 +185,7 @@
       também tenha tomado Dion, têm maior probabilidade de, tanto tu como a tua parceira,
       possam repetir os vossos momentos de cabeça fresca e bem estar, quantas vezes
       quanto possível.
-- frequent: false
-  kind: not-frequent
+- kind: not-frequent
   title:
     es: Estoy embarazada ¿Puedo tomar Dion?
     ca: Estic embarassada, puc prendre Dion?
@@ -226,8 +215,7 @@
       O Dion vai te evitar a ressaca, contudo os efeitos prejudiciais do álcool serão
       muito prejudiciais para a tua saúde e para a do bebé. Se te encontras nesta
       situação não tomes nem álcool nem Dion.
-- frequent: false
-  kind: not-frequent
+- kind: not-frequent
   title:
     es: "¿Este producto es mágico?"
     ca: Aquest producte és màgic?
@@ -246,8 +234,7 @@
     pt: Ainda que o mesmo possa parecer, este produto não faz magia, simplesmente
       integra os elemento que a natureza põe à nossa disposição para evitar os horríveis
       sintomas da ressaca.
-- frequent: false
-  kind: not-frequent
+- kind: not-frequent
   title:
     es: "¿Quieren que me vuleva alcohólico?"
     ca: Volen que em torni alcohòlic?
@@ -274,8 +261,7 @@
       apenas por teres bebido uns copos a mais. Se tiveres menos ressacas, irão aumentar
       as probabilidades de tu encontrares novos passatempos que não estejam relacionados
       com o consumo de álcool.
-- frequent: false
-  kind: not-frequent
+- kind: not-frequent
   title:
     es: "¿Puedo alimentarme solamente de Dion?"
     ca: Puc alimentar-me només de Dion?
@@ -292,8 +278,7 @@
     pt: O Dion não é um substituto de uma dieta saudável e equilibrada. Caso tomes
       suplementos alimentares que incluam os mesmo composto, recomendamos que os substituas
       por Dion.
-- frequent: false
-  kind: delivery
+- kind: delivery
   title:
     es: "¿Cuánto tardará mi pedido?"
     ca: Quant trigarà la meva comanda?
@@ -317,8 +302,7 @@
       e demorará entre 3 e 5 dias laborables. Se a tua compra é superior a 25 € mandar-se-á
       por Correio Urgente e demorará entre 1 e 2 dias laborables. Para maior informação
       e para envios fora da Espanha rever a forma de enviamento nas Condições Gerais.
-- frequent: false
-  kind: delivery
+- kind: delivery
   title:
     es: En horario laboral no suelo estar en casa, ¿Es mejor que indique mi trabajo
       como dirección de entrega?
@@ -345,8 +329,7 @@
       irá deixá-la na tua caixa postal. Se vas envia-lo ao trabalho recomendamos-te
       que garantas que há uma caixa postal e que indiques todos os dados necessários
       para garantir a entrega do pedido.
-- frequent: false
-  kind: delivery
+- kind: delivery
   title:
     es: "¿Tendré un localizador de seguimiento?"
     ca: Tindré un localitzador de seguiment?
@@ -360,8 +343,7 @@
     en: If you make an express order you can request us a tracking number by e-mail.
     pt: Se a tua comanda e urgente podes solicitar-nos o tracking number do teu pedido
       mediante um correio electrónico.
-- frequent: false
-  kind: delivery
+- kind: delivery
   title:
     es: "¿Cómo se realizará la entrega?"
     ca: Com es realitzarà el lliurament?
@@ -384,8 +366,7 @@
       direcção de entrega que não disponha de caixa postal como pode ser o teu lugar
       de trabalho ou um local comercial te recomendamos que indiques o nome da empresa
       ou do comércio além do teu para facilitar a entrega.
-- frequent: false
-  kind: delivery
+- kind: delivery
   title:
     es: "¿Y si lo quiero con envío urgente?"
     ca: I si ho vull amb enviament urgent?
@@ -404,8 +385,7 @@
     pt: Se desejas realizar uma compra inferior aos 25 € e queres te assegurar que
       a recebes em 2 dias, contacta conosco antes de realizar a compra e diremos-te
       o como fazer.
-- frequent: false
-  kind: delivery
+- kind: delivery
   title:
     es: Prefiero comprarlo en una farmacia, herbolario o tienda especializada ¿Qué
       puedo hacer?

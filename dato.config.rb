@@ -32,7 +32,6 @@ create_data_file("_data/product.yml", :yaml, {
 
 faqs = dato.faqs.map do |faq|
   {
-    frequent: faq.frequent,
     kind: faq.kind,
     title: localize(faq, 'title'),
     description: localize(faq, 'description'),
