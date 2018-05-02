@@ -10,7 +10,7 @@ def localize(model, field)
   Hash[*translations.flatten(1)]
 end
 
-policy = [dato.policy_legaladvise, dato.policy_return, dato.policy_generalterm, dato.policy_privacy].map do |item|
+policy = [dato.policy_legaladvise, dato.policy_return, dato.policy_generalterm, dato.policy_privacy, dato.policy_contest].map do |item|
   {
     title: localize(item, 'title'),
     text: localize(item, 'text'),
@@ -21,6 +21,7 @@ create_data_file("_data/policy_legaladvise.yml", :yaml, policy[0])
 create_data_file("_data/policy_return.yml", :yaml, policy[1])
 create_data_file("_data/policy_generalterm.yml", :yaml, policy[2])
 create_data_file("_data/policy_privacy.yml", :yaml, policy[3])
+create_data_file("_data/policy_contest.yml", :yaml, policy[4])
 
 gallery =  dato.product.gallery.map do |image|
   image.url(w: 600)
